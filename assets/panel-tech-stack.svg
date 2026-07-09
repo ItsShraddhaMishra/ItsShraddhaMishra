@@ -1,0 +1,467 @@
+<svg width="1200" height="450" viewBox="0 0 1200 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+
+  
+
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softBlueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.45" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#66f7ff"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#00e5ff"/>
+      <stop offset="0.72" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#66f7ff"/>
+    </linearGradient>
+
+  
+
+  </defs>
+
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+
+  <style>
+    .chipFade {
+      opacity: 0;
+      animation: chipFade 0.8s ease-out forwards;
+    }
+
+    @keyframes chipFade {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <rect x="0" y="0" width="1200" height="450" rx="0"
+        fill="#020814"
+        fill-opacity="0.0"/>
+
+
+  <text class="fadeIn2" x="600" y="36" text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="26"
+        font-weight="800"
+        letter-spacing="3"
+        fill="#00aaff"
+        filter="url(#blueGlow)">
+    EXPERIENCE · EXPERTISE · CREATIVITY
+  </text>
+
+  
+    <g class="fadeIn2">
+      <rect x="86" y="100" width="320" height="238" rx="18"
+            fill="#061827"
+            fill-opacity="0.72"
+            stroke="#00e5ff"
+            stroke-width="1.8"
+            stroke-opacity="0.85"
+            filter="url(#softBlueGlow)"/>
+
+      <rect x="100" y="114" width="292" height="210" rx="12"
+            fill="#020814"
+            fill-opacity="0.62"
+            stroke="#00aaff"
+            stroke-width="1"
+            stroke-opacity="0.45"/>
+
+      <text x="246.0" y="142" text-anchor="middle"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="17"
+            font-weight="900"
+            letter-spacing="2.4"
+            fill="#00e5ff"
+            filter="url(#blueGlow)">
+        LANGUAGES
+      </text>
+
+      <path class="lineFlow"
+            d="M120 158 H372"
+            stroke="#66f7ff"
+            stroke-width="2"
+            stroke-opacity="0.75"
+            filter="url(#blueGlow)"/>
+
+      
+        <g class="chipFade" style="animation-delay: 0.20s">
+            <rect x="120" y="162" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="246.0" y="183" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Python
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.28s">
+            <rect x="120" y="202" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="246.0" y="223" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            C++
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.36s">
+            <rect x="120" y="242" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="246.0" y="263" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Bash
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.44s">
+            <rect x="120" y="282" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="246.0" y="303" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            LaTeX
+            </text>
+        </g>
+
+    </g>
+
+
+    <g class="fadeIn3">
+      <rect x="450" y="100" width="320" height="238" rx="18"
+            fill="#061827"
+            fill-opacity="0.72"
+            stroke="#00e5ff"
+            stroke-width="1.8"
+            stroke-opacity="0.85"
+            filter="url(#softBlueGlow)"/>
+
+      <rect x="464" y="114" width="292" height="210" rx="12"
+            fill="#020814"
+            fill-opacity="0.62"
+            stroke="#00aaff"
+            stroke-width="1"
+            stroke-opacity="0.45"/>
+
+      <text x="610.0" y="142" text-anchor="middle"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="17"
+            font-weight="900"
+            letter-spacing="2.4"
+            fill="#00e5ff"
+            filter="url(#blueGlow)">
+        MACHINE LEARNING
+      </text>
+
+      <path class="lineFlow"
+            d="M484 158 H736"
+            stroke="#66f7ff"
+            stroke-width="2"
+            stroke-opacity="0.75"
+            filter="url(#blueGlow)"/>
+
+      
+        <g class="chipFade" style="animation-delay: 0.40s">
+            <rect x="484" y="162" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="610.0" y="183" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Data Science
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.48s">
+            <rect x="484" y="202" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="610.0" y="223" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Artifact Management
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.56s">
+            <rect x="484" y="242" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="610.0" y="263" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            MLOPs
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.64s">
+            <rect x="484" y="282" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="610.0" y="303" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Visualization
+            </text>
+        </g>
+
+    </g>
+
+
+    <g class="fadeIn4">
+      <rect x="814" y="100" width="320" height="238" rx="18"
+            fill="#061827"
+            fill-opacity="0.72"
+            stroke="#00e5ff"
+            stroke-width="1.8"
+            stroke-opacity="0.85"
+            filter="url(#softBlueGlow)"/>
+
+      <rect x="828" y="114" width="292" height="210" rx="12"
+            fill="#020814"
+            fill-opacity="0.62"
+            stroke="#00aaff"
+            stroke-width="1"
+            stroke-opacity="0.45"/>
+
+      <text x="974.0" y="142" text-anchor="middle"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="17"
+            font-weight="900"
+            letter-spacing="2.4"
+            fill="#00e5ff"
+            filter="url(#blueGlow)">
+        INFRASTRUCTURE
+      </text>
+
+      <path class="lineFlow"
+            d="M848 158 H1100"
+            stroke="#66f7ff"
+            stroke-width="2"
+            stroke-opacity="0.75"
+            filter="url(#blueGlow)"/>
+
+      
+        <g class="chipFade" style="animation-delay: 0.60s">
+            <rect x="848" y="162" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="974.0" y="183" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Docker
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.68s">
+            <rect x="848" y="202" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="974.0" y="223" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Linux
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.76s">
+            <rect x="848" y="242" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="974.0" y="263" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            CI/CD
+            </text>
+        </g>
+
+
+        <g class="chipFade" style="animation-delay: 0.84s">
+            <rect x="848" y="282" width="252" height="32" rx="8"
+                fill="#0D1117"
+                stroke="#00e5ff"
+                stroke-width="1.2"
+                stroke-opacity="0.80"
+                filter="url(#blueGlow)"/>
+
+            <text x="974.0" y="303" text-anchor="middle"
+                font-family="JetBrains Mono, Consolas, monospace"
+                font-size="14"
+                font-weight="800"
+                fill="#FF3131">
+            Git
+            </text>
+        </g>
+
+    </g>
+
+
+  <text class="softFloat" x="600" y="392" text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="20"
+        font-weight="900"
+        letter-spacing="3"
+        fill="#66f7ff"
+        stroke="#020814"
+        stroke-width="0.7"
+        filter="url(#softBlueGlow)">
+    BUILDING REPRODUCIBLE RESEARCH SYSTEMS WITH MAINTAINABLE ENGINEERING
+  </text>
+</svg>

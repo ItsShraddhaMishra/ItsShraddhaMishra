@@ -1,0 +1,561 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softBlueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="0.45" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#66f7ff"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#00e5ff"/>
+      <stop offset="0.72" stop-color="#00aaff"/>
+      <stop offset="1" stop-color="#66f7ff"/>
+    </linearGradient>
+
+  </defs>
+
+
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+
+  <style>
+    .chipFade {
+      opacity: 0;
+      animation: chipFade 0.8s ease-out forwards;
+    }
+
+    @keyframes chipFade {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <rect x="0" y="0" width="1200" height="560"
+        fill="#020814"
+        fill-opacity="0"/>
+
+  <text class="fadeIn1 panelPulse" x="600" y="58" text-anchor="middle"
+        font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
+        font-size="31"
+        font-weight="900"
+        letter-spacing="5"
+        fill="url(#titleGrad)"
+        filter="url(#blueGlow)">
+    R&amp;D CONTRIBUTIONS
+  </text>
+
+  <text class="fadeIn2" x="600" y="86" text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="13"
+        font-weight="800"
+        letter-spacing="3"
+        fill="#b8d8e8">
+    QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION
+  </text>
+
+  
+    <g class="lineFlow">
+      <rect x="38" y="112" width="570" height="390" rx="20"
+            fill="#061827"
+            fill-opacity="0.72"
+            stroke="#00e5ff"
+            stroke-width="1.9"
+            stroke-opacity="0.90"
+            filter="url(#softBlueGlow)"/>
+
+      <rect x="54" y="128" width="538" height="358" rx="14"
+            fill="#020814"
+            fill-opacity="0.62"
+            stroke="#00aaff"
+            stroke-width="1"
+            stroke-opacity="0.45"/>
+
+      <text x="323.0" y="160" text-anchor="middle"
+            font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
+            font-size="25"
+            font-weight="900"
+            letter-spacing="3.2"
+            fill="#00e5ff"
+            filter="url(#blueGlow)">
+        TraceFlow
+      </text>
+
+      <text x="323.0" y="190" text-anchor="middle"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="13"
+            font-weight="900"
+            letter-spacing="1.2"
+            fill="#66f7ff">
+        Research Infrastructure · Deep Learning · Side-Channel Analysis
+      </text>
+
+      <text x="76" y="224"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="14.5"
+            font-weight="600"
+            fill="#d8f7ff">
+        Extensible framework for reproducible DLSCA experiments.
+      </text>
+
+      <path class="lineFlow"
+            d="M76 206 H570"
+            stroke="#66f7ff"
+            stroke-width="2"
+            stroke-opacity="0.75"
+            filter="url(#blueGlow)"/>
+
+      
+      <g class="fadeIn2">
+        <circle cx="80" cy="247" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="91" y1="247" x2="120" y2="247"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="134" y="252"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Automated experiment orchestration
+        </text>
+      </g>
+
+      <g class="fadeIn3">
+        <circle cx="80" cy="278" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="91" y1="278" x2="120" y2="278"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="134" y="283"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Dataset-aware training and evaluation
+        </text>
+      </g>
+
+      <g class="fadeIn4">
+        <circle cx="80" cy="309" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="91" y1="309" x2="120" y2="309"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="134" y="314"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Guessing entropy, rank metrics, and attack evaluation
+        </text>
+      </g>
+
+      <g class="fadeIn5">
+        <circle cx="80" cy="340" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="91" y1="340" x2="120" y2="340"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="134" y="345"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Model comparison and reproducibility-first design
+        </text>
+      </g>
+
+      <g class="fadeIn6">
+        <circle cx="80" cy="371" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="91" y1="371" x2="120" y2="371"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="134" y="376"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Built for paper development and systematic experiments
+        </text>
+      </g>
+
+
+      
+      <g class="chipFade">
+        <rect x="76" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="122.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          Python
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="184" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="230.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          PyTorch
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="292" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="338.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          MLOps
+        </text>
+      </g>
+
+    </g>
+
+
+  
+    <g class="lineFlow">
+      <rect x="605" y="112" width="570" height="390" rx="20"
+            fill="#061827"
+            fill-opacity="0.72"
+            stroke="#00e5ff"
+            stroke-width="1.9"
+            stroke-opacity="0.90"
+            filter="url(#softBlueGlow)"/>
+
+      <rect x="621" y="128" width="538" height="358" rx="14"
+            fill="#020814"
+            fill-opacity="0.62"
+            stroke="#00aaff"
+            stroke-width="1"
+            stroke-opacity="0.45"/>
+
+      <text x="890.0" y="160" text-anchor="middle"
+            font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
+            font-size="25"
+            font-weight="900"
+            letter-spacing="3.2"
+            fill="#00e5ff"
+            filter="url(#blueGlow)">
+        QSurfNet
+      </text>
+
+      <text x="890.0" y="190" text-anchor="middle"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="13"
+            font-weight="900"
+            letter-spacing="1.2"
+            fill="#66f7ff">
+        Master's Thesis · Quantum Machine Learning
+      </text>
+
+      <text x="643" y="224"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="14.5"
+            font-weight="600"
+            fill="#d8f7ff">
+        Research project from my Master's thesis at Tamkang University.
+      </text>
+
+      <path class="lineFlow"
+            d="M643 206 H1137"
+            stroke="#66f7ff"
+            stroke-width="2"
+            stroke-opacity="0.75"
+            filter="url(#blueGlow)"/>
+
+      
+      <g class="fadeIn2">
+        <circle cx="647" cy="247" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="658" y1="247" x2="687" y2="247"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="701" y="252"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Research design and implementation
+        </text>
+      </g>
+
+      <g class="fadeIn3">
+        <circle cx="647" cy="278" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="658" y1="278" x2="687" y2="278"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="701" y="283"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Experimental evaluation
+        </text>
+      </g>
+
+      <g class="fadeIn4">
+        <circle cx="647" cy="309" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="658" y1="309" x2="687" y2="309"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="701" y="314"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          Academic writing and publication pipeline
+        </text>
+      </g>
+
+      <g class="fadeIn5">
+        <circle cx="647" cy="340" r="4.2"
+                fill="#00e5ff"
+                filter="url(#blueGlow)"/>
+
+        <line x1="658" y1="340" x2="687" y2="340"
+              stroke="#66f7ff"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              filter="url(#blueGlow)"/>
+
+        <text x="701" y="345"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="14.5"
+              font-weight="600"
+              fill="#ffffff">
+          First-author research experience
+        </text>
+      </g>
+
+
+      
+      <g class="chipFade">
+        <rect x="643" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="689.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          Python
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="751" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="797.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          Research
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="859" y="444" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="905.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          quple
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="967" y="444" width="98" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#00e5ff"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#blueGlow)"/>
+
+        <text x="1016.0" y="463" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          TensorFlow
+        </text>
+      </g>
+
+    </g>
+
+
+  <text class="softFloat" x="600" y="535" text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="20"
+        font-weight="900"
+        letter-spacing="3"
+        fill="#66f7ff"
+        stroke="#020814"
+        stroke-width="0.7"
+        filter="url(#softBlueGlow)">
+    R&amp;D CONTRIBUTIONS · RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
+  </text>
+</svg>

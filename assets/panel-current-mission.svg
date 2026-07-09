@@ -1,0 +1,621 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="currentMissionPanel_bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.45" stop-color="#110000"/>
+      <stop offset="0.78" stop-color="#2d0000"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <radialGradient id="currentMissionPanel_wheelGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ff3131" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="currentMissionPanel_wheelGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7a00" stop-opacity="0.15"/>
+      <stop offset="0.65" stop-color="#ff7a00" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ff7a00" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="currentMissionPanel_grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#5d0a0a" stroke-width="1" opacity="0.45"/>
+    </pattern>
+
+    <linearGradient id="currentMissionPanel_scanLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff3131" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="currentMissionPanel_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="currentMissionPanel_softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .currentMissionPanel_scan {
+      animation: currentMissionPanel_scanMove 4.8s linear infinite;
+    }
+
+    .currentMissionPanel_pulse {
+      animation: currentMissionPanel_pulse 2.8s ease-in-out infinite alternate;
+    }
+
+    .currentMissionPanel_pulseSlow {
+      animation: currentMissionPanel_pulseSlow 5.2s ease-in-out infinite alternate;
+    }
+
+    .currentMissionPanel_spinCW {
+      transform-origin: 936px 210px;
+      animation: currentMissionPanel_spinCW 16s linear infinite;
+    }
+
+    .currentMissionPanel_spinCCW {
+      transform-origin: 936px 210px;
+      animation: currentMissionPanel_spinCCW 22s linear infinite;
+    }
+
+    .currentMissionPanel_spinLeft {
+      transform-origin: 216px 350px;
+      animation: currentMissionPanel_spinLeft 18s linear infinite;
+    }
+
+    .currentMissionPanel_dash {
+      stroke-dasharray: 14 12;
+      animation: currentMissionPanel_dashMove 4s linear infinite;
+    }
+
+    .currentMissionPanel_float {
+      animation: currentMissionPanel_float 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes currentMissionPanel_scanMove {
+      0%   { transform: translateY(-60px); opacity: 0; }
+      12%  { opacity: 0.9; }
+      50%  { opacity: 0.5; }
+      100% { transform: translateY(580px); opacity: 0; }
+    }
+
+    @keyframes currentMissionPanel_pulse {
+      0%   { opacity: 0.45; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes currentMissionPanel_pulseSlow {
+      0%   { opacity: 0.18; }
+      100% { opacity: 0.52; }
+    }
+
+    @keyframes currentMissionPanel_spinCW {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    @keyframes currentMissionPanel_spinCCW {
+      from { transform: rotate(360deg); }
+      to   { transform: rotate(0deg); }
+    }
+
+    @keyframes currentMissionPanel_spinLeft {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(-360deg); }
+    }
+
+    @keyframes currentMissionPanel_dashMove {
+      to { stroke-dashoffset: -120; }
+    }
+
+    @keyframes currentMissionPanel_float {
+      0%   { transform: translateX(-12px); opacity: 0.55; }
+      100% { transform: translateX(12px); opacity: 0.95; }
+    }
+  </style>
+
+  <rect width="1200" height="500" fill="url(#currentMissionPanel_bg)"/>
+  <rect width="1200" height="500" fill="url(#currentMissionPanel_grid)" opacity="0.72"/>
+
+  <rect class="currentMissionPanel_scan" x="0" y="0" width="1200" height="22" fill="url(#currentMissionPanel_scanLine)" opacity="0.75"/>
+
+  <!-- ambient glow fields -->
+  <circle class="currentMissionPanel_pulseSlow" cx="936" cy="210" r="180" fill="url(#currentMissionPanel_wheelGlow)"/>
+  <circle class="currentMissionPanel_pulseSlow" cx="216" cy="350" r="70" fill="url(#currentMissionPanel_wheelGlow2)"/>
+
+  <!-- main wheel -->
+  <g class="currentMissionPanel_spinCW" opacity="0.18">
+    <circle cx="936" cy="210" r="90" fill="none" stroke="#ff3131" stroke-width="2" filter="url(#currentMissionPanel_glow)"/>
+    <circle cx="936" cy="210" r="135" fill="none" stroke="#ff7a00" stroke-width="2" filter="url(#currentMissionPanel_glow)"/>
+    <circle cx="936" cy="210" r="180" fill="none" stroke="#ff3131" stroke-width="1.5" opacity="0.7" filter="url(#currentMissionPanel_softGlow)"/>
+
+    <line x1="756" y1="210" x2="1116" y2="210" stroke="#ff3131" stroke-width="1.5" opacity="0.6"/>
+    <line x1="936" y1="30" x2="936" y2="390" stroke="#ff7a00" stroke-width="1.5" opacity="0.6"/>
+    <line x1="801" y1="75" x2="1071" y2="345" stroke="#ff3131" stroke-width="1.2" opacity="0.45"/>
+    <line x1="801" y1="345" x2="1071" y2="75" stroke="#ff7a00" stroke-width="1.2" opacity="0.45"/>
+  </g>
+
+  <!-- counter-rotating wheel segments -->
+  <g class="currentMissionPanel_spinCCW" opacity="0.18">
+    <path d="M 801 210 A 135 135 0 0 1 936 75" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#currentMissionPanel_glow)"/>
+    <path d="M 936 75 A 135 135 0 0 1 1071 210" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#currentMissionPanel_glow)"/>
+    <path d="M 1071 210 A 135 135 0 0 1 936 345" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#currentMissionPanel_glow)"/>
+    <path d="M 936 345 A 135 135 0 0 1 801 210" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#currentMissionPanel_glow)"/>
+  </g>
+
+  <!-- secondary left wheel -->
+  <g class="currentMissionPanel_spinLeft" opacity="0.18">
+    <circle cx="216" cy="350" r="70" fill="none" stroke="#ff7a00" stroke-width="1.8" filter="url(#currentMissionPanel_glow)"/>
+    <circle cx="216" cy="350" r="43" fill="none" stroke="#ff3131" stroke-width="1.3" filter="url(#currentMissionPanel_glow)"/>
+    <line x1="146" y1="350" x2="286" y2="350" stroke="#ff7a00" stroke-width="1"/>
+    <line x1="216" y1="280" x2="216" y2="420" stroke="#ff3131" stroke-width="1"/>
+  </g>
+
+  <!-- horizon / laser terrain -->
+  <path class="currentMissionPanel_pulse" d="M0 400 C 180 350 264 440 432 390 C 660 325 804 430 983 380 C 1104 350 1164 375 1200 340 V 500 H 0 Z"
+        fill="#ff3131" opacity="0.10"/>
+
+  <path class="currentMissionPanel_dash" d="M0 420 C 216 360 312 460 480 405 C 696 335 864 445 1056 395 C 1140 370 1176 360 1200 350"
+        fill="none" stroke="#ff3131" stroke-width="2.4" opacity="0.95" filter="url(#currentMissionPanel_glow)"/>
+
+  <line class="currentMissionPanel_float" x1="96" y1="90" x2="1104" y2="90" stroke="#ff3131" stroke-width="1.8" opacity="0.65" filter="url(#currentMissionPanel_glow)"/>
+  <line class="currentMissionPanel_float" x1="192" y1="360" x2="1008" y2="360" stroke="#ff7a00" stroke-width="1.6" opacity="0.55"/>
+
+
+  
+  <defs>
+
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softRedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131"/>
+      <stop offset="0.45" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ff3131"/>
+      <stop offset="0.72" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+  </defs>
+
+
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+
+  <style>
+    .missionScan {
+      animation: missionScan 5.2s linear infinite;
+    }
+
+    .missionPulse {
+      animation: missionPulse 3.2s ease-in-out infinite alternate;
+    }
+
+    @keyframes missionScan {
+      0%   { transform: translateY(0px); opacity: 0.07; }
+      50%  { transform: translateY(245px); opacity: 0.24; }
+      100% { transform: translateY(0px); opacity: 0.07; }
+    }
+
+    @keyframes missionPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+  </style>
+
+  <g transform="translate(0,-18)">
+    
+  <!-- glass panel -->
+  <rect x="72" y="48" width="1056" height="318" rx="22"
+        fill="#050505" fill-opacity="0.80"
+        stroke="url(#panelBorder)" stroke-width="2.5"
+        filter="url(#softRedGlow)"/>
+
+  <rect x="96" y="74" width="1008" height="266" rx="16"
+        fill="#1a0400" fill-opacity="0.42"
+        stroke="#ff1e1e" stroke-width="1"
+        stroke-opacity="0.90"/>
+
+
+    
+  <!-- corner geometry -->
+  <path class="lineFlow" d="M112 112 H270" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 112 H1088" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M112 306 H270" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 306 H1088" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+
+
+
+    <!-- scan bar -->
+    <rect class="missionScan" x="100" y="130" width="1000" height="18"
+          fill="#ff3131"
+          opacity="0.08"/>
+
+    <!-- mission lines -->
+    
+    <g class="fadeIn2">
+      <!-- red laser bullet -->
+      <circle cx="165" cy="112" r="5.5"
+              fill="#ff3131"
+              filter="url(#redGlow)"
+              opacity="0.95"/>
+
+      <circle cx="165" cy="112" r="11"
+              fill="none"
+              stroke="#ff3131"
+              stroke-width="1.2"
+              filter="url(#softRedGlow)"
+              opacity="0.55">
+        <animate attributeName="r"
+                 values="8;11;8"
+                 dur="2.2s"
+                 begin="0.00s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="0.25;0.6;0.25"
+                 dur="2.2s"
+                 begin="0.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <!-- laser beam -->
+      <line x1="180" y1="112" x2="235" y2="112"
+            stroke="#ff3131"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            filter="url(#redGlow)"
+            opacity="0.95">
+        <animate attributeName="x2"
+                 values="180;235"
+                 dur="0.45s"
+                 begin="0.00s"
+                 fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0.35;1;0.92"
+                 dur="0.45s"
+                 begin="0.00s"
+                 fill="freeze"/>
+      </line>
+
+
+      <!-- bullet text -->
+      <text x="200" y="118"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="16.5"
+            font-weight="600"
+            fill="#ffffff">
+        Building TraceFlow — an extensible framework for reproducible deep learning side-channel analysis.
+      </text>
+    </g>
+
+
+    <g class="fadeIn3">
+      <!-- red laser bullet -->
+      <circle cx="165" cy="160" r="5.5"
+              fill="#ff3131"
+              filter="url(#redGlow)"
+              opacity="0.95"/>
+
+      <circle cx="165" cy="160" r="11"
+              fill="none"
+              stroke="#ff3131"
+              stroke-width="1.2"
+              filter="url(#softRedGlow)"
+              opacity="0.55">
+        <animate attributeName="r"
+                 values="8;11;8"
+                 dur="2.2s"
+                 begin="0.25s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="0.25;0.6;0.25"
+                 dur="2.2s"
+                 begin="0.25s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <!-- laser beam -->
+      <line x1="180" y1="160" x2="235" y2="160"
+            stroke="#ff3131"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            filter="url(#redGlow)"
+            opacity="0.95">
+        <animate attributeName="x2"
+                 values="180;235"
+                 dur="0.45s"
+                 begin="0.22s"
+                 fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0.35;1;0.92"
+                 dur="0.45s"
+                 begin="0.22s"
+                 fill="freeze"/>
+      </line>
+
+
+      <!-- bullet text -->
+      <text x="200" y="166"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="16.5"
+            font-weight="600"
+            fill="#ffffff">
+        Designing experiment pipelines for model training, evaluation, ranking, and reporting.
+      </text>
+    </g>
+
+
+    <g class="fadeIn4">
+      <!-- red laser bullet -->
+      <circle cx="165" cy="208" r="5.5"
+              fill="#ff3131"
+              filter="url(#redGlow)"
+              opacity="0.95"/>
+
+      <circle cx="165" cy="208" r="11"
+              fill="none"
+              stroke="#ff3131"
+              stroke-width="1.2"
+              filter="url(#softRedGlow)"
+              opacity="0.55">
+        <animate attributeName="r"
+                 values="8;11;8"
+                 dur="2.2s"
+                 begin="0.50s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="0.25;0.6;0.25"
+                 dur="2.2s"
+                 begin="0.50s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <!-- laser beam -->
+      <line x1="180" y1="208" x2="235" y2="208"
+            stroke="#ff3131"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            filter="url(#redGlow)"
+            opacity="0.95">
+        <animate attributeName="x2"
+                 values="180;235"
+                 dur="0.45s"
+                 begin="0.44s"
+                 fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0.35;1;0.92"
+                 dur="0.45s"
+                 begin="0.44s"
+                 fill="freeze"/>
+      </line>
+
+
+      <!-- bullet text -->
+      <text x="200" y="214"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="16.5"
+            font-weight="600"
+            fill="#ffffff">
+        Refactoring research code into maintainable infrastructure.
+      </text>
+    </g>
+
+
+    <g class="fadeIn5">
+      <!-- red laser bullet -->
+      <circle cx="165" cy="256" r="5.5"
+              fill="#ff3131"
+              filter="url(#redGlow)"
+              opacity="0.95"/>
+
+      <circle cx="165" cy="256" r="11"
+              fill="none"
+              stroke="#ff3131"
+              stroke-width="1.2"
+              filter="url(#softRedGlow)"
+              opacity="0.55">
+        <animate attributeName="r"
+                 values="8;11;8"
+                 dur="2.2s"
+                 begin="0.75s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="0.25;0.6;0.25"
+                 dur="2.2s"
+                 begin="0.75s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <!-- laser beam -->
+      <line x1="180" y1="256" x2="235" y2="256"
+            stroke="#ff3131"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            filter="url(#redGlow)"
+            opacity="0.95">
+        <animate attributeName="x2"
+                 values="180;235"
+                 dur="0.45s"
+                 begin="0.66s"
+                 fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0.35;1;0.92"
+                 dur="0.45s"
+                 begin="0.66s"
+                 fill="freeze"/>
+      </line>
+
+
+      <!-- bullet text -->
+      <text x="200" y="262"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="16.5"
+            font-weight="600"
+            fill="#ffffff">
+        Writing research around reproducibility, automation, and deep learning for SCA.
+      </text>
+    </g>
+
+
+    <g class="fadeIn6">
+      <!-- red laser bullet -->
+      <circle cx="165" cy="304" r="5.5"
+              fill="#ff3131"
+              filter="url(#redGlow)"
+              opacity="0.95"/>
+
+      <circle cx="165" cy="304" r="11"
+              fill="none"
+              stroke="#ff3131"
+              stroke-width="1.2"
+              filter="url(#softRedGlow)"
+              opacity="0.55">
+        <animate attributeName="r"
+                 values="8;11;8"
+                 dur="2.2s"
+                 begin="1.00s"
+                 repeatCount="indefinite"/>
+        <animate attributeName="opacity"
+                 values="0.25;0.6;0.25"
+                 dur="2.2s"
+                 begin="1.00s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <!-- laser beam -->
+      <line x1="180" y1="304" x2="235" y2="304"
+            stroke="#ff3131"
+            stroke-width="2.4"
+            stroke-linecap="round"
+            filter="url(#redGlow)"
+            opacity="0.95">
+        <animate attributeName="x2"
+                 values="180;235"
+                 dur="0.45s"
+                 begin="0.88s"
+                 fill="freeze"/>
+        <animate attributeName="opacity"
+                 values="0.35;1;0.92"
+                 dur="0.45s"
+                 begin="0.88s"
+                 fill="freeze"/>
+      </line>
+
+
+      <!-- bullet text -->
+      <text x="200" y="310"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="16.5"
+            font-weight="600"
+            fill="#ffffff">
+        Preparing for long-term work in AI systems, autonomous decision-making, and research engineering.
+      </text>
+    </g>
+
+
+    <!-- footer signal -->
+    <text class="softFloat" x="600" y="470" text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="20"
+          font-weight="900"
+          letter-spacing="3.2"
+          fill="#050505"
+          stroke="#050505"
+          stroke-width="1.5"
+          filter="url(#softRedGlow)">
+      BUILD · EVALUATE · RANK · REPORT · WRITE PAPER
+    </text>
+  </g>
+</svg>

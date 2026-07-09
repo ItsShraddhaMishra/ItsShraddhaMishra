@@ -1,0 +1,457 @@
+<svg width="1200" height="530" viewBox="0 0 1200 530" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="systemStatusPanel_bg" x1="0" y1="0" x2="1200" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.45" stop-color="#110000"/>
+      <stop offset="0.78" stop-color="#2d0000"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <radialGradient id="systemStatusPanel_wheelGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ff3131" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="systemStatusPanel_wheelGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7a00" stop-opacity="0.15"/>
+      <stop offset="0.65" stop-color="#ff7a00" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ff7a00" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="systemStatusPanel_grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#5d0a0a" stroke-width="1" opacity="0.45"/>
+    </pattern>
+
+    <linearGradient id="systemStatusPanel_scanLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff3131" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="systemStatusPanel_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="systemStatusPanel_softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .systemStatusPanel_scan {
+      animation: systemStatusPanel_scanMove 4.8s linear infinite;
+    }
+
+    .systemStatusPanel_pulse {
+      animation: systemStatusPanel_pulse 2.8s ease-in-out infinite alternate;
+    }
+
+    .systemStatusPanel_pulseSlow {
+      animation: systemStatusPanel_pulseSlow 5.2s ease-in-out infinite alternate;
+    }
+
+    .systemStatusPanel_spinCW {
+      transform-origin: 936px 222px;
+      animation: systemStatusPanel_spinCW 16s linear infinite;
+    }
+
+    .systemStatusPanel_spinCCW {
+      transform-origin: 936px 222px;
+      animation: systemStatusPanel_spinCCW 22s linear infinite;
+    }
+
+    .systemStatusPanel_spinLeft {
+      transform-origin: 216px 371px;
+      animation: systemStatusPanel_spinLeft 18s linear infinite;
+    }
+
+    .systemStatusPanel_dash {
+      stroke-dasharray: 14 12;
+      animation: systemStatusPanel_dashMove 4s linear infinite;
+    }
+
+    .systemStatusPanel_float {
+      animation: systemStatusPanel_float 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes systemStatusPanel_scanMove {
+      0%   { transform: translateY(-60px); opacity: 0; }
+      12%  { opacity: 0.9; }
+      50%  { opacity: 0.5; }
+      100% { transform: translateY(610px); opacity: 0; }
+    }
+
+    @keyframes systemStatusPanel_pulse {
+      0%   { opacity: 0.45; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes systemStatusPanel_pulseSlow {
+      0%   { opacity: 0.18; }
+      100% { opacity: 0.52; }
+    }
+
+    @keyframes systemStatusPanel_spinCW {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    @keyframes systemStatusPanel_spinCCW {
+      from { transform: rotate(360deg); }
+      to   { transform: rotate(0deg); }
+    }
+
+    @keyframes systemStatusPanel_spinLeft {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(-360deg); }
+    }
+
+    @keyframes systemStatusPanel_dashMove {
+      to { stroke-dashoffset: -120; }
+    }
+
+    @keyframes systemStatusPanel_float {
+      0%   { transform: translateX(-12px); opacity: 0.55; }
+      100% { transform: translateX(12px); opacity: 0.95; }
+    }
+  </style>
+
+  <rect width="1200" height="530" fill="url(#systemStatusPanel_bg)"/>
+  <rect width="1200" height="530" fill="url(#systemStatusPanel_grid)" opacity="0.72"/>
+
+  <rect class="systemStatusPanel_scan" x="0" y="0" width="1200" height="22" fill="url(#systemStatusPanel_scanLine)" opacity="0.75"/>
+
+  <!-- ambient glow fields -->
+  <circle class="systemStatusPanel_pulseSlow" cx="936" cy="222" r="190" fill="url(#systemStatusPanel_wheelGlow)"/>
+  <circle class="systemStatusPanel_pulseSlow" cx="216" cy="371" r="74" fill="url(#systemStatusPanel_wheelGlow2)"/>
+
+  <!-- main wheel -->
+  <g class="systemStatusPanel_spinCW" opacity="0.18">
+    <circle cx="936" cy="222" r="95" fill="none" stroke="#ff3131" stroke-width="2" filter="url(#systemStatusPanel_glow)"/>
+    <circle cx="936" cy="222" r="143" fill="none" stroke="#ff7a00" stroke-width="2" filter="url(#systemStatusPanel_glow)"/>
+    <circle cx="936" cy="222" r="190" fill="none" stroke="#ff3131" stroke-width="1.5" opacity="0.7" filter="url(#systemStatusPanel_softGlow)"/>
+
+    <line x1="746" y1="222" x2="1126" y2="222" stroke="#ff3131" stroke-width="1.5" opacity="0.6"/>
+    <line x1="936" y1="32" x2="936" y2="412" stroke="#ff7a00" stroke-width="1.5" opacity="0.6"/>
+    <line x1="793" y1="79" x2="1079" y2="365" stroke="#ff3131" stroke-width="1.2" opacity="0.45"/>
+    <line x1="793" y1="365" x2="1079" y2="79" stroke="#ff7a00" stroke-width="1.2" opacity="0.45"/>
+  </g>
+
+  <!-- counter-rotating wheel segments -->
+  <g class="systemStatusPanel_spinCCW" opacity="0.18">
+    <path d="M 793 222 A 143 143 0 0 1 936 79" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#systemStatusPanel_glow)"/>
+    <path d="M 936 79 A 143 143 0 0 1 1079 222" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#systemStatusPanel_glow)"/>
+    <path d="M 1079 222 A 143 143 0 0 1 936 365" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#systemStatusPanel_glow)"/>
+    <path d="M 936 365 A 143 143 0 0 1 793 222" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#systemStatusPanel_glow)"/>
+  </g>
+
+  <!-- secondary left wheel -->
+  <g class="systemStatusPanel_spinLeft" opacity="0.18">
+    <circle cx="216" cy="371" r="74" fill="none" stroke="#ff7a00" stroke-width="1.8" filter="url(#systemStatusPanel_glow)"/>
+    <circle cx="216" cy="371" r="45" fill="none" stroke="#ff3131" stroke-width="1.3" filter="url(#systemStatusPanel_glow)"/>
+    <line x1="142" y1="371" x2="290" y2="371" stroke="#ff7a00" stroke-width="1"/>
+    <line x1="216" y1="297" x2="216" y2="445" stroke="#ff3131" stroke-width="1"/>
+  </g>
+
+  <!-- horizon / laser terrain -->
+  <path class="systemStatusPanel_pulse" d="M0 424 C 180 371 264 466 432 413 C 660 344 804 455 983 402 C 1104 371 1164 397 1200 360 V 530 H 0 Z"
+        fill="#ff3131" opacity="0.10"/>
+
+  <path class="systemStatusPanel_dash" d="M0 445 C 216 381 312 487 480 429 C 696 355 864 471 1056 418 C 1140 392 1176 381 1200 371"
+        fill="none" stroke="#ff3131" stroke-width="2.4" opacity="0.95" filter="url(#systemStatusPanel_glow)"/>
+
+  <line class="systemStatusPanel_float" x1="96" y1="95" x2="1104" y2="95" stroke="#ff3131" stroke-width="1.8" opacity="0.65" filter="url(#systemStatusPanel_glow)"/>
+  <line class="systemStatusPanel_float" x1="192" y1="381" x2="1008" y2="381" stroke="#ff7a00" stroke-width="1.6" opacity="0.55"/>
+
+
+  
+  <defs>
+
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softRedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="530" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131"/>
+      <stop offset="0.45" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ff3131"/>
+      <stop offset="0.72" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+  </defs>
+
+
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+
+  <style>
+    .scanBar {
+      animation: scanBar 4.2s linear infinite;
+    }
+
+    @keyframes scanBar {
+      0%   { transform: translateY(0px); opacity: 0.10; }
+      50%  { transform: translateY(205px); opacity: 0.28; }
+      100% { transform: translateY(0px); opacity: 0.10; }
+    }
+  </style>
+
+  <g transform="translate(0,-34)">
+    
+  <!-- glass panel -->
+  <rect x="72" y="48" width="1056" height="318" rx="22"
+        fill="#050505" fill-opacity="0.80"
+        stroke="url(#panelBorder)" stroke-width="2.5"
+        filter="url(#softRedGlow)"/>
+
+  <rect x="96" y="74" width="1008" height="266" rx="16"
+        fill="#1a0400" fill-opacity="0.42"
+        stroke="#ff1e1e" stroke-width="1"
+        stroke-opacity="0.90"/>
+
+
+    
+  <!-- corner geometry -->
+  <path class="lineFlow" d="M112 112 H270" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 112 H1088" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M112 306 H270" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 306 H1088" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+
+
+    <!-- scan bar -->
+    <rect class="scanBar" x="100" y="154" width="1000" height="18"
+          fill="#ff3131" opacity="0.08"/>
+
+    <!-- status rows -->
+    
+  <text class="fadeIn2" x="170" y="135"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    STATUS
+  </text>
+
+  <text class="fadeIn2" x="360" y="135"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn2" x="390" y="135"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    building
+  </text>
+
+
+  <text class="fadeIn3" x="170" y="169"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    PROJECT
+  </text>
+
+  <text class="fadeIn3" x="360" y="169"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn3" x="390" y="169"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    TraceFlow
+  </text>
+
+
+  <text class="fadeIn4" x="170" y="203"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    MODE
+  </text>
+
+  <text class="fadeIn4" x="360" y="203"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn4" x="390" y="203"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    research infrastructure
+  </text>
+
+
+  <text class="fadeIn5" x="170" y="237"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    CORE
+  </text>
+
+  <text class="fadeIn5" x="360" y="237"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn5" x="390" y="237"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    reproducibility · automation · evaluation
+  </text>
+
+
+  <text class="fadeIn6" x="170" y="271"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    LOCATION
+  </text>
+
+  <text class="fadeIn6" x="360" y="271"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn6" x="390" y="271"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    Taiwan
+  </text>
+
+
+  <text class="fadeIn7" x="170" y="305"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff3131">
+    NEXT TARGET
+  </text>
+
+  <text class="fadeIn7" x="360" y="305"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="800"
+        fill="#ff7a00">
+    :
+  </text>
+
+  <text class="fadeIn7" x="390" y="305"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18" font-weight="500"
+        fill="#ffffff">
+    paper-ready experimental system
+  </text>
+
+
+    <!-- footer signal -->
+    <text class="softFloat" x="600" y="400" text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="20" font-weight="800" letter-spacing="3"
+          fill="#b8b8b8">
+      BUILD PIPELINES · EVALUATION · REPRODUCIBILITY · REPORTING
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,2194 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TRON light bikes contribution graph">
+  
+  
+  <defs>
+
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softRedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131"/>
+      <stop offset="0.45" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ff3131"/>
+      <stop offset="0.72" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+  </defs>
+
+
+  <defs>
+    
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softBlueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    
+    <filter id="violetGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softVioletGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <filter id="gridCellGlow" x="-90%" y="-90%" width="900%" height="300%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    
+    <linearGradient id="blueTrailGradient"
+                    x1="-170" y1="0"
+                    x2="0" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020814" stop-opacity="0.00"/>
+      <stop offset="28%" stop-color="#00aaff" stop-opacity="0.25"/>
+      <stop offset="62%" stop-color="#00e5ff" stop-opacity="0.82"/>
+      <stop offset="88%" stop-color="#66f7ff" stop-opacity="1.00"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1.00"/>
+    </linearGradient>
+
+    <linearGradient id="redTrailGradient"
+                    x1="-150" y1="0"
+                    x2="0" y2="0"
+                    gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050505" stop-opacity="0.00"/>
+      <stop offset="28%" stop-color="#ff1e1e" stop-opacity="0.30"/>
+      <stop offset="62%" stop-color="#ff3131" stop-opacity="0.86"/>
+      <stop offset="88%" stop-color="#ff7a00" stop-opacity="1.00"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="1.00"/>
+    </linearGradient>
+
+
+    <pattern id="backgroundCircuit" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M4 8 H32 V20 H60"
+            fill="none"
+            stroke="#ff3131"
+            stroke-opacity="0.13"
+            stroke-width="1"/>
+      <path d="M18 36 H48 V28 H80"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-opacity="0.20"
+            stroke-width="1"/>
+      <circle cx="32" cy="20" r="1.8"
+              fill="#ff3131"
+              fill-opacity="0.25"/>
+      <circle cx="60" cy="20" r="1.5"
+              fill="#ff7a00"
+              fill-opacity="0.16"/>
+    </pattern>
+
+    <pattern id="scanlines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 H 6"
+            stroke="#ffffff"
+            stroke-opacity="0.035"
+            stroke-width="1"/>
+    </pattern>
+
+    
+    
+  <g id="bikeBlue">
+    <!-- glow core -->
+    <circle cx="0" cy="0" r="2.2"
+            fill="#ffffff"
+            filter="url(#blueGlow)"/>
+
+    <!-- bike body -->
+    <path d="M -8 -3 L 2 -3 L 9 0 L 2 3 L -8 3 L -4 0 Z"
+          fill="#00e5ff"
+          fill-opacity="0.95"
+          filter="url(#blueGlow)"/>
+
+    <!-- inner light blade -->
+    <path d="M -5 -1.1 L 3 -1.1 L 6 0 L 3 1.1 L -5 1.1 Z"
+          fill="#ffffff"
+          fill-opacity="0.85"/>
+
+    <!-- rear fin -->
+    <path d="M -10 -4 L -7 0 L -10 4"
+          fill="none"
+          stroke="#00e5ff"
+          stroke-width="1.3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          filter="url(#blueGlow)"/>
+
+    <!-- front highlight -->
+    <circle cx="8.4" cy="0" r="1.5"
+            fill="#ffffff"
+            fill-opacity="0.96"/>
+  </g>
+
+    
+  <g id="bikeRed">
+    <!-- glow core -->
+    <circle cx="0" cy="0" r="2.2"
+            fill="#ffffff"
+            filter="url(#redGlow)"/>
+
+    <!-- bike body -->
+    <path d="M -8 -3 L 2 -3 L 9 0 L 2 3 L -8 3 L -4 0 Z"
+          fill="#ff7a00"
+          fill-opacity="0.95"
+          filter="url(#redGlow)"/>
+
+    <!-- inner light blade -->
+    <path d="M -5 -1.1 L 3 -1.1 L 6 0 L 3 1.1 L -5 1.1 Z"
+          fill="#ffffff"
+          fill-opacity="0.85"/>
+
+    <!-- rear fin -->
+    <path d="M -10 -4 L -7 0 L -10 4"
+          fill="none"
+          stroke="#ff7a00"
+          stroke-width="1.3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          filter="url(#redGlow)"/>
+
+    <!-- front highlight -->
+    <circle cx="8.4" cy="0" r="1.5"
+            fill="#ffffff"
+            fill-opacity="0.96"/>
+  </g>
+
+
+  </defs>
+
+  
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+  <style>
+    .trailPulse {
+      animation: trailPulse 1.35s ease-in-out infinite alternate;
+    }
+
+    .railPulse {
+      animation: railPulse 2.8s ease-in-out infinite alternate;
+    }
+
+    .eatFlash {
+      animation: eatFlash 1.1s ease-in-out infinite;
+    }
+
+    @keyframes trailPulse {
+      0%   { opacity: 0.52; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes railPulse {
+      0%   { opacity: 0.18; }
+      100% { opacity: 0.70; }
+    }
+
+    @keyframes eatFlash {
+      0%   { opacity: 0; }
+      35%  { opacity: 1; }
+      100% { opacity: 0; }
+    }
+  </style>
+
+
+  
+  <rect x="0" y="0"
+        width="1200" height="560"
+        fill="#050505"/>
+
+  <rect x="0" y="0"
+        width="1200" height="560"
+        rx="0"
+        fill="#050505"/>
+
+  <rect x="0" y="0"
+        width="1200" height="560"
+        rx="0"
+        fill="url(#backgroundCircuit)"
+        opacity="0.88"/>
+
+  <rect x="0" y="0"
+        width="1200" height="560"
+        rx="0"
+        fill="url(#scanlines)"
+        opacity="0.70"/>
+
+  <rect x="28" y="28"
+        width="1144" height="504"
+        rx="10"
+        fill="none"
+        stroke="#ff1e1e"
+        stroke-opacity="0.18"
+        stroke-width="1"/>
+
+
+  
+  <rect x="92" y="92"
+        width="910" height="310"
+        rx="18"
+        fill="#050505"
+        fill-opacity="0.80"
+        stroke="url(#panelBorder)"
+        stroke-width="2.4"
+        filter="url(#softRedGlow)"/>
+
+  <rect x="110" y="120"
+        width="874" height="254"
+        rx="10"
+        fill="#1a0400"
+        fill-opacity="0.30"
+        stroke="#ff1e1e"
+        stroke-width="1"
+        stroke-opacity="0.90"/>
+
+  
+  <g id="calendarLabels">
+    <g id="weekLabels">
+    <text x="255.80" y="132.00"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="#c77dff">
+      Week 1
+    </text>
+
+    <text x="411.40" y="132.00"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="#c77dff">
+      Week 2
+    </text>
+
+    <text x="567.00" y="132.00"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="#c77dff">
+      Week 3
+    </text>
+
+    <text x="722.60" y="132.00"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="#c77dff">
+      Week 4
+    </text>
+
+    <text x="878.20" y="132.00"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.4"
+          fill="#c77dff">
+      Week 5
+    </text>
+</g>
+    <g id="weekdayLabels">
+    <text x="170.00" y="168.36"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Mon
+    </text>
+
+    <text x="170.00" y="198.07"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Tue
+    </text>
+
+    <text x="170.00" y="227.79"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Wed
+    </text>
+
+    <text x="170.00" y="257.50"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Thu
+    </text>
+
+    <text x="170.00" y="287.21"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Fri
+    </text>
+
+    <text x="170.00" y="316.93"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Sat
+    </text>
+
+    <text x="170.00" y="346.64"
+          text-anchor="end"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="10.5"
+          font-weight="700"
+          letter-spacing="0.3"
+          fill="#c77dff">
+      Sun
+    </text>
+</g>
+  </g>
+
+  <g id="contributionGrid">
+    
+    <rect x="249.56" y="158.62"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#100014"
+          fill-opacity="0.10"
+          stroke="#b026ff"
+          stroke-opacity="0.28"
+          stroke-width="0.9"
+          >
+      <title>No date</title>
+    </rect>
+
+
+
+    <rect x="249.56" y="188.33"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#100014"
+          fill-opacity="0.10"
+          stroke="#b026ff"
+          stroke-opacity="0.28"
+          stroke-width="0.9"
+          >
+      <title>No date</title>
+    </rect>
+
+
+
+    <rect x="249.56" y="218.05"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-01: 0 contributions</title>
+    </rect>
+
+    <text x="267.66"
+          y="227.78"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      1
+    </text>
+
+
+
+    <rect x="249.56" y="247.76"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-02: 0 contributions</title>
+    </rect>
+
+    <text x="267.66"
+          y="257.49"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      2
+    </text>
+
+
+
+    <rect x="249.56" y="277.47"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-03: 0 contributions</title>
+    </rect>
+
+    <text x="267.66"
+          y="287.21"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      3
+    </text>
+
+
+
+    <rect x="249.56" y="307.19"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-04: 0 contributions</title>
+    </rect>
+
+    <text x="267.66"
+          y="316.92"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      4
+    </text>
+
+
+
+    <rect x="249.56" y="336.90"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-05: 0 contributions</title>
+    </rect>
+
+    <text x="267.66"
+          y="346.64"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      5
+    </text>
+
+
+
+    <rect x="405.16" y="158.62"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-06: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="168.35"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      6
+    </text>
+
+
+
+    <rect x="405.16" y="188.33"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#a81212"
+          fill-opacity="0.78"
+          stroke="#a81212"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          filter="url(#gridCellGlow)">
+      <title>2026-07-07: 4 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="198.07"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      7
+    </text>
+
+
+
+    <rect x="405.16" y="218.05"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-08: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="227.78"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      8
+    </text>
+
+
+
+    <rect x="405.16" y="247.76"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-09: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="257.49"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      9
+    </text>
+
+
+
+    <rect x="405.16" y="277.47"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-10: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="287.21"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      10
+    </text>
+
+
+
+    <rect x="405.16" y="307.19"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-11: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="316.92"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      11
+    </text>
+
+
+
+    <rect x="405.16" y="336.90"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-12: 0 contributions</title>
+    </rect>
+
+    <text x="423.26"
+          y="346.64"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      12
+    </text>
+
+
+
+    <rect x="560.76" y="158.62"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-13: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="168.35"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      13
+    </text>
+
+
+
+    <rect x="560.76" y="188.33"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-14: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="198.07"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      14
+    </text>
+
+
+
+    <rect x="560.76" y="218.05"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-15: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="227.78"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      15
+    </text>
+
+
+
+    <rect x="560.76" y="247.76"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-16: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="257.49"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      16
+    </text>
+
+
+
+    <rect x="560.76" y="277.47"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-17: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="287.21"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      17
+    </text>
+
+
+
+    <rect x="560.76" y="307.19"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-18: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="316.92"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      18
+    </text>
+
+
+
+    <rect x="560.76" y="336.90"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-19: 0 contributions</title>
+    </rect>
+
+    <text x="578.86"
+          y="346.64"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      19
+    </text>
+
+
+
+    <rect x="716.36" y="158.62"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-20: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="168.35"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      20
+    </text>
+
+
+
+    <rect x="716.36" y="188.33"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-21: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="198.07"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      21
+    </text>
+
+
+
+    <rect x="716.36" y="218.05"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-22: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="227.78"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      22
+    </text>
+
+
+
+    <rect x="716.36" y="247.76"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-23: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="257.49"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      23
+    </text>
+
+
+
+    <rect x="716.36" y="277.47"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-24: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="287.21"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      24
+    </text>
+
+
+
+    <rect x="716.36" y="307.19"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-25: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="316.92"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      25
+    </text>
+
+
+
+    <rect x="716.36" y="336.90"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-26: 0 contributions</title>
+    </rect>
+
+    <text x="734.46"
+          y="346.64"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      26
+    </text>
+
+
+
+    <rect x="871.96" y="158.62"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-27: 0 contributions</title>
+    </rect>
+
+    <text x="890.06"
+          y="168.35"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      27
+    </text>
+
+
+
+    <rect x="871.96" y="188.33"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-28: 0 contributions</title>
+    </rect>
+
+    <text x="890.06"
+          y="198.07"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      28
+    </text>
+
+
+
+    <rect x="871.96" y="218.05"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-29: 0 contributions</title>
+    </rect>
+
+    <text x="890.06"
+          y="227.78"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      29
+    </text>
+
+
+
+    <rect x="871.96" y="247.76"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-30: 0 contributions</title>
+    </rect>
+
+    <text x="890.06"
+          y="257.49"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      30
+    </text>
+
+
+
+    <rect x="871.96" y="277.47"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#1c0028"
+          fill-opacity="0.18"
+          stroke="#b026ff"
+          stroke-opacity="0.84"
+          stroke-width="0.9"
+          >
+      <title>2026-07-31: 0 contributions</title>
+    </rect>
+
+    <text x="890.06"
+          y="287.21"
+          text-anchor="start"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="12.00"
+          font-weight="700"
+          fill="#d8c7ff"
+          opacity="0.88">
+      31
+    </text>
+
+
+
+    <rect x="871.96" y="307.19"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#100014"
+          fill-opacity="0.10"
+          stroke="#b026ff"
+          stroke-opacity="0.28"
+          stroke-width="0.9"
+          >
+      <title>No date</title>
+    </rect>
+
+
+
+    <rect x="871.96" y="336.90"
+          width="12.48" height="12.48"
+          rx="2.4"
+          fill="#100014"
+          fill-opacity="0.10"
+          stroke="#b026ff"
+          stroke-opacity="0.28"
+          stroke-width="0.9"
+          >
+      <title>No date</title>
+    </rect>
+
+
+  </g>
+  <g id="currentDateFlash">
+    
+    <rect class="eatFlash"
+          x="403.16" y="275.47"
+          width="16.48" height="16.48"
+          rx="3.4"
+          fill="none"
+          stroke="#00e5ff"
+          stroke-width="1.8"
+          filter="url(#blueGlow)">
+      <animate attributeName="opacity"
+               values="0.25;1;0.25"
+               dur="1.15s"
+               repeatCount="indefinite"/>
+      <animate attributeName="stroke-width"
+               values="1.2;2.4;1.2"
+               dur="1.15s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+  
+  <rect x="1024" y="92"
+        width="104" height="310"
+        rx="14"
+        fill="#050505"
+        fill-opacity="0.82"
+        stroke="#ff7a00"
+        stroke-width="1.6"
+        filter="url(#softRedGlow)"/>
+
+
+  <rect x="1038" y="110"
+        width="76" height="32"
+        rx="6"
+        fill="#1a0400"
+        fill-opacity="0.14"
+        stroke="#ff3131"
+        stroke-width="1"
+        filter="url(#redGlow)"/>
+
+  <text x="1076" y="131"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="12"
+        font-weight="700"
+        fill="#ffffff">
+    2025
+  </text>
+
+
+  <rect x="1038" y="150"
+        width="76" height="32"
+        rx="6"
+        fill="#061827"
+        fill-opacity="0.38"
+        stroke="#00e5ff"
+        stroke-width="2.2"
+        filter="url(#blueGlow)"/>
+
+  <text x="1076" y="171"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="12"
+        font-weight="700"
+        fill="#ffffff">
+    2026
+  </text>
+
+  
+  <rect x="92" y="430"
+        width="910" height="54"
+        rx="10"
+        fill="#050505"
+        fill-opacity="0.78"
+        stroke="#ff1e1e"
+        stroke-width="1.2"
+        filter="url(#softRedGlow)"/>
+
+
+  <rect x="97.0" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="129.91666666666666" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Jan
+  </text>
+
+
+  <rect x="172.83333333333331" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="205.74999999999997" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Feb
+  </text>
+
+
+  <rect x="248.66666666666666" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="281.5833333333333" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Mar
+  </text>
+
+
+  <rect x="324.5" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="357.4166666666667" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Apr
+  </text>
+
+
+  <rect x="400.3333333333333" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="433.25" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    May
+  </text>
+
+
+  <rect x="476.16666666666663" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#1a0400"
+        fill-opacity="0.18"
+        stroke="#ff3131"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#redGlow)"/>
+
+  <text x="509.0833333333333" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Jun
+  </text>
+
+
+  <rect x="552.0" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#061827"
+        fill-opacity="0.34"
+        stroke="#00e5ff"
+        stroke-width="2.0"
+        stroke-opacity="0.86"
+        filter="url(#blueGlow)"/>
+
+  <text x="584.9166666666666" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="1">
+    Jul
+  </text>
+
+
+  <rect x="627.8333333333333" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#14001f"
+        fill-opacity="0.10"
+        stroke="#d86cff"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#violetGlow)"/>
+
+  <text x="660.7499999999999" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="0.45">
+    Aug
+  </text>
+
+
+  <path d="M 635.8333333333333 466 H 685.6666666666666"
+        stroke="#b026ff"
+        stroke-width="1"
+        stroke-opacity="0.65"/>
+
+
+  <rect x="703.6666666666666" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#14001f"
+        fill-opacity="0.10"
+        stroke="#d86cff"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#violetGlow)"/>
+
+  <text x="736.5833333333333" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="0.45">
+    Sep
+  </text>
+
+
+  <path d="M 711.6666666666666 466 H 761.5"
+        stroke="#b026ff"
+        stroke-width="1"
+        stroke-opacity="0.65"/>
+
+
+  <rect x="779.5" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#14001f"
+        fill-opacity="0.10"
+        stroke="#d86cff"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#violetGlow)"/>
+
+  <text x="812.4166666666666" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="0.45">
+    Oct
+  </text>
+
+
+  <path d="M 787.5 466 H 837.3333333333334"
+        stroke="#b026ff"
+        stroke-width="1"
+        stroke-opacity="0.65"/>
+
+
+  <rect x="855.3333333333333" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#14001f"
+        fill-opacity="0.10"
+        stroke="#d86cff"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#violetGlow)"/>
+
+  <text x="888.2499999999999" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="0.45">
+    Nov
+  </text>
+
+
+  <path d="M 863.3333333333333 466 H 913.1666666666666"
+        stroke="#b026ff"
+        stroke-width="1"
+        stroke-opacity="0.65"/>
+
+
+  <rect x="931.1666666666666" y="440"
+        width="65.83333333333333" height="34"
+        rx="5"
+        fill="#14001f"
+        fill-opacity="0.10"
+        stroke="#d86cff"
+        stroke-width="1.0"
+        stroke-opacity="0.86"
+        filter="url(#violetGlow)"/>
+
+  <text x="964.0833333333333" y="461.0"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="10"
+        font-weight="700"
+        fill="#ffffff"
+        opacity="0.45">
+    Dec
+  </text>
+
+
+  <path d="M 939.1666666666666 466 H 989.0"
+        stroke="#b026ff"
+        stroke-width="1"
+        stroke-opacity="0.65"/>
+
+  
+  <g id="spectrumLegend" class="lineFlow">
+    <text x="966" y="532"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="11"
+          fill="#dddddd">
+      Less
+    </text>
+
+    <rect x="1006" y="522"
+          width="12" height="12"
+          rx="3"
+          fill="#120202"
+          stroke="#ff7a00"
+          stroke-opacity="0.55"
+          stroke-width="0.8"
+          filter="url(#redGlow)"/>
+
+    <rect x="1024" y="522"
+          width="12" height="12"
+          rx="3"
+          fill="#5d0a0a"
+          stroke="#ff7a00"
+          stroke-opacity="0.55"
+          stroke-width="0.8"
+          filter="url(#redGlow)"/>
+
+    <rect x="1042" y="522"
+          width="12" height="12"
+          rx="3"
+          fill="#a81212"
+          stroke="#ff7a00"
+          stroke-opacity="0.55"
+          stroke-width="0.8"
+          filter="url(#redGlow)"/>
+
+    <rect x="1060" y="522"
+          width="12" height="12"
+          rx="3"
+          fill="#ff3131"
+          stroke="#ff7a00"
+          stroke-opacity="0.55"
+          stroke-width="0.8"
+          filter="url(#redGlow)"/>
+
+    <rect x="1078" y="522"
+          width="12" height="12"
+          rx="3"
+          fill="#ff7a00"
+          stroke="#ff7a00"
+          stroke-opacity="0.55"
+          stroke-width="0.8"
+          filter="url(#redGlow)"/>
+
+    <text x="1104" y="532"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="11"
+          fill="#dddddd">
+      More
+    </text>
+  </g>
+
+
+
+
+  <g id="bikeLayers">
+    
+  <path id="blueRoute"
+        d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="none"
+        opacity="0"/>
+
+  <path id="redRoute"
+        d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="none"
+        opacity="0"/>
+
+  <g id="blueRouteTrail">
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="18.72"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="92.00 888.00"
+        stroke-dashoffset="1090.00"
+        opacity="0.12"
+        filter="url(#softBlueGlow)">
+    <animate attributeName="stroke-dashoffset"
+             from="1090.00"
+             to="90.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="9.72"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="92.00 908.00"
+        stroke-dashoffset="1090.00"
+        opacity="0.34"
+        filter="url(#blueGlow)">
+    <animate attributeName="stroke-dashoffset"
+             from="1090.00"
+             to="90.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="3.46"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="69.92 930.08"
+        stroke-dashoffset="1090.00"
+        opacity="0.48">
+    <animate attributeName="stroke-dashoffset"
+             from="1090.00"
+             to="90.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="6.19"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="84.64 915.36"
+        stroke-dashoffset="1108.00"
+        opacity="0.163">
+    <animate attributeName="stroke-dashoffset"
+             from="1108.00"
+             to="108.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="5.18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="77.28 922.72"
+        stroke-dashoffset="1126.00"
+        opacity="0.110">
+    <animate attributeName="stroke-dashoffset"
+             from="1126.00"
+             to="126.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="4.18"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="69.92 930.08"
+        stroke-dashoffset="1144.00"
+        opacity="0.064">
+    <animate attributeName="stroke-dashoffset"
+             from="1144.00"
+             to="144.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="3.17"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="62.56 937.44"
+        stroke-dashoffset="1162.00"
+        opacity="0.040">
+    <animate attributeName="stroke-dashoffset"
+             from="1162.00"
+             to="162.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#00e5ff"
+        stroke-width="2.16"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="55.20 944.80"
+        stroke-dashoffset="1180.00"
+        opacity="0.040">
+    <animate attributeName="stroke-dashoffset"
+             from="1180.00"
+             to="180.00"
+             dur="30.5s"
+             begin="0s"
+             repeatCount="indefinite"/>
+  </path>
+
+</g>
+
+  <g id="redRouteTrail">
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="17.16"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="78.00 902.00"
+        stroke-dashoffset="1080.00"
+        opacity="0.12"
+        filter="url(#softRedGlow)">
+    <animate attributeName="stroke-dashoffset"
+             from="1080.00"
+             to="80.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="8.91"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="78.00 922.00"
+        stroke-dashoffset="1080.00"
+        opacity="0.34"
+        filter="url(#redGlow)">
+    <animate attributeName="stroke-dashoffset"
+             from="1080.00"
+             to="80.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="3.17"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="59.28 940.72"
+        stroke-dashoffset="1080.00"
+        opacity="0.48">
+    <animate attributeName="stroke-dashoffset"
+             from="1080.00"
+             to="80.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="5.68"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="71.76 928.24"
+        stroke-dashoffset="1098.00"
+        opacity="0.163">
+    <animate attributeName="stroke-dashoffset"
+             from="1098.00"
+             to="98.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="4.75"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="65.52 934.48"
+        stroke-dashoffset="1116.00"
+        opacity="0.110">
+    <animate attributeName="stroke-dashoffset"
+             from="1116.00"
+             to="116.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="3.83"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="59.28 940.72"
+        stroke-dashoffset="1134.00"
+        opacity="0.064">
+    <animate attributeName="stroke-dashoffset"
+             from="1134.00"
+             to="134.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="2.90"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="53.04 946.96"
+        stroke-dashoffset="1152.00"
+        opacity="0.040">
+    <animate attributeName="stroke-dashoffset"
+             from="1152.00"
+             to="152.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+
+  <path d="M 28.00 42.00 Q 28.00 472.00 120.00 479.00 Q 212.00 486.00 680.00 475.00 Q 1148.00 464.00 1148.00 442.00 Q 1148.00 420.00 1066.00 399.00 Q 984.00 378.00 697.70 286.29 Q 411.40 194.57 290.95 163.81 Q 170.50 133.05 152.62 215.43 Q 134.74 297.82 181.04 232.01 Q 227.34 166.20 217.84 255.07 Q 208.35 343.94 259.35 267.42 Q 310.34 190.90 332.11 177.77 Q 353.87 164.64 363.97 197.54 Q 374.08 230.44 384.32 179.25 Q 394.56 128.06 426.19 194.48 Q 457.83 260.89 495.75 197.49 Q 533.68 134.09 554.94 150.60 Q 576.19 167.11 575.91 245.37 Q 575.63 323.63 649.04 265.77 Q 722.45 207.92 731.42 246.78 Q 740.39 285.65 743.90 324.92 Q 747.41 364.18 781.40 245.62 Q 815.39 127.05 847.86 154.10 Q 880.32 181.14 898.11 273.62 T 915.90 366.09"
+        pathLength="1000"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="1.98"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="46.80 953.20"
+        stroke-dashoffset="1170.00"
+        opacity="0.040">
+    <animate attributeName="stroke-dashoffset"
+             from="1170.00"
+             to="170.00"
+             dur="30.5s"
+             begin="4s"
+             repeatCount="indefinite"/>
+  </path>
+
+</g>
+
+  
+  <g id="blueVehicle">
+    
+    <g id="blueBikeAfterburner">
+      <!-- large attached glow -->
+      <path d="M -170.00 0 L 0 0"
+            fill="none"
+            stroke="url(#blueTrailGradient)"
+            stroke-width="27.36"
+            stroke-linecap="round"
+            opacity="0.42"
+            filter="url(#softBlueGlow)">
+        <animateMotion dur="30.5s"
+                       begin="0s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#blueRoute"/>
+        </animateMotion>
+      </path>
+
+      <!-- bright attached trail -->
+      <path d="M -170.00 0 L 0 0"
+            fill="none"
+            stroke="url(#blueTrailGradient)"
+            stroke-width="7.20"
+            stroke-linecap="round"
+            opacity="0.96"
+            filter="url(#blueGlow)">
+        <animateMotion dur="30.5s"
+                       begin="0s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#blueRoute"/>
+        </animateMotion>
+      </path>
+
+      <!-- hot white edge near bike -->
+      <path d="M -36 0 L 0 0"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2.16"
+            stroke-linecap="round"
+            opacity="0.82"
+            filter="url(#blueGlow)">
+        <animateMotion dur="30.5s"
+                       begin="0s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#blueRoute"/>
+        </animateMotion>
+      </path>
+    </g>
+
+
+    <g id="blueBikeHead" class="bike-head">
+      <use href="#bikeBlue"/>
+
+      <animateMotion dur="30.5s"
+                     begin="0s"
+                     repeatCount="indefinite"
+                     rotate="auto">
+        <mpath href="#blueRoute"/>
+      </animateMotion>
+    </g>
+  </g>
+
+
+  
+  <g id="redVehicle">
+    
+    <g id="redBikeAfterburner">
+      <!-- large attached glow -->
+      <path d="M -150.00 0 L 0 0"
+            fill="none"
+            stroke="url(#redTrailGradient)"
+            stroke-width="25.08"
+            stroke-linecap="round"
+            opacity="0.42"
+            filter="url(#softRedGlow)">
+        <animateMotion dur="30.5s"
+                       begin="4s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#redRoute"/>
+        </animateMotion>
+      </path>
+
+      <!-- bright attached trail -->
+      <path d="M -150.00 0 L 0 0"
+            fill="none"
+            stroke="url(#redTrailGradient)"
+            stroke-width="6.60"
+            stroke-linecap="round"
+            opacity="0.96"
+            filter="url(#redGlow)">
+        <animateMotion dur="30.5s"
+                       begin="4s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#redRoute"/>
+        </animateMotion>
+      </path>
+
+      <!-- hot white edge near bike -->
+      <path d="M -36 0 L 0 0"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="1.98"
+            stroke-linecap="round"
+            opacity="0.82"
+            filter="url(#redGlow)">
+        <animateMotion dur="30.5s"
+                       begin="4s"
+                       repeatCount="indefinite"
+                       rotate="auto">
+          <mpath href="#redRoute"/>
+        </animateMotion>
+      </path>
+    </g>
+
+
+    <g id="redBikeHead" class="bike-head">
+      <use href="#bikeRed"/>
+
+      <animateMotion dur="30.5s"
+                     begin="4s"
+                     repeatCount="indefinite"
+                     rotate="auto">
+        <mpath href="#redRoute"/>
+      </animateMotion>
+    </g>
+  </g>
+
+
+  </g>
+</svg>
