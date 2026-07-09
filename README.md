@@ -5,7 +5,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono\&weight=700\&size=20\&pause=900\&color=FF3131\&center=true\&vCenter=true\&width=900\&lines=Machine+Learning+Systems+Engineer;Research+Infrastructure+for+Deep+Learning;Current+Work:+Deep+Learning+for+Side-Channel+Analysis;Reproducible+Experiments+%C2%B7+Automation+%C2%B7+MLOps;Building+TraceFlow)](https://git.io/typing-svg)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ItsShraddhaMishra\&color=red\&style=flat-square\&label=Profile+Views)
-
+<!-- 
 </div>
 
 <img src="./assets/section-identity.svg" width="100%" alt="Identity Grid"/>
@@ -30,7 +30,7 @@
 
 <img src="./assets/panel-tech-stack.svg" width="100%" alt="Tech Stack panel"/>
 
-
+-->
 
 <img src="./assets/section-featured-projects.svg" width="100%" alt="Featured Projects"/>
 <img src="./assets/panel-featured-projects.svg" width="100%" alt="Featured Projects panel"/>
