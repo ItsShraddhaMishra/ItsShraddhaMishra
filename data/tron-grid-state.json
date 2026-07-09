@@ -1,0 +1,323 @@
+{
+  "selected_year": 2026,
+  "selected_month": 7,
+  "weeks": 5,
+  "weekdays": 7,
+  "cell_size": 12.48,
+  "grid_x": 178,
+  "grid_y": 150,
+  "grid_w": 778,
+  "grid_h": 208,
+  "days": [
+    {
+      "date": "2026-07-01",
+      "day": 1,
+      "count": 0,
+      "week_index": 0,
+      "weekday_index": 2,
+      "x": 249.56,
+      "y": 218.05,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-02",
+      "day": 2,
+      "count": 0,
+      "week_index": 0,
+      "weekday_index": 3,
+      "x": 249.56,
+      "y": 247.76,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-03",
+      "day": 3,
+      "count": 0,
+      "week_index": 0,
+      "weekday_index": 4,
+      "x": 249.56,
+      "y": 277.47,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-04",
+      "day": 4,
+      "count": 0,
+      "week_index": 0,
+      "weekday_index": 5,
+      "x": 249.56,
+      "y": 307.19,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-05",
+      "day": 5,
+      "count": 0,
+      "week_index": 0,
+      "weekday_index": 6,
+      "x": 249.56,
+      "y": 336.9,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-06",
+      "day": 6,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 0,
+      "x": 405.16,
+      "y": 158.62,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-07",
+      "day": 7,
+      "count": 4,
+      "week_index": 1,
+      "weekday_index": 1,
+      "x": 405.16,
+      "y": 188.33,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-08",
+      "day": 8,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 2,
+      "x": 405.16,
+      "y": 218.05,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-09",
+      "day": 9,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 3,
+      "x": 405.16,
+      "y": 247.76,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-10",
+      "day": 10,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 4,
+      "x": 405.16,
+      "y": 277.47,
+      "is_today": true
+    },
+    {
+      "date": "2026-07-11",
+      "day": 11,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 5,
+      "x": 405.16,
+      "y": 307.19,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-12",
+      "day": 12,
+      "count": 0,
+      "week_index": 1,
+      "weekday_index": 6,
+      "x": 405.16,
+      "y": 336.9,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-13",
+      "day": 13,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 0,
+      "x": 560.76,
+      "y": 158.62,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-14",
+      "day": 14,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 1,
+      "x": 560.76,
+      "y": 188.33,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-15",
+      "day": 15,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 2,
+      "x": 560.76,
+      "y": 218.05,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-16",
+      "day": 16,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 3,
+      "x": 560.76,
+      "y": 247.76,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-17",
+      "day": 17,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 4,
+      "x": 560.76,
+      "y": 277.47,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-18",
+      "day": 18,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 5,
+      "x": 560.76,
+      "y": 307.19,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-19",
+      "day": 19,
+      "count": 0,
+      "week_index": 2,
+      "weekday_index": 6,
+      "x": 560.76,
+      "y": 336.9,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-20",
+      "day": 20,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 0,
+      "x": 716.36,
+      "y": 158.62,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-21",
+      "day": 21,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 1,
+      "x": 716.36,
+      "y": 188.33,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-22",
+      "day": 22,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 2,
+      "x": 716.36,
+      "y": 218.05,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-23",
+      "day": 23,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 3,
+      "x": 716.36,
+      "y": 247.76,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-24",
+      "day": 24,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 4,
+      "x": 716.36,
+      "y": 277.47,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-25",
+      "day": 25,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 5,
+      "x": 716.36,
+      "y": 307.19,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-26",
+      "day": 26,
+      "count": 0,
+      "week_index": 3,
+      "weekday_index": 6,
+      "x": 716.36,
+      "y": 336.9,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-27",
+      "day": 27,
+      "count": 0,
+      "week_index": 4,
+      "weekday_index": 0,
+      "x": 871.96,
+      "y": 158.62,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-28",
+      "day": 28,
+      "count": 0,
+      "week_index": 4,
+      "weekday_index": 1,
+      "x": 871.96,
+      "y": 188.33,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-29",
+      "day": 29,
+      "count": 0,
+      "week_index": 4,
+      "weekday_index": 2,
+      "x": 871.96,
+      "y": 218.05,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-30",
+      "day": 30,
+      "count": 0,
+      "week_index": 4,
+      "weekday_index": 3,
+      "x": 871.96,
+      "y": 247.76,
+      "is_today": false
+    },
+    {
+      "date": "2026-07-31",
+      "day": 31,
+      "count": 0,
+      "week_index": 4,
+      "weekday_index": 4,
+      "x": 871.96,
+      "y": 277.47,
+      "is_today": false
+    }
+  ]
+}
