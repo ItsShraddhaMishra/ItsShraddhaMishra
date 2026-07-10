@@ -1732,408 +1732,88 @@
 
   <g id="bikeLayers">
     
-  <!-- invisible motion routes -->
+  <!-- invisible motion routes only -->
   <path id="blueEntryRoute"
-        d="M 46.00 44.00 L 46.00 496.00 L 1020.00 496.00 L 1020.00 410.00 L 878.20 343.14"
+        d="M 46.00 44.00 L 46.00 496.00 L 1020.00 496.00 L 1020.00 410.00 L 948.00 328.29"
         fill="none"
         stroke="none"
         opacity="0"/>
 
   <path id="redEntryRoute"
-        d="M 46.00 44.00 L 46.00 496.00 L 1020.00 496.00 L 1020.00 410.00 L 878.20 343.14"
+        d="M 46.00 44.00 L 46.00 496.00 L 1020.00 496.00 L 1020.00 410.00 L 948.00 328.29"
         fill="none"
         stroke="none"
         opacity="0"/>
 
   <path id="blueLoopRoute"
-        d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
+        d="M 948.00 328.29 L 948.00 311.05 Q 948.00 298.57 935.52 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 Z"
         fill="none"
         stroke="none"
         opacity="0"/>
 
   <path id="redLoopRoute"
-        d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
+        d="M 948.00 328.29 L 948.00 311.05 Q 948.00 298.57 935.52 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 Z"
         fill="none"
         stroke="none"
         opacity="0"/>
 
-
-
-  <!-- visible LOOP trails -->
-  <g id="blueLoopTrail">
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="18.72"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="92.00 908.00"
-        stroke-dashoffset="1090.00"
-        opacity="0.12"
-        filter="url(#softBlueGlow)">
-    <animate attributeName="stroke-dashoffset"
-             from="1090.00"
-             to="90.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="9.72"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="92.00 908.00"
-        stroke-dashoffset="1090.00"
-        opacity="0.34"
-        filter="url(#blueGlow)">
-    <animate attributeName="stroke-dashoffset"
-             from="1090.00"
-             to="90.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ffffff"
-        stroke-width="3.46"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="69.92 930.08"
-        stroke-dashoffset="1090.00"
-        opacity="0.48">
-    <animate attributeName="stroke-dashoffset"
-             from="1090.00"
-             to="90.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="6.19"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="84.64 915.36"
-        stroke-dashoffset="1108.00"
-        opacity="0.163">
-    <animate attributeName="stroke-dashoffset"
-             from="1108.00"
-             to="108.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="5.18"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="77.28 922.72"
-        stroke-dashoffset="1126.00"
-        opacity="0.110">
-    <animate attributeName="stroke-dashoffset"
-             from="1126.00"
-             to="126.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="4.18"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="69.92 930.08"
-        stroke-dashoffset="1144.00"
-        opacity="0.064">
-    <animate attributeName="stroke-dashoffset"
-             from="1144.00"
-             to="144.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="3.17"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="62.56 937.44"
-        stroke-dashoffset="1162.00"
-        opacity="0.040">
-    <animate attributeName="stroke-dashoffset"
-             from="1162.00"
-             to="162.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#00e5ff"
-        stroke-width="2.16"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="55.20 944.80"
-        stroke-dashoffset="1180.00"
-        opacity="0.040">
-    <animate attributeName="stroke-dashoffset"
-             from="1180.00"
-             to="180.00"
-             dur="30.5s"
-             begin="7.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-</g>
-
-  <g id="redLoopTrail">
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="17.16"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="78.00 922.00"
-        stroke-dashoffset="1080.00"
-        opacity="0.12"
-        filter="url(#softRedGlow)">
-    <animate attributeName="stroke-dashoffset"
-             from="1080.00"
-             to="80.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="8.91"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="78.00 922.00"
-        stroke-dashoffset="1080.00"
-        opacity="0.34"
-        filter="url(#redGlow)">
-    <animate attributeName="stroke-dashoffset"
-             from="1080.00"
-             to="80.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ffffff"
-        stroke-width="3.17"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="59.28 940.72"
-        stroke-dashoffset="1080.00"
-        opacity="0.48">
-    <animate attributeName="stroke-dashoffset"
-             from="1080.00"
-             to="80.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="5.68"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="71.76 928.24"
-        stroke-dashoffset="1098.00"
-        opacity="0.163">
-    <animate attributeName="stroke-dashoffset"
-             from="1098.00"
-             to="98.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="4.75"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="65.52 934.48"
-        stroke-dashoffset="1116.00"
-        opacity="0.110">
-    <animate attributeName="stroke-dashoffset"
-             from="1116.00"
-             to="116.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="3.83"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="59.28 940.72"
-        stroke-dashoffset="1134.00"
-        opacity="0.064">
-    <animate attributeName="stroke-dashoffset"
-             from="1134.00"
-             to="134.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="2.90"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="53.04 946.96"
-        stroke-dashoffset="1152.00"
-        opacity="0.040">
-    <animate attributeName="stroke-dashoffset"
-             from="1152.00"
-             to="152.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-
-  <path d="M 878.20 343.14 L 878.20 316.57 Q 878.20 298.57 860.20 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 662.80 268.86 Q 644.80 268.86 644.80 250.86 L 644.80 227.43 Q 644.80 209.43 626.80 209.43 L 507.20 209.43 Q 489.20 209.43 489.20 191.43 L 489.20 182.86 Q 489.20 164.86 471.20 164.86 L 273.80 164.86 Q 255.80 164.86 255.80 182.86 L 255.80 325.14 Q 255.80 343.14 273.80 343.14 L 471.20 343.14 Q 489.20 343.14 489.20 325.14 L 489.20 316.57 Q 489.20 298.57 507.20 298.57 L 626.80 298.57 Q 644.80 298.57 644.80 316.57 L 644.80 325.14 Q 644.80 343.14 662.80 343.14 Z"
-        pathLength="1000"
-        fill="none"
-        stroke="#ff7a00"
-        stroke-width="1.98"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-dasharray="46.80 953.20"
-        stroke-dashoffset="1170.00"
-        opacity="0.040">
-    <animate attributeName="stroke-dashoffset"
-             from="1170.00"
-             to="170.00"
-             dur="30.5s"
-             begin="11.2s"
-             repeatCount="indefinite"
-             fill="remove"/>
-  </path>
-
-</g>
-
-  <!-- bikes -->
+  <!-- bikes carry their own trails from the first entry point -->
   
   <g id="blueVehicle">
     <g id="blueVehicleMotion">
       
-    <g id="blueBikeAfterburner">
+    <g id="blueBikeAttachedTrail">
+      <!-- far soft aura -->
       <path d="M -170.00 0 L 0 0"
             fill="none"
             stroke="url(#blueTrailGradient)"
-            stroke-width="27.36"
+            stroke-width="21.60"
             stroke-linecap="round"
-            opacity="0.42"
+            opacity="0.20"
             filter="url(#softBlueGlow)"/>
 
-      <path d="M -170.00 0 L 0 0"
+      <!-- main neon body -->
+      <path d="M -139.40 0 L 0 0"
             fill="none"
             stroke="url(#blueTrailGradient)"
-            stroke-width="7.20"
+            stroke-width="9.72"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.52"
             filter="url(#blueGlow)"/>
 
-      <path d="M -36 0 L 0 0"
+      <!-- strong near-bike core -->
+      <path d="M -71.40 0 L 0 0"
+            fill="none"
+            stroke="url(#blueTrailGradient)"
+            stroke-width="5.90"
+            stroke-linecap="round"
+            opacity="0.88"
+            filter="url(#blueGlow)"/>
+
+      <!-- white-hot close edge right behind bike -->
+      <path d="M -48 0 L 0 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="2.16"
+            stroke-width="2.45"
             stroke-linecap="round"
-            opacity="0.82"
+            opacity="0.92"
             filter="url(#blueGlow)"/>
     </g>
 
 
       <use href="#bikeBlue"/>
 
-      <animateMotion id="blueEntryMotion"
-                     dur="7.2s"
-                     begin="0s"
+      <animateMotion dur="7.2s"
+                     begin="0.00s"
                      repeatCount="1"
-                     fill="remove"
+                     fill="freeze"
                      rotate="auto"
                      calcMode="linear">
         <mpath href="#blueEntryRoute"/>
       </animateMotion>
 
       <animateMotion dur="30.5s"
-                     begin="blueEntryMotion.end"
+                     begin="7.20s"
                      repeatCount="indefinite"
                      rotate="auto"
                      calcMode="linear">
@@ -2147,47 +1827,58 @@
   <g id="redVehicle">
     <g id="redVehicleMotion">
       
-    <g id="redBikeAfterburner">
+    <g id="redBikeAttachedTrail">
+      <!-- far soft aura -->
       <path d="M -150.00 0 L 0 0"
             fill="none"
             stroke="url(#redTrailGradient)"
-            stroke-width="25.08"
+            stroke-width="19.80"
             stroke-linecap="round"
-            opacity="0.42"
+            opacity="0.20"
             filter="url(#softRedGlow)"/>
 
-      <path d="M -150.00 0 L 0 0"
+      <!-- main neon body -->
+      <path d="M -123.00 0 L 0 0"
             fill="none"
             stroke="url(#redTrailGradient)"
-            stroke-width="6.60"
+            stroke-width="8.91"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.52"
             filter="url(#redGlow)"/>
 
-      <path d="M -36 0 L 0 0"
+      <!-- strong near-bike core -->
+      <path d="M -63.00 0 L 0 0"
+            fill="none"
+            stroke="url(#redTrailGradient)"
+            stroke-width="5.41"
+            stroke-linecap="round"
+            opacity="0.88"
+            filter="url(#redGlow)"/>
+
+      <!-- white-hot close edge right behind bike -->
+      <path d="M -48 0 L 0 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="1.98"
+            stroke-width="2.24"
             stroke-linecap="round"
-            opacity="0.82"
+            opacity="0.92"
             filter="url(#redGlow)"/>
     </g>
 
 
       <use href="#bikeRed"/>
 
-      <animateMotion id="redEntryMotion"
-                     dur="7.2s"
-                     begin="4s"
+      <animateMotion dur="7.2s"
+                     begin="4.00s"
                      repeatCount="1"
-                     fill="remove"
+                     fill="freeze"
                      rotate="auto"
                      calcMode="linear">
         <mpath href="#redEntryRoute"/>
       </animateMotion>
 
       <animateMotion dur="30.5s"
-                     begin="redEntryMotion.end"
+                     begin="11.20s"
                      repeatCount="indefinite"
                      rotate="auto"
                      calcMode="linear">
