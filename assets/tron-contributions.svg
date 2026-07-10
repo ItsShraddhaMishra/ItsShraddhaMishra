@@ -1764,74 +1764,73 @@
       
     <g id="blueBikeAttachedTrail">
 
-      <!-- farthest atmospheric haze -->
+      <!-- 1. far haze -->
       <path d="M -170.00 0 L 0 0"
             fill="none"
             stroke="#00aaff"
-            stroke-width="27.36"
-            stroke-linecap="round"
-            opacity="0.10"
-            filter="url(#softBlueGlow)"/>
-
-      <!-- long outer neon bloom -->
-      <path d="M -159.80 0 L 0 0"
-            fill="none"
-            stroke="#00e5ff"
-            stroke-width="19.44"
+            stroke-width="28.80"
             stroke-linecap="round"
             opacity="0.16"
             filter="url(#softBlueGlow)"/>
 
-      <!-- visible fading body -->
-      <path d="M -139.40 0 L 0 0"
+      <!-- 2. outer glow body -->
+      <path d="M -156.40 0 L 0 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="20.88"
+            stroke-linecap="round"
+            opacity="0.24"
+            filter="url(#softBlueGlow)"/>
+
+      <!-- 3. visible outer trail -->
+      <path d="M -132.60 0 L 0 0"
             fill="none"
             stroke="#00aaff"
-            stroke-width="13.68"
+            stroke-width="15.12"
             stroke-linecap="round"
-            opacity="0.28"
+            opacity="0.36"
             filter="url(#blueGlow)"/>
 
-      <!-- main neon trail -->
-      <path d="M -115.60 0 L 0 0"
+      <!-- 4. main neon trail -->
+      <path d="M -102.00 0 L 0 0"
             fill="none"
             stroke="#00e5ff"
-            stroke-width="9.00"
+            stroke-width="10.22"
             stroke-linecap="round"
-            opacity="0.50"
+            opacity="0.62"
             filter="url(#blueGlow)"/>
 
-      <!-- bright near-bike trail -->
-      <path d="M -81.60 0 L 0 0"
+      <!-- 5. bright near-bike trail -->
+      <path d="M -71.40 0 L 0 0"
             fill="none"
             stroke="#00e5ff"
-            stroke-width="6.19"
+            stroke-width="6.91"
             stroke-linecap="round"
-            opacity="0.78"
+            opacity="0.88"
             filter="url(#blueGlow)"/>
 
-      <!-- strong core close behind bike -->
-      <path d="M -51.00 0 L 0 0"
-            fill="none"
-            stroke="#00e5ff"
-            stroke-width="4.03"
-            stroke-linecap="round"
-            opacity="0.96"
-            filter="url(#blueGlow)"/>
-
-      <!-- white-hot immediate rear edge -->
-      <path d="M -32 0 L 0 0"
+      <!-- 6. intense core -->
+      <path d="M -40.80 0 L 0 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="2.02"
+            stroke-width="3.31"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.96"/>
+
+      <!-- 7. white-hot cap right behind bike -->
+      <path d="M -22 0 L 0 0"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2.16"
+            stroke-linecap="round"
+            opacity="1.00"
             filter="url(#blueGlow)"/>
 
-      <!-- rear ignition point -->
+      <!-- 8. ignition point -->
       <circle cx="0" cy="0"
-              r="1.80"
+              r="2.00"
               fill="#ffffff"
-              opacity="0.96"
+              opacity="1.00"
               filter="url(#blueGlow)"/>
     </g>
 
@@ -1864,74 +1863,73 @@
       
     <g id="redBikeAttachedTrail">
 
-      <!-- farthest atmospheric haze -->
+      <!-- 1. far haze -->
       <path d="M -150.00 0 L 0 0"
             fill="none"
             stroke="#ff3131"
-            stroke-width="25.08"
-            stroke-linecap="round"
-            opacity="0.10"
-            filter="url(#softRedGlow)"/>
-
-      <!-- long outer neon bloom -->
-      <path d="M -141.00 0 L 0 0"
-            fill="none"
-            stroke="#ff7a00"
-            stroke-width="17.82"
+            stroke-width="26.40"
             stroke-linecap="round"
             opacity="0.16"
             filter="url(#softRedGlow)"/>
 
-      <!-- visible fading body -->
-      <path d="M -123.00 0 L 0 0"
+      <!-- 2. outer glow body -->
+      <path d="M -138.00 0 L 0 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="19.14"
+            stroke-linecap="round"
+            opacity="0.24"
+            filter="url(#softRedGlow)"/>
+
+      <!-- 3. visible outer trail -->
+      <path d="M -117.00 0 L 0 0"
             fill="none"
             stroke="#ff3131"
-            stroke-width="12.54"
+            stroke-width="13.86"
             stroke-linecap="round"
-            opacity="0.28"
+            opacity="0.36"
             filter="url(#redGlow)"/>
 
-      <!-- main neon trail -->
-      <path d="M -102.00 0 L 0 0"
+      <!-- 4. main neon trail -->
+      <path d="M -90.00 0 L 0 0"
             fill="none"
             stroke="#ff7a00"
-            stroke-width="8.25"
+            stroke-width="9.37"
             stroke-linecap="round"
-            opacity="0.50"
+            opacity="0.62"
             filter="url(#redGlow)"/>
 
-      <!-- bright near-bike trail -->
-      <path d="M -72.00 0 L 0 0"
+      <!-- 5. bright near-bike trail -->
+      <path d="M -63.00 0 L 0 0"
             fill="none"
             stroke="#ff7a00"
-            stroke-width="5.68"
+            stroke-width="6.34"
             stroke-linecap="round"
-            opacity="0.78"
+            opacity="0.88"
             filter="url(#redGlow)"/>
 
-      <!-- strong core close behind bike -->
-      <path d="M -45.00 0 L 0 0"
-            fill="none"
-            stroke="#ff7a00"
-            stroke-width="3.70"
-            stroke-linecap="round"
-            opacity="0.96"
-            filter="url(#redGlow)"/>
-
-      <!-- white-hot immediate rear edge -->
-      <path d="M -32 0 L 0 0"
+      <!-- 6. intense core -->
+      <path d="M -36.00 0 L 0 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="1.85"
+            stroke-width="3.04"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.96"/>
+
+      <!-- 7. white-hot cap right behind bike -->
+      <path d="M -22 0 L 0 0"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="1.98"
+            stroke-linecap="round"
+            opacity="1.00"
             filter="url(#redGlow)"/>
 
-      <!-- rear ignition point -->
+      <!-- 8. ignition point -->
       <circle cx="0" cy="0"
-              r="1.80"
+              r="2.00"
               fill="#ffffff"
-              opacity="0.96"
+              opacity="1.00"
               filter="url(#redGlow)"/>
     </g>
 
