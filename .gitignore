@@ -1,8 +1,18 @@
-# local secrets
+# Private generator/source files
+*.py
+Makefile
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local/private config and data
 .env
 .env.*
-!.env.example
-.secrets/
+data/
+
+# Local exports
 README.pdf
-README_tmp.html
-__pycache__/
+
+# GitHub Actions live in private generator repo
+.github/workflows/
