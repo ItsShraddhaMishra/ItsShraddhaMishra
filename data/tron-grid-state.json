@@ -97,17 +97,17 @@
       "weekday_index": 3,
       "x": 405.16,
       "y": 247.76,
-      "is_today": true
+      "is_today": false
     },
     {
       "date": "2026-07-10",
       "day": 10,
-      "count": 0,
+      "count": 28,
       "week_index": 1,
       "weekday_index": 4,
       "x": 405.16,
       "y": 277.47,
-      "is_today": false
+      "is_today": true
     },
     {
       "date": "2026-07-11",
