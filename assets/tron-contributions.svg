@@ -1761,51 +1761,317 @@
   
   <g id="blueVehicle">
     <g id="blueVehicleMotion">
-      
-    <g id="blueBikeAttachedTrail">
-      <!-- far soft glow: longest, faintest -->
-      <path d="M -170.00 0 L 0 0"
-            fill="none"
-            stroke="#00e5ff"
-            stroke-width="23.04"
-            stroke-linecap="round"
-            opacity="0.18"
-            filter="url(#softBlueGlow)"/>
-
-      <!-- fading outer body -->
-      <path d="M -139.40 0 L 0 0"
+      <g id="blueBikeAttachedTrail" class="trailPulse">
+      <path d="M -170.00 0 L -2 0"
             fill="none"
             stroke="#00aaff"
-            stroke-width="13.32"
+            stroke-width="27.36"
             stroke-linecap="round"
-            opacity="0.34"
-            filter="url(#blueGlow)"/>
+            opacity="0.10"
+            filter="url(#softBlueGlow)"/>
 
-      <!-- main visible neon trail -->
-      <path d="M -105.40 0 L 0 0"
+      <path d="M -172.00 0 L -158.56 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="6.26"
+            stroke-linecap="round"
+            opacity="0.027"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -172.00 0 L -158.56 0"
             fill="none"
             stroke="#00e5ff"
-            stroke-width="7.56"
+            stroke-width="1.86"
             stroke-linecap="round"
-            opacity="0.72"
+            opacity="0.064"
             filter="url(#blueGlow)"/>
 
-      <!-- strong near-bike core -->
-      <path d="M -61.20 0 L 0 0"
+      <path d="M -162.56 0 L -149.11 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="7.12"
+            stroke-linecap="round"
+            opacity="0.031"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -162.56 0 L -149.11 0"
             fill="none"
             stroke="#00e5ff"
-            stroke-width="4.46"
+            stroke-width="2.13"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.082"
             filter="url(#blueGlow)"/>
 
-      <!-- white-hot close edge right behind bike -->
-      <path d="M -42 0 L 0 0"
+      <path d="M -153.11 0 L -139.67 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="7.98"
+            stroke-linecap="round"
+            opacity="0.038"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -153.11 0 L -139.67 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="2.40"
+            stroke-linecap="round"
+            opacity="0.106"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -143.67 0 L -130.22 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="8.84"
+            stroke-linecap="round"
+            opacity="0.047"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -143.67 0 L -130.22 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="2.67"
+            stroke-linecap="round"
+            opacity="0.135"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -134.22 0 L -120.78 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="9.70"
+            stroke-linecap="round"
+            opacity="0.057"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -134.22 0 L -120.78 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="2.94"
+            stroke-linecap="round"
+            opacity="0.168"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -124.78 0 L -111.33 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="10.56"
+            stroke-linecap="round"
+            opacity="0.069"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -124.78 0 L -111.33 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="3.22"
+            stroke-linecap="round"
+            opacity="0.204"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -115.33 0 L -101.89 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="11.42"
+            stroke-linecap="round"
+            opacity="0.082"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -115.33 0 L -101.89 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="3.49"
+            stroke-linecap="round"
+            opacity="0.245"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -105.89 0 L -92.44 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="12.28"
+            stroke-linecap="round"
+            opacity="0.098"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -105.89 0 L -92.44 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="3.76"
+            stroke-linecap="round"
+            opacity="0.288"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -96.44 0 L -83.00 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="13.14"
+            stroke-linecap="round"
+            opacity="0.114"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -96.44 0 L -83.00 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="4.03"
+            stroke-linecap="round"
+            opacity="0.335"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -87.00 0 L -73.56 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="14.00"
+            stroke-linecap="round"
+            opacity="0.132"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -87.00 0 L -73.56 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="4.30"
+            stroke-linecap="round"
+            opacity="0.385"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -77.56 0 L -64.11 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="14.86"
+            stroke-linecap="round"
+            opacity="0.152"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -77.56 0 L -64.11 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="4.58"
+            stroke-linecap="round"
+            opacity="0.437"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -68.11 0 L -54.67 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="15.72"
+            stroke-linecap="round"
+            opacity="0.173"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -68.11 0 L -54.67 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="4.85"
+            stroke-linecap="round"
+            opacity="0.492"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -58.67 0 L -45.22 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="16.58"
+            stroke-linecap="round"
+            opacity="0.195"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -58.67 0 L -45.22 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="5.12"
+            stroke-linecap="round"
+            opacity="0.550"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -49.22 0 L -35.78 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="17.44"
+            stroke-linecap="round"
+            opacity="0.218"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -49.22 0 L -35.78 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="5.39"
+            stroke-linecap="round"
+            opacity="0.610"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -39.78 0 L -26.33 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="18.30"
+            stroke-linecap="round"
+            opacity="0.243"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -39.78 0 L -26.33 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="5.66"
+            stroke-linecap="round"
+            opacity="0.673"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -30.33 0 L -16.89 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="19.16"
+            stroke-linecap="round"
+            opacity="0.269"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -30.33 0 L -16.89 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="5.94"
+            stroke-linecap="round"
+            opacity="0.738"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -20.89 0 L -7.44 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="20.02"
+            stroke-linecap="round"
+            opacity="0.296"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -20.89 0 L -7.44 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="6.21"
+            stroke-linecap="round"
+            opacity="0.805"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -11.44 0 L -1.50 0"
+            fill="none"
+            stroke="#00aaff"
+            stroke-width="20.88"
+            stroke-linecap="round"
+            opacity="0.325"
+            filter="url(#softBlueGlow)"/>
+
+      <path d="M -11.44 0 L -1.50 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="6.48"
+            stroke-linecap="round"
+            opacity="0.875"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -40.80 0 L -1 0"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="7.92"
+            stroke-linecap="round"
+            opacity="0.98"
+            filter="url(#blueGlow)"/>
+
+      <path d="M -26.11 0 L -1 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="2.16"
+            stroke-width="2.45"
             stroke-linecap="round"
-            opacity="0.88"/>
+            opacity="0.96"/>
     </g>
 
 
@@ -1834,51 +2100,317 @@
   
   <g id="redVehicle">
     <g id="redVehicleMotion">
-      
-    <g id="redBikeAttachedTrail">
-      <!-- far soft glow: longest, faintest -->
-      <path d="M -150.00 0 L 0 0"
-            fill="none"
-            stroke="#ff7a00"
-            stroke-width="21.12"
-            stroke-linecap="round"
-            opacity="0.18"
-            filter="url(#softRedGlow)"/>
-
-      <!-- fading outer body -->
-      <path d="M -123.00 0 L 0 0"
+      <g id="redBikeAttachedTrail" class="trailPulse">
+      <path d="M -150.00 0 L -2 0"
             fill="none"
             stroke="#ff3131"
-            stroke-width="12.21"
+            stroke-width="25.08"
             stroke-linecap="round"
-            opacity="0.34"
-            filter="url(#redGlow)"/>
+            opacity="0.10"
+            filter="url(#softRedGlow)"/>
 
-      <!-- main visible neon trail -->
-      <path d="M -93.00 0 L 0 0"
+      <path d="M -152.00 0 L -139.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="5.74"
+            stroke-linecap="round"
+            opacity="0.027"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -152.00 0 L -139.67 0"
             fill="none"
             stroke="#ff7a00"
-            stroke-width="6.93"
+            stroke-width="1.70"
             stroke-linecap="round"
-            opacity="0.72"
+            opacity="0.064"
             filter="url(#redGlow)"/>
 
-      <!-- strong near-bike core -->
-      <path d="M -54.00 0 L 0 0"
+      <path d="M -143.67 0 L -131.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="6.53"
+            stroke-linecap="round"
+            opacity="0.031"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -143.67 0 L -131.33 0"
             fill="none"
             stroke="#ff7a00"
-            stroke-width="4.09"
+            stroke-width="1.95"
             stroke-linecap="round"
-            opacity="0.96"
+            opacity="0.082"
             filter="url(#redGlow)"/>
 
-      <!-- white-hot close edge right behind bike -->
-      <path d="M -42 0 L 0 0"
+      <path d="M -135.33 0 L -123.00 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="7.32"
+            stroke-linecap="round"
+            opacity="0.038"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -135.33 0 L -123.00 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="2.20"
+            stroke-linecap="round"
+            opacity="0.106"
+            filter="url(#redGlow)"/>
+
+      <path d="M -127.00 0 L -114.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="8.10"
+            stroke-linecap="round"
+            opacity="0.047"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -127.00 0 L -114.67 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="2.45"
+            stroke-linecap="round"
+            opacity="0.135"
+            filter="url(#redGlow)"/>
+
+      <path d="M -118.67 0 L -106.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="8.89"
+            stroke-linecap="round"
+            opacity="0.057"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -118.67 0 L -106.33 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="2.70"
+            stroke-linecap="round"
+            opacity="0.168"
+            filter="url(#redGlow)"/>
+
+      <path d="M -110.33 0 L -98.00 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="9.68"
+            stroke-linecap="round"
+            opacity="0.069"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -110.33 0 L -98.00 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="2.95"
+            stroke-linecap="round"
+            opacity="0.204"
+            filter="url(#redGlow)"/>
+
+      <path d="M -102.00 0 L -89.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="10.47"
+            stroke-linecap="round"
+            opacity="0.082"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -102.00 0 L -89.67 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="3.20"
+            stroke-linecap="round"
+            opacity="0.245"
+            filter="url(#redGlow)"/>
+
+      <path d="M -93.67 0 L -81.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="11.26"
+            stroke-linecap="round"
+            opacity="0.098"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -93.67 0 L -81.33 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="3.45"
+            stroke-linecap="round"
+            opacity="0.288"
+            filter="url(#redGlow)"/>
+
+      <path d="M -85.33 0 L -73.00 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="12.04"
+            stroke-linecap="round"
+            opacity="0.114"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -85.33 0 L -73.00 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="3.70"
+            stroke-linecap="round"
+            opacity="0.335"
+            filter="url(#redGlow)"/>
+
+      <path d="M -77.00 0 L -64.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="12.83"
+            stroke-linecap="round"
+            opacity="0.132"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -77.00 0 L -64.67 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="3.95"
+            stroke-linecap="round"
+            opacity="0.385"
+            filter="url(#redGlow)"/>
+
+      <path d="M -68.67 0 L -56.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="13.62"
+            stroke-linecap="round"
+            opacity="0.152"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -68.67 0 L -56.33 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="4.19"
+            stroke-linecap="round"
+            opacity="0.437"
+            filter="url(#redGlow)"/>
+
+      <path d="M -60.33 0 L -48.00 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="14.41"
+            stroke-linecap="round"
+            opacity="0.173"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -60.33 0 L -48.00 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="4.44"
+            stroke-linecap="round"
+            opacity="0.492"
+            filter="url(#redGlow)"/>
+
+      <path d="M -52.00 0 L -39.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="15.20"
+            stroke-linecap="round"
+            opacity="0.195"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -52.00 0 L -39.67 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="4.69"
+            stroke-linecap="round"
+            opacity="0.550"
+            filter="url(#redGlow)"/>
+
+      <path d="M -43.67 0 L -31.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="15.99"
+            stroke-linecap="round"
+            opacity="0.218"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -43.67 0 L -31.33 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="4.94"
+            stroke-linecap="round"
+            opacity="0.610"
+            filter="url(#redGlow)"/>
+
+      <path d="M -35.33 0 L -23.00 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="16.78"
+            stroke-linecap="round"
+            opacity="0.243"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -35.33 0 L -23.00 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="5.19"
+            stroke-linecap="round"
+            opacity="0.673"
+            filter="url(#redGlow)"/>
+
+      <path d="M -27.00 0 L -14.67 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="17.56"
+            stroke-linecap="round"
+            opacity="0.269"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -27.00 0 L -14.67 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="5.44"
+            stroke-linecap="round"
+            opacity="0.738"
+            filter="url(#redGlow)"/>
+
+      <path d="M -18.67 0 L -6.33 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="18.35"
+            stroke-linecap="round"
+            opacity="0.296"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -18.67 0 L -6.33 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="5.69"
+            stroke-linecap="round"
+            opacity="0.805"
+            filter="url(#redGlow)"/>
+
+      <path d="M -10.33 0 L -1.50 0"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="19.14"
+            stroke-linecap="round"
+            opacity="0.325"
+            filter="url(#softRedGlow)"/>
+
+      <path d="M -10.33 0 L -1.50 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="5.94"
+            stroke-linecap="round"
+            opacity="0.875"
+            filter="url(#redGlow)"/>
+
+      <path d="M -36.00 0 L -1 0"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="7.26"
+            stroke-linecap="round"
+            opacity="0.98"
+            filter="url(#redGlow)"/>
+
+      <path d="M -23.04 0 L -1 0"
             fill="none"
             stroke="#ffffff"
-            stroke-width="1.98"
+            stroke-width="2.24"
             stroke-linecap="round"
-            opacity="0.88"/>
+            opacity="0.96"/>
     </g>
 
 
