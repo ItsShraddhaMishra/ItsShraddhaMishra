@@ -1772,22 +1772,22 @@
        own visible stroke. -->
   <defs>
     <path id="blueEntryRoute"
-          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1006.18 408.69 L 953.16 351.82 Q 948.00 346.29 948.00 338.73 L 948.00 328.29"
+          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1006.84 408.12 L 952.66 338.87 Q 948.00 332.91 948.00 325.35 L 948.00 314.91"
           pathLength="1000"
           fill="none"/>
 
     <path id="redEntryRoute"
-          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1006.18 408.69 L 953.16 351.82 Q 948.00 346.29 948.00 338.73 L 948.00 328.29"
+          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1006.84 408.12 L 952.66 338.87 Q 948.00 332.91 948.00 325.35 L 948.00 314.91"
           pathLength="1000"
           fill="none"/>
 
     <path id="blueLoopRoute"
-          d="M 948.00 328.29 L 948.00 311.05 Q 948.00 298.57 935.52 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 Z"
+          d="M 948.00 314.91 L 948.00 305.44 Q 948.00 298.57 941.14 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 L 942.38 328.29 Q 948.00 328.29 948.00 322.67 L 948.00 314.91"
           pathLength="1000"
           fill="none"/>
 
     <path id="redLoopRoute"
-          d="M 948.00 328.29 L 948.00 311.05 Q 948.00 298.57 935.52 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 Z"
+          d="M 948.00 314.91 L 948.00 305.44 Q 948.00 298.57 941.14 298.57 L 812.88 298.57 Q 800.40 298.57 800.40 286.09 L 800.40 281.34 Q 800.40 268.86 787.92 268.86 L 657.28 268.86 Q 644.80 268.86 644.80 256.38 L 644.80 251.62 Q 644.80 239.14 632.32 239.14 L 507.20 239.14 Q 489.20 239.14 489.20 221.14 L 489.20 197.71 Q 489.20 179.71 471.20 179.71 L 204.00 179.71 Q 186.00 179.71 186.00 197.71 L 186.00 250.86 Q 186.00 268.86 204.00 268.86 L 476.72 268.86 Q 489.20 268.86 489.20 281.34 L 489.20 286.09 Q 489.20 298.57 501.68 298.57 L 632.32 298.57 Q 644.80 298.57 644.80 311.05 L 644.80 315.81 Q 644.80 328.29 657.28 328.29 L 942.38 328.29 Q 948.00 328.29 948.00 322.67 L 948.00 314.91"
           pathLength="1000"
           fill="none"/>
   </defs>
@@ -1796,9 +1796,8 @@
        synchronized endless-loop trail. -->
   
   <g id="blueVehicle">
-    <!-- Entry trail: visible only while the bike is actually entering -->
-    <g id="blueEntryTrailVisibility" opacity="0">
-      <g id="blueEntryTrail" class="trailPulse">
+    <!-- Both trails own their respective routes directly. -->
+    <g id="blueEntryTrail" class="trailPulse">
     <use href="#blueEntryRoute"
          visibility="hidden"
          fill="none"
@@ -1823,14 +1822,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -1857,14 +1856,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -1891,14 +1890,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -1925,14 +1924,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -1959,14 +1958,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -1993,14 +1992,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2027,14 +2026,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2061,14 +2060,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2095,14 +2094,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2129,14 +2128,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2163,14 +2162,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2197,14 +2196,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2231,14 +2230,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2265,14 +2264,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2299,14 +2298,14 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#blueEntryRoute"
@@ -2333,28 +2332,17 @@
                begin="0.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="7.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="7.280s"
+                fill="freeze"/>
+        
     </use>
 </g>
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.03;0.97;1"
-               dur="7.20s"
-               begin="0.00s"
-               repeatCount="1"
-               fill="freeze"/>
-    </g>
-
-    <!-- Loop trail: hidden before loop starts, visible after that -->
-    <g id="blueLoopTrailVisibility" opacity="0">
-      <g id="blueLoopTrail" class="trailPulse">
+    <g id="blueLoopTrail" class="trailPulse">
     <use href="#blueLoopRoute"
          visibility="hidden"
          fill="none"
@@ -2819,32 +2807,56 @@
       
     </use>
 </g>
-      <animate attributeName="opacity"
-               values="0;1"
-               keyTimes="0;1"
-               dur="0.01s"
-               begin="7.20s"
-               repeatCount="1"
-               fill="freeze"/>
-    </g>
 
-    <g id="blueVehicleMotion">
+    <!-- ================================================================
+         ENTRY BIKE
+         ================================================================ -->
+    <g id="blueEntryBike"
+       visibility="hidden">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="0.000s"
+           fill="freeze"/>
+
+      <set attributeName="visibility"
+           to="hidden"
+           begin="7.225s"
+           fill="freeze"/>
+
       <use href="#bikeBlue"/>
 
-      <animateMotion dur="7.2s"
-                     begin="0.00s"
-                     repeatCount="1"
-                     fill="freeze"
-                     rotate="auto"
-                     calcMode="paced">
+      <animateMotion
+          dur="7.200s"
+          begin="0.000s"
+          repeatCount="1"
+          fill="freeze"
+          rotate="auto"
+          calcMode="paced">
         <mpath href="#blueEntryRoute"/>
       </animateMotion>
+    </g>
 
-      <animateMotion dur="30.5s"
-                     begin="7.20s"
-                     repeatCount="indefinite"
-                     rotate="auto"
-                     calcMode="paced">
+    <!-- ================================================================
+         ENDLESS-LOOP BIKE
+         Starts at the exact same coordinate and tangent as the entry bike.
+         ================================================================ -->
+    <g id="blueLoopBike"
+       visibility="hidden">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="7.200s"
+           fill="freeze"/>
+
+      <use href="#bikeBlue"/>
+
+      <animateMotion
+          dur="30.500s"
+          begin="7.200s"
+          repeatCount="indefinite"
+          rotate="auto"
+          calcMode="paced">
         <mpath href="#blueLoopRoute"/>
       </animateMotion>
     </g>
@@ -2853,9 +2865,8 @@
 
   
   <g id="redVehicle">
-    <!-- Entry trail: visible only while the bike is actually entering -->
-    <g id="redEntryTrailVisibility" opacity="0">
-      <g id="redEntryTrail" class="trailPulse">
+    <!-- Both trails own their respective routes directly. -->
+    <g id="redEntryTrail" class="trailPulse">
     <use href="#redEntryRoute"
          visibility="hidden"
          fill="none"
@@ -2880,14 +2891,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -2914,14 +2925,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -2948,14 +2959,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -2982,14 +2993,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3016,14 +3027,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3050,14 +3061,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3084,14 +3095,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3118,14 +3129,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3152,14 +3163,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3186,14 +3197,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3220,14 +3231,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3254,14 +3265,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3288,14 +3299,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3322,14 +3333,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3356,14 +3367,14 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 
     <use href="#redEntryRoute"
@@ -3390,28 +3401,17 @@
                begin="8.000s"
                calcMode="linear"
                repeatCount="1"
-               fill="remove"/>
+               fill="freeze"/>
 
       
-      <set attributeName="visibility"
-           to="hidden"
-           begin="15.200s"
-           fill="freeze"/>
-
+            <set attributeName="visibility"
+                to="hidden"
+                begin="15.280s"
+                fill="freeze"/>
+        
     </use>
 </g>
-      <animate attributeName="opacity"
-               values="0;1;1;0"
-               keyTimes="0;0.03;0.97;1"
-               dur="7.20s"
-               begin="8.00s"
-               repeatCount="1"
-               fill="freeze"/>
-    </g>
-
-    <!-- Loop trail: hidden before loop starts, visible after that -->
-    <g id="redLoopTrailVisibility" opacity="0">
-      <g id="redLoopTrail" class="trailPulse">
+    <g id="redLoopTrail" class="trailPulse">
     <use href="#redLoopRoute"
          visibility="hidden"
          fill="none"
@@ -3876,32 +3876,56 @@
       
     </use>
 </g>
-      <animate attributeName="opacity"
-               values="0;1"
-               keyTimes="0;1"
-               dur="0.01s"
-               begin="15.20s"
-               repeatCount="1"
-               fill="freeze"/>
-    </g>
 
-    <g id="redVehicleMotion">
+    <!-- ================================================================
+         ENTRY BIKE
+         ================================================================ -->
+    <g id="redEntryBike"
+       visibility="hidden">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="8.000s"
+           fill="freeze"/>
+
+      <set attributeName="visibility"
+           to="hidden"
+           begin="15.225s"
+           fill="freeze"/>
+
       <use href="#bikeRed"/>
 
-      <animateMotion dur="7.2s"
-                     begin="8.00s"
-                     repeatCount="1"
-                     fill="freeze"
-                     rotate="auto"
-                     calcMode="paced">
+      <animateMotion
+          dur="7.200s"
+          begin="8.000s"
+          repeatCount="1"
+          fill="freeze"
+          rotate="auto"
+          calcMode="paced">
         <mpath href="#redEntryRoute"/>
       </animateMotion>
+    </g>
 
-      <animateMotion dur="30.5s"
-                     begin="15.20s"
-                     repeatCount="indefinite"
-                     rotate="auto"
-                     calcMode="paced">
+    <!-- ================================================================
+         ENDLESS-LOOP BIKE
+         Starts at the exact same coordinate and tangent as the entry bike.
+         ================================================================ -->
+    <g id="redLoopBike"
+       visibility="hidden">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="15.200s"
+           fill="freeze"/>
+
+      <use href="#bikeRed"/>
+
+      <animateMotion
+          dur="30.500s"
+          begin="15.200s"
+          repeatCount="indefinite"
+          rotate="auto"
+          calcMode="paced">
         <mpath href="#redLoopRoute"/>
       </animateMotion>
     </g>
