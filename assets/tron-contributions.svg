@@ -2870,14 +2870,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="29.75"
                to="-970.25"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -2885,7 +2885,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -2904,14 +2904,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="29.75"
                to="-970.25"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -2919,7 +2919,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -2938,14 +2938,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="50.25"
                to="-949.75"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -2953,7 +2953,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -2972,14 +2972,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="50.25"
                to="-949.75"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -2987,7 +2987,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3006,14 +3006,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="76.90"
                to="-923.10"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3021,7 +3021,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3040,14 +3040,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="76.90"
                to="-923.10"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3055,7 +3055,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3074,14 +3074,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="107.65"
                to="-892.35"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3089,7 +3089,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3108,14 +3108,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="107.65"
                to="-892.35"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3123,7 +3123,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3142,14 +3142,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="140.45"
                to="-859.55"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3157,7 +3157,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3176,14 +3176,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="140.45"
                to="-859.55"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3191,7 +3191,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3210,14 +3210,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="173.25"
                to="-826.75"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3225,7 +3225,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3244,14 +3244,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="173.25"
                to="-826.75"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3259,7 +3259,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3278,14 +3278,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="199.90"
                to="-800.10"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3293,7 +3293,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3312,14 +3312,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="199.90"
                to="-800.10"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3327,7 +3327,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3346,14 +3346,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="220.40"
                to="-779.60"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3361,7 +3361,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3380,14 +3380,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="4.800s"
+           begin="4.400s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="220.40"
                to="-779.60"
                dur="7.800s"
-               begin="4.800s"
+               begin="4.400s"
                calcMode="linear"
                repeatCount="1"
                fill="remove"/>
@@ -3395,7 +3395,7 @@
       
       <set attributeName="visibility"
            to="hidden"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
     </use>
@@ -3404,7 +3404,7 @@
                values="0;1;1;0"
                keyTimes="0;0.03;0.97;1"
                dur="7.80s"
-               begin="4.80s"
+               begin="4.40s"
                repeatCount="1"
                fill="freeze"/>
     </g>
@@ -3426,14 +3426,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="29.75"
                to="-970.25"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3455,14 +3455,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="29.75"
                to="-970.25"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3484,14 +3484,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="50.25"
                to="-949.75"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3513,14 +3513,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="50.25"
                to="-949.75"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3542,14 +3542,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="76.90"
                to="-923.10"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3571,14 +3571,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="76.90"
                to="-923.10"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3600,14 +3600,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="107.65"
                to="-892.35"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3629,14 +3629,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="107.65"
                to="-892.35"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3658,14 +3658,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="140.45"
                to="-859.55"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3687,14 +3687,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="140.45"
                to="-859.55"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3716,14 +3716,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="173.25"
                to="-826.75"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3745,14 +3745,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="173.25"
                to="-826.75"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3774,14 +3774,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="199.90"
                to="-800.10"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3803,14 +3803,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="199.90"
                to="-800.10"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3832,14 +3832,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="220.40"
                to="-779.60"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3861,14 +3861,14 @@
 
       <set attributeName="visibility"
            to="visible"
-           begin="12.600s"
+           begin="12.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
                from="220.40"
                to="-779.60"
                dur="30.500s"
-               begin="12.600s"
+               begin="12.200s"
                calcMode="linear"
                repeatCount="indefinite"
                fill="freeze"/>
@@ -3880,7 +3880,7 @@
                values="0;1"
                keyTimes="0;1"
                dur="0.01s"
-               begin="12.60s"
+               begin="12.20s"
                repeatCount="1"
                fill="freeze"/>
     </g>
@@ -3889,7 +3889,7 @@
       <use href="#bikeRed"/>
 
       <animateMotion dur="7.8s"
-                     begin="4.80s"
+                     begin="4.40s"
                      repeatCount="1"
                      fill="freeze"
                      rotate="auto"
@@ -3898,7 +3898,7 @@
       </animateMotion>
 
       <animateMotion dur="30.5s"
-                     begin="12.60s"
+                     begin="12.20s"
                      repeatCount="indefinite"
                      rotate="auto"
                      calcMode="linear">
