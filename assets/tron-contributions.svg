@@ -1342,7 +1342,7 @@
   <g id="currentDateFlash">
     
     <rect class="eatFlash"
-          x="403.16" y="305.19"
+          x="403.16" y="334.90"
           width="16.48" height="16.48"
           rx="3.4"
           fill="none"
@@ -1772,12 +1772,12 @@
        own visible stroke. -->
   <defs>
     <path id="blueEntryRoute"
-          d="M 46.00 44.00 L 46.00 496.00 L 1013.00 496.00 L 1013.00 416.00 L 948.00 416.00 L 948.00 328.29"
+          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1005.86 409.00 L 955.14 359.29 Q 948.00 352.29 948.00 342.29 L 948.00 328.29"
           pathLength="1000"
           fill="none"/>
 
     <path id="redEntryRoute"
-          d="M 46.00 44.00 L 46.00 496.00 L 1013.00 496.00 L 1013.00 416.00 L 948.00 416.00 L 948.00 328.29"
+          d="M 60.00 44.00 L 60.00 489.00 Q 60.00 499.00 70.00 499.00 L 1003.00 499.00 Q 1013.00 499.00 1013.00 489.00 L 1013.00 426.00 Q 1013.00 416.00 1005.86 409.00 L 955.14 359.29 Q 948.00 352.29 948.00 342.29 L 948.00 328.29"
           pathLength="1000"
           fill="none"/>
 
@@ -2836,7 +2836,7 @@
                      repeatCount="1"
                      fill="freeze"
                      rotate="auto"
-                     calcMode="linear">
+                     calcMode="paced">
         <mpath href="#blueEntryRoute"/>
       </animateMotion>
 
@@ -2844,7 +2844,7 @@
                      begin="7.20s"
                      repeatCount="indefinite"
                      rotate="auto"
-                     calcMode="linear">
+                     calcMode="paced">
         <mpath href="#blueLoopRoute"/>
       </animateMotion>
     </g>
@@ -3893,7 +3893,7 @@
                      repeatCount="1"
                      fill="freeze"
                      rotate="auto"
-                     calcMode="linear">
+                     calcMode="paced">
         <mpath href="#redEntryRoute"/>
       </animateMotion>
 
@@ -3901,7 +3901,7 @@
                      begin="15.20s"
                      repeatCount="indefinite"
                      rotate="auto"
-                     calcMode="linear">
+                     calcMode="paced">
         <mpath href="#redLoopRoute"/>
       </animateMotion>
     </g>
