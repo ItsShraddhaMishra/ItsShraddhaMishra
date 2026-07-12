@@ -1557,25 +1557,7 @@
           stroke-width="0.8"
           filter="url(#redGlow)"/>
 
-    <rect x="1096" y="522"
-          width="12" height="12"
-          rx="3"
-          fill="#ff7a00"
-          stroke="#ff7a00"
-          stroke-opacity="0.55"
-          stroke-width="0.8"
-          filter="url(#redGlow)"/>
-
-    <rect x="1114" y="522"
-          width="12" height="12"
-          rx="3"
-          fill="#7900aa"
-          stroke="#ff7a00"
-          stroke-opacity="0.55"
-          stroke-width="0.8"
-          filter="url(#redGlow)"/>
-
-    <text x="1140" y="532"
+    <text x="1104" y="532"
           font-family="JetBrains Mono, Consolas, monospace"
           font-size="11"
           fill="#dddddd">More</text>
