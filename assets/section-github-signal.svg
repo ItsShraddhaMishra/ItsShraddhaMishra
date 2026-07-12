@@ -189,7 +189,23 @@
       </feMerge>
     </filter>
 
+    <filter id="violetGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softVioletGlow" x="-20%" y="-80%" width="140%" height="260%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -225,6 +241,16 @@
   <path class="edge" d="M1074 38H1172" stroke="#ff7a00" stroke-width="3" filter="url(#softGlow)"/>
 
   <g class="pulse">
-    <text x="600" y="48" text-anchor="middle" font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif" font-size="30" font-weight="900" letter-spacing="4" fill="#ff1e1e" filter="url(#redGlow)">GIT SIGNAL</text>
+    <g class="tron-ares-paths" fill="#ff1e1e" filter="url(#redGlow)">
+  <path d="M452.745 35.25V43.5H474.465V39.75H460.995V35.25H479.325V48.0H452.385Q447.885 48.0 447.885 43.5V35.25ZM447.885 31.5Q447.885 27.0 452.385 27.0H479.325V31.5Z"/>
+  <path d="M487.34499999999997 27.0H492.205V48.0H487.34499999999997Z"/>
+  <path d="M510.635 31.5H498.935V27.0H527.1949999999999V31.5H515.495V48.0H510.635Z"/>
+  <path d="M557.425 39.75Q552.925 39.75 552.925 35.25H579.865Q584.365 35.25 584.365 39.75V43.5Q584.365 48.0 579.865 48.0H552.925V43.5H579.505V39.75ZM552.925 31.5Q552.925 27.0 557.425 27.0H584.365V31.5Z"/>
+  <path d="M592.385 27.0H597.245V48.0H592.385Z"/>
+  <path d="M610.125 35.25V43.5H631.845V39.75H618.375V35.25H636.705V48.0H609.765Q605.265 48.0 605.265 43.5V35.25ZM605.265 31.5Q605.265 27.0 609.765 27.0H636.705V31.5Z"/>
+  <path d="M644.725 26.85 671.3050000000001 40.32V27.0H676.1650000000001V48.15L649.585 34.95V48.0H644.725Z"/>
+  <path d="M698.7650000000001 27.0H703.6850000000001L719.7950000000001 48.0H713.735L710.855 44.1H695.9150000000001L699.2450000000001 39.6H707.5250000000001L701.225 31.080000000000002L688.715 48.0H682.6550000000001Z"/>
+  <path d="M731.1450000000001 27.0V43.5H752.9250000000001V48.0H726.2850000000001V27.0Z"/>
+</g>
   </g>
 </svg>

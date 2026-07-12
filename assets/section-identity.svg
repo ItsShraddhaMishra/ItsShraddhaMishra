@@ -189,7 +189,23 @@
       </feMerge>
     </filter>
 
+    <filter id="violetGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softVioletGlow" x="-20%" y="-80%" width="140%" height="260%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -221,10 +237,23 @@
   <rect x="8" y="8" width="1184" height="60" rx="8" fill="url(#bar)" stroke="#b026ff" stroke-width="2"/>
   <rect x="8" y="8" width="1184" height="60" rx="8" fill="none" stroke="#b026ff" stroke-opacity="0.28" stroke-width="1"/>
 
-  <path class="edge" d="M28 38H126" stroke="#b026ff" stroke-width="3" filter="url(#softGlow)"/>
-  <path class="edge" d="M1074 38H1172" stroke="#b026ff" stroke-width="3" filter="url(#softGlow)"/>
+  <path class="edge" d="M28 38H126" stroke="#b026ff" stroke-width="3" filter="url(#softVioletGlow)"/>
+  <path class="edge" d="M1074 38H1172" stroke="#b026ff" stroke-width="3" filter="url(#softVioletGlow)"/>
 
   <g class="pulse">
-    <text x="600" y="48" text-anchor="middle" font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif" font-size="30" font-weight="900" letter-spacing="4" fill="#d86cff" filter="url(#redGlow)">IDENTITY GRID</text>
+    <g class="tron-ares-paths" fill="#d86cff" filter="url(#violetGlow)">
+  <path d="M403.725 27.0H408.58500000000004V48.0H403.725Z"/>
+  <path d="M416.605 31.5V27.0H443.545Q448.045 27.0 448.045 31.5V43.5Q448.045 48.0 443.545 48.0H416.605V35.25H421.46500000000003V43.5H443.185V31.5Z"/>
+  <path d="M479.705 35.25V39.75H460.925V43.5H486.305V48.0H456.065V35.25ZM456.065 31.5V27.0H486.305V31.5Z"/>
+  <path d="M493.875 26.85 520.455 40.32V27.0H525.315V48.15L498.735 34.95V48.0H493.875Z"/>
+  <path d="M543.745 31.5H532.0450000000001V27.0H560.3050000000001V31.5H548.605V48.0H543.745Z"/>
+  <path d="M567.0350000000001 27.0H571.8950000000001V48.0H567.0350000000001Z"/>
+  <path d="M590.325 31.5H578.6250000000001V27.0H606.8850000000001V31.5H595.1850000000001V48.0H590.325Z"/>
+  <path d="M619.2850000000001 27.0 629.8150000000002 36.96 640.3450000000001 27.0H647.5450000000001L632.2450000000001 40.83V48.0H627.3850000000001V40.83L612.0850000000002 27.0Z"/>
+  <path d="M677.8950000000001 35.25V43.5H699.6150000000001V39.75H686.1450000000001V35.25H704.4750000000001V48.0H677.5350000000001Q673.0350000000001 48.0 673.0350000000001 43.5V35.25ZM673.0350000000001 31.5Q673.0350000000001 27.0 677.5350000000001 27.0H704.4750000000001V31.5Z"/>
+  <path d="M743.9350000000002 35.25Q743.9350000000002 39.75 739.4350000000002 39.75H735.3550000000001L744.2350000000001 48.0H738.0550000000002L729.1750000000002 39.75H717.3550000000001V48.0H712.4950000000001V35.25ZM712.4950000000001 31.5V27.0H739.4350000000002Q743.9350000000002 27.0 743.9350000000002 31.5Z"/>
+  <path d="M751.9550000000002 27.0H756.8150000000002V48.0H751.9550000000002Z"/>
+  <path d="M764.8350000000002 31.5V27.0H791.7750000000002Q796.2750000000002 27.0 796.2750000000002 31.5V43.5Q796.2750000000002 48.0 791.7750000000002 48.0H764.8350000000002V35.25H769.6950000000002V43.5H791.4150000000002V31.5Z"/>
+</g>
   </g>
 </svg>

@@ -189,7 +189,23 @@
       </feMerge>
     </filter>
 
+    <filter id="violetGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softVioletGlow" x="-20%" y="-80%" width="140%" height="260%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -225,6 +241,14 @@
   <path class="edge" d="M1074 38H1172" stroke="#ff7a00" stroke-width="3" filter="url(#softGlow)"/>
 
   <g class="pulse">
-    <text x="600" y="48" text-anchor="middle" font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif" font-size="30" font-weight="900" letter-spacing="4" fill="#ff1e1e" filter="url(#redGlow)">CONTACT</text>
+    <g class="tron-ares-paths" fill="#ff1e1e" filter="url(#redGlow)">
+  <path d="M476.70000000000005 43.5H502.08000000000004V48.0H476.34000000000003Q471.84000000000003 48.0 471.84000000000003 43.5V35.25H476.70000000000005ZM471.84000000000003 31.5Q471.84000000000003 27.0 476.34000000000003 27.0H502.08000000000004V31.5Z"/>
+  <path d="M509.8 31.5Q509.8 27.0 514.3000000000001 27.0H536.74Q541.24 27.0 541.24 31.5V43.5Q541.24 48.0 536.74 48.0H514.3000000000001Q509.8 48.0 509.8 43.5V35.25H514.66V43.5H536.38V31.5Z"/>
+  <path d="M549.26 26.85 575.84 40.32V27.0H580.7V48.15L554.12 34.95V48.0H549.26Z"/>
+  <path d="M599.13 31.5H587.4300000000001V27.0H615.69V31.5H603.99V48.0H599.13Z"/>
+  <path d="M637.0000000000001 27.0H641.9200000000001L658.0300000000001 48.0H651.97L649.09 44.1H634.1500000000001L637.4800000000001 39.6H645.7600000000001L639.46 31.080000000000002L626.95 48.0H620.8900000000001Z"/>
+  <path d="M669.3800000000001 43.5H694.7600000000001V48.0H669.0200000000001Q664.5200000000001 48.0 664.5200000000001 43.5V35.25H669.3800000000001ZM664.5200000000001 31.5Q664.5200000000001 27.0 669.0200000000001 27.0H694.7600000000001V31.5Z"/>
+  <path d="M712.8900000000001 31.5H701.1900000000002V27.0H729.4500000000002V31.5H717.7500000000001V48.0H712.8900000000001Z"/>
+</g>
   </g>
 </svg>

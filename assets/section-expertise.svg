@@ -189,7 +189,23 @@
       </feMerge>
     </filter>
 
+    <filter id="violetGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
     <filter id="softGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softVioletGlow" x="-20%" y="-80%" width="140%" height="260%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -225,6 +241,16 @@
   <path class="edge" d="M1074 38H1172" stroke="#ff7a00" stroke-width="3" filter="url(#softGlow)"/>
 
   <g class="pulse">
-    <text x="600" y="48" text-anchor="middle" font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif" font-size="30" font-weight="900" letter-spacing="4" fill="#ff1e1e" filter="url(#redGlow)">EXPERTISE</text>
+    <g class="tron-ares-paths" fill="#ff1e1e" filter="url(#redGlow)">
+  <path d="M468.455 35.25V39.75H449.675V43.5H475.055V48.0H444.815V35.25ZM444.815 31.5V27.0H475.055V31.5Z"/>
+  <path d="M494.865 37.5 481.095 27.0H488.595L498.615 34.65L508.635 27.0H516.135L502.365 37.5L516.135 48.0H508.635L498.615 40.35L488.595 48.0H481.095Z"/>
+  <path d="M554.065 35.25Q554.065 39.75 549.565 39.75H527.485V48.0H522.625V35.25ZM522.625 31.5V27.0H549.565Q554.065 27.0 554.065 31.5Z"/>
+  <path d="M585.725 35.25V39.75H566.945V43.5H592.325V48.0H562.085V35.25ZM562.085 31.5V27.0H592.325V31.5Z"/>
+  <path d="M631.335 35.25Q631.335 39.75 626.835 39.75H622.755L631.635 48.0H625.455L616.575 39.75H604.755V48.0H599.895V35.25ZM599.895 31.5V27.0H626.835Q631.335 27.0 631.335 31.5Z"/>
+  <path d="M649.765 31.5H638.065V27.0H666.325V31.5H654.625V48.0H649.765Z"/>
+  <path d="M673.0550000000001 27.0H677.9150000000001V48.0H673.0550000000001Z"/>
+  <path d="M690.4350000000001 39.75Q685.9350000000001 39.75 685.9350000000001 35.25H712.8750000000001Q717.3750000000001 35.25 717.3750000000001 39.75V43.5Q717.3750000000001 48.0 712.8750000000001 48.0H685.9350000000001V43.5H712.5150000000001V39.75ZM685.9350000000001 31.5Q685.9350000000001 27.0 690.4350000000001 27.0H717.3750000000001V31.5Z"/>
+  <path d="M749.0350000000001 35.25V39.75H730.2550000000001V43.5H755.6350000000001V48.0H725.3950000000001V35.25ZM725.3950000000001 31.5V27.0H755.6350000000001V31.5Z"/>
+</g>
   </g>
 </svg>
