@@ -1588,16 +1588,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.766 992.234"
-         stroke-dashoffset="11.319"
+         stroke-dashoffset="13.687"
          opacity="0.420"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.172s"
+           begin="0.208s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="11.319;-463.456;-988.681"
+               values="13.687;-461.088;-986.313"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1629,16 +1629,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.766 992.234"
-         stroke-dashoffset="11.319"
+         stroke-dashoffset="13.687"
          opacity="0.470"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.172s"
+           begin="0.208s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="11.319;-463.456;-988.681"
+               values="13.687;-461.088;-986.313"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1670,16 +1670,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.766 992.234"
-         stroke-dashoffset="11.319"
+         stroke-dashoffset="13.687"
          opacity="1.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.172s"
+           begin="0.208s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="11.319;-463.456;-988.681"
+               values="13.687;-461.088;-986.313"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1711,16 +1711,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.809 990.191"
-         stroke-dashoffset="18.128"
+         stroke-dashoffset="20.497"
          opacity="0.280"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.275s"
+           begin="0.311s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="18.128;-456.647;-981.872"
+               values="20.497;-454.278;-979.503"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1752,16 +1752,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.809 990.191"
-         stroke-dashoffset="18.128"
+         stroke-dashoffset="20.497"
          opacity="0.451"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.275s"
+           begin="0.311s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="18.128;-456.647;-981.872"
+               values="20.497;-454.278;-979.503"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1793,16 +1793,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.809 990.191"
-         stroke-dashoffset="18.128"
+         stroke-dashoffset="20.497"
          opacity="0.960"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.275s"
+           begin="0.311s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="18.128;-456.647;-981.872"
+               values="20.497;-454.278;-979.503"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1834,16 +1834,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.852 988.148"
-         stroke-dashoffset="26.980"
+         stroke-dashoffset="29.348"
          opacity="0.140"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.409s"
+           begin="0.445s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="26.980;-447.795;-973.020"
+               values="29.348;-445.426;-970.652"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1875,16 +1875,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.852 988.148"
-         stroke-dashoffset="26.980"
+         stroke-dashoffset="29.348"
          opacity="0.414"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.409s"
+           begin="0.445s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="26.980;-447.795;-973.020"
+               values="29.348;-445.426;-970.652"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1916,16 +1916,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.852 988.148"
-         stroke-dashoffset="26.980"
+         stroke-dashoffset="29.348"
          opacity="0.880"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.409s"
+           begin="0.445s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="26.980;-447.795;-973.020"
+               values="29.348;-445.426;-970.652"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1957,16 +1957,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.214 986.786"
-         stroke-dashoffset="37.194"
+         stroke-dashoffset="39.562"
          opacity="0.228"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.564s"
+           begin="0.600s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="37.194;-437.581;-962.806"
+               values="39.562;-435.213;-960.438"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -1998,16 +1998,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.214 986.786"
-         stroke-dashoffset="37.194"
+         stroke-dashoffset="39.562"
          opacity="0.760"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.564s"
+           begin="0.600s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="37.194;-437.581;-962.806"
+               values="39.562;-435.213;-960.438"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2039,16 +2039,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.895 986.105"
-         stroke-dashoffset="48.088"
+         stroke-dashoffset="50.457"
          opacity="0.183"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.729s"
+           begin="0.765s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="48.088;-426.686;-951.912"
+               values="50.457;-424.318;-949.543"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2080,16 +2080,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.895 986.105"
-         stroke-dashoffset="48.088"
+         stroke-dashoffset="50.457"
          opacity="0.610"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.729s"
+           begin="0.765s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="48.088;-426.686;-951.912"
+               values="50.457;-424.318;-949.543"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2121,16 +2121,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.895 986.105"
-         stroke-dashoffset="58.983"
+         stroke-dashoffset="61.352"
          opacity="0.135"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.894s"
+           begin="0.930s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="58.983;-415.792;-941.017"
+               values="61.352;-413.423;-938.648"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2162,16 +2162,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="13.895 986.105"
-         stroke-dashoffset="58.983"
+         stroke-dashoffset="61.352"
          opacity="0.450"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="0.894s"
+           begin="0.930s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="58.983;-415.792;-941.017"
+               values="61.352;-413.423;-938.648"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2203,16 +2203,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.852 988.148"
-         stroke-dashoffset="67.835"
+         stroke-dashoffset="70.203"
          opacity="0.050"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
            to="visible"
-           begin="1.029s"
+           begin="1.065s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="67.835;-406.940;-932.165"
+               values="70.203;-404.571;-929.797"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2244,16 +2244,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.852 988.148"
-         stroke-dashoffset="67.835"
+         stroke-dashoffset="70.203"
          opacity="0.280"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="1.029s"
+           begin="1.065s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="67.835;-406.940;-932.165"
+               values="70.203;-404.571;-929.797"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2285,16 +2285,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.809 990.191"
-         stroke-dashoffset="74.644"
+         stroke-dashoffset="77.013"
          opacity="0.018"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
            to="visible"
-           begin="1.132s"
+           begin="1.168s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="74.644;-400.131;-925.356"
+               values="77.013;-397.762;-922.987"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2326,16 +2326,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.809 990.191"
-         stroke-dashoffset="74.644"
+         stroke-dashoffset="77.013"
          opacity="0.100"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="1.132s"
+           begin="1.168s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="74.644;-400.131;-925.356"
+               values="77.013;-397.762;-922.987"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="0.000s"
@@ -2368,7 +2368,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.075 987.925"
-         stroke-dashoffset="18.839"
+         stroke-dashoffset="23.348"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -2377,8 +2377,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="18.839"
-               to="-981.161"
+               from="23.348"
+               to="-976.652"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2404,7 +2404,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.075 987.925"
-         stroke-dashoffset="18.839"
+         stroke-dashoffset="23.348"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2413,8 +2413,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="18.839"
-               to="-981.161"
+               from="23.348"
+               to="-976.652"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2440,7 +2440,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.075 987.925"
-         stroke-dashoffset="18.839"
+         stroke-dashoffset="23.348"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -2449,8 +2449,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="18.839"
-               to="-981.161"
+               from="23.348"
+               to="-976.652"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2476,7 +2476,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.964 984.036"
-         stroke-dashoffset="31.803"
+         stroke-dashoffset="36.313"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -2485,8 +2485,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="31.803"
-               to="-968.197"
+               from="36.313"
+               to="-963.687"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2512,7 +2512,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.964 984.036"
-         stroke-dashoffset="31.803"
+         stroke-dashoffset="36.313"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2521,8 +2521,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="31.803"
-               to="-968.197"
+               from="36.313"
+               to="-963.687"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2548,7 +2548,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.964 984.036"
-         stroke-dashoffset="31.803"
+         stroke-dashoffset="36.313"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -2557,8 +2557,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="31.803"
-               to="-968.197"
+               from="36.313"
+               to="-963.687"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2584,7 +2584,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="19.854 980.146"
-         stroke-dashoffset="48.657"
+         stroke-dashoffset="53.166"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -2593,8 +2593,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="48.657"
-               to="-951.343"
+               from="53.166"
+               to="-946.834"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2620,7 +2620,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="19.854 980.146"
-         stroke-dashoffset="48.657"
+         stroke-dashoffset="53.166"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2629,8 +2629,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="48.657"
-               to="-951.343"
+               from="53.166"
+               to="-946.834"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2656,7 +2656,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="19.854 980.146"
-         stroke-dashoffset="48.657"
+         stroke-dashoffset="53.166"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -2665,8 +2665,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="48.657"
-               to="-951.343"
+               from="53.166"
+               to="-946.834"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2692,7 +2692,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="22.446 977.554"
-         stroke-dashoffset="68.103"
+         stroke-dashoffset="72.612"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2701,8 +2701,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="68.103"
-               to="-931.897"
+               from="72.612"
+               to="-927.388"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2728,7 +2728,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="22.446 977.554"
-         stroke-dashoffset="68.103"
+         stroke-dashoffset="72.612"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2737,8 +2737,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="68.103"
-               to="-931.897"
+               from="72.612"
+               to="-927.388"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2764,7 +2764,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="23.743 976.257"
-         stroke-dashoffset="88.846"
+         stroke-dashoffset="93.355"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2773,8 +2773,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="88.846"
-               to="-911.154"
+               from="93.355"
+               to="-906.645"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2800,7 +2800,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="23.743 976.257"
-         stroke-dashoffset="88.846"
+         stroke-dashoffset="93.355"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2809,8 +2809,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="88.846"
-               to="-911.154"
+               from="93.355"
+               to="-906.645"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2836,7 +2836,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="23.743 976.257"
-         stroke-dashoffset="109.589"
+         stroke-dashoffset="114.098"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2845,8 +2845,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="109.589"
-               to="-890.411"
+               from="114.098"
+               to="-885.902"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2872,7 +2872,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="23.743 976.257"
-         stroke-dashoffset="109.589"
+         stroke-dashoffset="114.098"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2881,8 +2881,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="109.589"
-               to="-890.411"
+               from="114.098"
+               to="-885.902"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2908,7 +2908,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="19.854 980.146"
-         stroke-dashoffset="126.442"
+         stroke-dashoffset="130.952"
          opacity="0.000"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
@@ -2917,8 +2917,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="126.442"
-               to="-873.558"
+               from="130.952"
+               to="-869.048"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2944,7 +2944,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="19.854 980.146"
-         stroke-dashoffset="126.442"
+         stroke-dashoffset="130.952"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -2953,8 +2953,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="126.442"
-               to="-873.558"
+               from="130.952"
+               to="-869.048"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -2980,7 +2980,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.964 984.036"
-         stroke-dashoffset="139.407"
+         stroke-dashoffset="143.916"
          opacity="0.000"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
@@ -2989,8 +2989,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="139.407"
-               to="-860.593"
+               from="143.916"
+               to="-856.084"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -3016,7 +3016,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.964 984.036"
-         stroke-dashoffset="139.407"
+         stroke-dashoffset="143.916"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -3025,8 +3025,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="139.407"
-               to="-860.593"
+               from="143.916"
+               to="-856.084"
                dur="30.500s"
                begin="blueIntroMotion.end"
                calcMode="linear"
@@ -3095,16 +3095,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.248 992.752"
-         stroke-dashoffset="10.801"
+         stroke-dashoffset="13.169"
          opacity="0.420"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.164s"
+           begin="8.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="10.801;-463.974;-989.199"
+               values="13.169;-461.606;-986.831"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3136,16 +3136,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.248 992.752"
-         stroke-dashoffset="10.801"
+         stroke-dashoffset="13.169"
          opacity="0.470"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.164s"
+           begin="8.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="10.801;-463.974;-989.199"
+               values="13.169;-461.606;-986.831"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3177,16 +3177,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="7.248 992.752"
-         stroke-dashoffset="10.801"
+         stroke-dashoffset="13.169"
          opacity="1.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.164s"
+           begin="8.200s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="10.801;-463.974;-989.199"
+               values="13.169;-461.606;-986.831"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3218,16 +3218,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.069 990.931"
-         stroke-dashoffset="16.870"
+         stroke-dashoffset="19.238"
          opacity="0.280"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.256s"
+           begin="8.292s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="16.870;-457.905;-983.130"
+               values="19.238;-455.537;-980.762"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3259,16 +3259,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.069 990.931"
-         stroke-dashoffset="16.870"
+         stroke-dashoffset="19.238"
          opacity="0.451"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.256s"
+           begin="8.292s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="16.870;-457.905;-983.130"
+               values="19.238;-455.537;-980.762"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3300,16 +3300,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.069 990.931"
-         stroke-dashoffset="16.870"
+         stroke-dashoffset="19.238"
          opacity="0.960"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.256s"
+           begin="8.292s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="16.870;-457.905;-983.130"
+               values="19.238;-455.537;-980.762"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3341,16 +3341,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="10.890 989.110"
-         stroke-dashoffset="24.760"
+         stroke-dashoffset="27.128"
          opacity="0.140"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.375s"
+           begin="8.411s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="24.760;-450.015;-975.240"
+               values="27.128;-447.647;-972.872"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3382,16 +3382,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="10.890 989.110"
-         stroke-dashoffset="24.760"
+         stroke-dashoffset="27.128"
          opacity="0.414"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.375s"
+           begin="8.411s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="24.760;-450.015;-975.240"
+               values="27.128;-447.647;-972.872"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3423,16 +3423,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="10.890 989.110"
-         stroke-dashoffset="24.760"
+         stroke-dashoffset="27.128"
          opacity="0.880"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.375s"
+           begin="8.411s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="24.760;-450.015;-975.240"
+               values="27.128;-447.647;-972.872"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3464,16 +3464,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.104 987.896"
-         stroke-dashoffset="33.863"
+         stroke-dashoffset="36.232"
          opacity="0.228"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.514s"
+           begin="8.549s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="33.863;-440.912;-966.137"
+               values="36.232;-438.543;-963.768"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3505,16 +3505,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.104 987.896"
-         stroke-dashoffset="33.863"
+         stroke-dashoffset="36.232"
          opacity="0.760"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.514s"
+           begin="8.549s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="33.863;-440.912;-966.137"
+               values="36.232;-438.543;-963.768"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3546,16 +3546,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.710 987.290"
-         stroke-dashoffset="43.574"
+         stroke-dashoffset="45.942"
          opacity="0.183"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.661s"
+           begin="8.697s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="43.574;-431.201;-956.426"
+               values="45.942;-428.833;-954.058"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3587,16 +3587,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.710 987.290"
-         stroke-dashoffset="43.574"
+         stroke-dashoffset="45.942"
          opacity="0.610"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.661s"
+           begin="8.697s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="43.574;-431.201;-956.426"
+               values="45.942;-428.833;-954.058"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3628,16 +3628,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.710 987.290"
-         stroke-dashoffset="53.284"
+         stroke-dashoffset="55.653"
          opacity="0.135"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.808s"
+           begin="8.844s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="53.284;-421.491;-946.716"
+               values="55.653;-419.122;-944.347"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3669,16 +3669,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="12.710 987.290"
-         stroke-dashoffset="53.284"
+         stroke-dashoffset="55.653"
          opacity="0.450"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.808s"
+           begin="8.844s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="53.284;-421.491;-946.716"
+               values="55.653;-419.122;-944.347"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3710,16 +3710,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="10.890 989.110"
-         stroke-dashoffset="61.174"
+         stroke-dashoffset="63.542"
          opacity="0.050"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.928s"
+           begin="8.964s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="61.174;-413.601;-938.826"
+               values="63.542;-411.233;-936.458"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3751,16 +3751,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="10.890 989.110"
-         stroke-dashoffset="61.174"
+         stroke-dashoffset="63.542"
          opacity="0.280"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="8.928s"
+           begin="8.964s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="61.174;-413.601;-938.826"
+               values="63.542;-411.233;-936.458"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3792,16 +3792,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.069 990.931"
-         stroke-dashoffset="67.243"
+         stroke-dashoffset="69.611"
          opacity="0.018"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
            to="visible"
-           begin="9.020s"
+           begin="9.056s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="67.243;-407.532;-932.757"
+               values="69.611;-405.164;-930.389"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3833,16 +3833,16 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="9.069 990.931"
-         stroke-dashoffset="67.243"
+         stroke-dashoffset="69.611"
          opacity="0.100"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
            to="visible"
-           begin="9.020s"
+           begin="9.056s"
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               values="67.243;-407.532;-932.757"
+               values="69.611;-405.164;-930.389"
                keyTimes="0.000000000;0.190981432;1.000000000"
                dur="37.700s"
                begin="8.000s"
@@ -3875,7 +3875,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.089 988.911"
-         stroke-dashoffset="17.853"
+         stroke-dashoffset="22.362"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -3884,8 +3884,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="17.853"
-               to="-982.147"
+               from="22.362"
+               to="-977.638"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -3911,7 +3911,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.089 988.911"
-         stroke-dashoffset="17.853"
+         stroke-dashoffset="22.362"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -3920,8 +3920,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="17.853"
-               to="-982.147"
+               from="22.362"
+               to="-977.638"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -3947,7 +3947,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="11.089 988.911"
-         stroke-dashoffset="17.853"
+         stroke-dashoffset="22.362"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -3956,8 +3956,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="17.853"
-               to="-982.147"
+               from="22.362"
+               to="-977.638"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -3983,7 +3983,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="14.555 985.445"
-         stroke-dashoffset="29.408"
+         stroke-dashoffset="33.917"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -3992,8 +3992,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="29.408"
-               to="-970.592"
+               from="33.917"
+               to="-966.083"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4019,7 +4019,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="14.555 985.445"
-         stroke-dashoffset="29.408"
+         stroke-dashoffset="33.917"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4028,8 +4028,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="29.408"
-               to="-970.592"
+               from="33.917"
+               to="-966.083"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4055,7 +4055,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="14.555 985.445"
-         stroke-dashoffset="29.408"
+         stroke-dashoffset="33.917"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -4064,8 +4064,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="29.408"
-               to="-970.592"
+               from="33.917"
+               to="-966.083"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4091,7 +4091,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="18.022 981.978"
-         stroke-dashoffset="44.429"
+         stroke-dashoffset="48.939"
          opacity="0.000"
          filter="url(#trailBlaze)">
       <set attributeName="visibility"
@@ -4100,8 +4100,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="44.429"
-               to="-955.571"
+               from="48.939"
+               to="-951.061"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4127,7 +4127,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="18.022 981.978"
-         stroke-dashoffset="44.429"
+         stroke-dashoffset="48.939"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4136,8 +4136,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="44.429"
-               to="-955.571"
+               from="48.939"
+               to="-951.061"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4163,7 +4163,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="18.022 981.978"
-         stroke-dashoffset="44.429"
+         stroke-dashoffset="48.939"
          opacity="0.000"
          filter="url(#trailCoreGlow)">
       <set attributeName="visibility"
@@ -4172,8 +4172,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="44.429"
-               to="-955.571"
+               from="48.939"
+               to="-951.061"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4199,7 +4199,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="20.333 979.667"
-         stroke-dashoffset="61.762"
+         stroke-dashoffset="66.271"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4208,8 +4208,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="61.762"
-               to="-938.238"
+               from="66.271"
+               to="-933.729"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4235,7 +4235,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="20.333 979.667"
-         stroke-dashoffset="61.762"
+         stroke-dashoffset="66.271"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4244,8 +4244,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="61.762"
-               to="-938.238"
+               from="66.271"
+               to="-933.729"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4271,7 +4271,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="21.488 978.512"
-         stroke-dashoffset="80.250"
+         stroke-dashoffset="84.759"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4280,8 +4280,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="80.250"
-               to="-919.750"
+               from="84.759"
+               to="-915.241"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4307,7 +4307,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="21.488 978.512"
-         stroke-dashoffset="80.250"
+         stroke-dashoffset="84.759"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4316,8 +4316,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="80.250"
-               to="-919.750"
+               from="84.759"
+               to="-915.241"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4343,7 +4343,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="21.488 978.512"
-         stroke-dashoffset="98.738"
+         stroke-dashoffset="103.248"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4352,8 +4352,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="98.738"
-               to="-901.262"
+               from="103.248"
+               to="-896.752"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4379,7 +4379,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="21.488 978.512"
-         stroke-dashoffset="98.738"
+         stroke-dashoffset="103.248"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4388,8 +4388,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="98.738"
-               to="-901.262"
+               from="103.248"
+               to="-896.752"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4415,7 +4415,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="18.022 981.978"
-         stroke-dashoffset="113.760"
+         stroke-dashoffset="118.269"
          opacity="0.000"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
@@ -4424,8 +4424,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="113.760"
-               to="-886.240"
+               from="118.269"
+               to="-881.731"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4451,7 +4451,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="18.022 981.978"
-         stroke-dashoffset="113.760"
+         stroke-dashoffset="118.269"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4460,8 +4460,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="113.760"
-               to="-886.240"
+               from="118.269"
+               to="-881.731"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4487,7 +4487,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="14.555 985.445"
-         stroke-dashoffset="125.315"
+         stroke-dashoffset="129.824"
          opacity="0.000"
          filter="url(#trailBloom)">
       <set attributeName="visibility"
@@ -4496,8 +4496,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="125.315"
-               to="-874.685"
+               from="129.824"
+               to="-870.176"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
@@ -4523,7 +4523,7 @@
          stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="14.555 985.445"
-         stroke-dashoffset="125.315"
+         stroke-dashoffset="129.824"
          opacity="0.000"
          filter="url(#trailGlow)">
       <set attributeName="visibility"
@@ -4532,8 +4532,8 @@
            fill="freeze"/>
 
       <animate attributeName="stroke-dashoffset"
-               from="125.315"
-               to="-874.685"
+               from="129.824"
+               to="-870.176"
                dur="30.500s"
                begin="redIntroMotion.end"
                calcMode="linear"
