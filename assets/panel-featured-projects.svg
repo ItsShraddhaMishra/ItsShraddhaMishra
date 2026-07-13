@@ -1859,11 +1859,11 @@
         x="600" y="1810"
         text-anchor="middle"
         font-family="JetBrains Mono, Consolas, monospace"
-        font-size="14"
+        font-size="18"
         font-weight="900"
         letter-spacing="3"
         fill="#ff7a00"
-        stroke="#050505"
+        stroke="#ff7a00"
         stroke-width="0.7"
         filter="url(##ffb347)">
     RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
