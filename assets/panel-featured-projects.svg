@@ -344,7 +344,7 @@
        LARGE FEATURED PROJECTS CONTAINER
        ================================================================ -->
 
-  <rect x="54" y="42"
+  <rect x="54" y="49"
         width="1092" height="830"
         rx="24"
         fill="#050505"
@@ -353,7 +353,7 @@
         stroke-width="2.8"
         filter="url(#softRedGlow)"/>
 
-  <rect x="74" y="62"
+  <rect x="74" y="69"
         width="1052" height="790"
         rx="17"
         fill="#1a0400"
@@ -363,8 +363,8 @@
         stroke-opacity="0.72"/>
 
   <!-- custom corner geometry: no make_corner_geometry() dependency -->
-  <path d="M 82 120
-           V 72
+  <path d="M 82 127
+           V 79
            H 166"
         fill="none"
         stroke="#ff3131"
@@ -373,9 +373,9 @@
         stroke-linejoin="round"
         filter="url(#redGlow)"/>
 
-  <path d="M 1034 72
+  <path d="M 1034 79
            H 1118
-           V 120"
+           V 127"
         fill="none"
         stroke="#ff7a00"
         stroke-width="2.6"
@@ -383,8 +383,8 @@
         stroke-linejoin="round"
         filter="url(#redGlow)"/>
 
-  <path d="M 82 794
-           V 842
+  <path d="M 82 801
+           V 849
            H 166"
         fill="none"
         stroke="#ff7a00"
@@ -393,9 +393,9 @@
         stroke-linejoin="round"
         filter="url(#redGlow)"/>
 
-  <path d="M 1034 842
+  <path d="M 1034 849
            H 1118
-           V 794"
+           V 801"
         fill="none"
         stroke="#ff3131"
         stroke-width="2.6"
@@ -427,7 +427,7 @@
 
   <!-- moving scan bar -->
   <rect class="projectScan"
-        x="-300" y="126"
+        x="-300" y="133"
         width="280" height="710"
         fill="#ff7a00"
         fill-opacity="0.055"/>
