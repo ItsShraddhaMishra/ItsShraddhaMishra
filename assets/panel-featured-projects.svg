@@ -1,0 +1,705 @@
+<svg
+    width="1200"
+    height="540"
+    viewBox="0 0 1200 540"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-label="Featured Projects Panel">
+
+  
+  <defs>
+    <linearGradient id="featuredProjectsPanel_bg" x1="0" y1="0" x2="1200" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020202"/>
+      <stop offset="0.45" stop-color="#110000"/>
+      <stop offset="0.78" stop-color="#2d0000"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <radialGradient id="featuredProjectsPanel_wheelGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#ff3131" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="featuredProjectsPanel_wheelGlow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#ff7a00" stop-opacity="0.15"/>
+      <stop offset="0.65" stop-color="#ff7a00" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#ff7a00" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="featuredProjectsPanel_grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#5d0a0a" stroke-width="1" opacity="0.45"/>
+    </pattern>
+
+    <linearGradient id="featuredProjectsPanel_scanLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ff3131" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="featuredProjectsPanel_glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="featuredProjectsPanel_softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .featuredProjectsPanel_scan {
+      animation: featuredProjectsPanel_scanMove 4.8s linear infinite;
+    }
+
+    .featuredProjectsPanel_pulse {
+      animation: featuredProjectsPanel_pulse 2.8s ease-in-out infinite alternate;
+    }
+
+    .featuredProjectsPanel_pulseSlow {
+      animation: featuredProjectsPanel_pulseSlow 5.2s ease-in-out infinite alternate;
+    }
+
+    .featuredProjectsPanel_spinCW {
+      transform-origin: 936px 226px;
+      animation: featuredProjectsPanel_spinCW 16s linear infinite;
+    }
+
+    .featuredProjectsPanel_spinCCW {
+      transform-origin: 936px 226px;
+      animation: featuredProjectsPanel_spinCCW 22s linear infinite;
+    }
+
+    .featuredProjectsPanel_spinLeft {
+      transform-origin: 216px 378px;
+      animation: featuredProjectsPanel_spinLeft 18s linear infinite;
+    }
+
+    .featuredProjectsPanel_dash {
+      stroke-dasharray: 14 12;
+      animation: featuredProjectsPanel_dashMove 4s linear infinite;
+    }
+
+    .featuredProjectsPanel_float {
+      animation: featuredProjectsPanel_float 6s ease-in-out infinite alternate;
+    }
+
+    @keyframes featuredProjectsPanel_scanMove {
+      0%   { transform: translateY(-60px); opacity: 0; }
+      12%  { opacity: 0.9; }
+      50%  { opacity: 0.5; }
+      100% { transform: translateY(620px); opacity: 0; }
+    }
+
+    @keyframes featuredProjectsPanel_pulse {
+      0%   { opacity: 0.45; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes featuredProjectsPanel_pulseSlow {
+      0%   { opacity: 0.18; }
+      100% { opacity: 0.52; }
+    }
+
+    @keyframes featuredProjectsPanel_spinCW {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    @keyframes featuredProjectsPanel_spinCCW {
+      from { transform: rotate(360deg); }
+      to   { transform: rotate(0deg); }
+    }
+
+    @keyframes featuredProjectsPanel_spinLeft {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(-360deg); }
+    }
+
+    @keyframes featuredProjectsPanel_dashMove {
+      to { stroke-dashoffset: -120; }
+    }
+
+    @keyframes featuredProjectsPanel_float {
+      0%   { transform: translateX(-12px); opacity: 0.55; }
+      100% { transform: translateX(12px); opacity: 0.95; }
+    }
+  </style>
+
+  <rect width="1200" height="540" fill="url(#featuredProjectsPanel_bg)"/>
+  <rect width="1200" height="540" fill="url(#featuredProjectsPanel_grid)" opacity="0.72"/>
+
+  <rect class="featuredProjectsPanel_scan" x="0" y="0" width="1200" height="22" fill="url(#featuredProjectsPanel_scanLine)" opacity="0.75"/>
+
+  <!-- ambient glow fields -->
+  <circle class="featuredProjectsPanel_pulseSlow" cx="936" cy="226" r="194" fill="url(#featuredProjectsPanel_wheelGlow)"/>
+  <circle class="featuredProjectsPanel_pulseSlow" cx="216" cy="378" r="75" fill="url(#featuredProjectsPanel_wheelGlow2)"/>
+
+  <!-- main wheel -->
+  <g class="featuredProjectsPanel_spinCW" opacity="0.18">
+    <circle cx="936" cy="226" r="97" fill="none" stroke="#ff3131" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="936" cy="226" r="145" fill="none" stroke="#ff7a00" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="936" cy="226" r="194" fill="none" stroke="#ff3131" stroke-width="1.5" opacity="0.7" filter="url(#featuredProjectsPanel_softGlow)"/>
+
+    <line x1="742" y1="226" x2="1130" y2="226" stroke="#ff3131" stroke-width="1.5" opacity="0.6"/>
+    <line x1="936" y1="32" x2="936" y2="420" stroke="#ff7a00" stroke-width="1.5" opacity="0.6"/>
+    <line x1="791" y1="81" x2="1081" y2="371" stroke="#ff3131" stroke-width="1.2" opacity="0.45"/>
+    <line x1="791" y1="371" x2="1081" y2="81" stroke="#ff7a00" stroke-width="1.2" opacity="0.45"/>
+  </g>
+
+  <!-- counter-rotating wheel segments -->
+  <g class="featuredProjectsPanel_spinCCW" opacity="0.18">
+    <path d="M 791 226 A 145 145 0 0 1 936 81" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 936 81 A 145 145 0 0 1 1081 226" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 1081 226 A 145 145 0 0 1 936 371" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 936 371 A 145 145 0 0 1 791 226" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+  </g>
+
+  <!-- secondary left wheel -->
+  <g class="featuredProjectsPanel_spinLeft" opacity="0.18">
+    <circle cx="216" cy="378" r="75" fill="none" stroke="#ff7a00" stroke-width="1.8" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="216" cy="378" r="46" fill="none" stroke="#ff3131" stroke-width="1.3" filter="url(#featuredProjectsPanel_glow)"/>
+    <line x1="141" y1="378" x2="291" y2="378" stroke="#ff7a00" stroke-width="1"/>
+    <line x1="216" y1="303" x2="216" y2="453" stroke="#ff3131" stroke-width="1"/>
+  </g>
+
+  <!-- horizon / laser terrain -->
+  <path class="featuredProjectsPanel_pulse" d="M0 432 C 180 378 264 475 432 421 C 660 351 804 464 983 410 C 1104 378 1164 405 1200 367 V 540 H 0 Z"
+        fill="#ff3131" opacity="0.10"/>
+
+  <path class="featuredProjectsPanel_dash" d="M0 453 C 216 388 312 496 480 437 C 696 361 864 480 1056 426 C 1140 399 1176 388 1200 378"
+        fill="none" stroke="#ff3131" stroke-width="2.4" opacity="0.95" filter="url(#featuredProjectsPanel_glow)"/>
+
+  <line class="featuredProjectsPanel_float" x1="96" y1="97" x2="1104" y2="97" stroke="#ff3131" stroke-width="1.8" opacity="0.65" filter="url(#featuredProjectsPanel_glow)"/>
+  <line class="featuredProjectsPanel_float" x1="192" y1="388" x2="1008" y2="388" stroke="#ff7a00" stroke-width="1.6" opacity="0.55"/>
+
+
+  
+  <defs>
+
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softRedGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3131"/>
+      <stop offset="0.45" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.35" stop-color="#ff3131"/>
+      <stop offset="0.72" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
+    </linearGradient>
+
+  </defs>
+
+
+  
+  <style>
+    .panelPulse {
+      animation: panelPulse 3.8s ease-in-out infinite alternate;
+    }
+
+    .lineFlow {
+      stroke-dasharray: 24 18;
+      animation: lineFlow 4.8s linear infinite;
+    }
+
+    .softFloat {
+      animation: softFloat 6.8s ease-in-out infinite alternate;
+    }
+
+    .fadeIn1 {
+      animation: fadeIn 1.2s ease-out both;
+    }
+
+    .fadeIn2 {
+      animation: fadeIn 1.2s ease-out 0.25s both;
+    }
+
+    .fadeIn3 {
+      animation: fadeIn 1.2s ease-out 0.45s both;
+    }
+
+    .fadeIn4 {
+      animation: fadeIn 1.2s ease-out 0.65s both;
+    }
+
+    .fadeIn5 {
+      animation: fadeIn 1.2s ease-out 0.85s both;
+    }
+
+    .fadeIn6 {
+      animation: fadeIn 1.2s ease-out 1.05s both;
+    }
+
+    .fadeIn7 {
+      animation: fadeIn 1.2s ease-out 1.25s both;
+    }
+
+    @keyframes panelPulse {
+      0%   { opacity: 0.72; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes lineFlow {
+      to { stroke-dashoffset: -180; }
+    }
+
+    @keyframes softFloat {
+      0%   { transform: translateY(-3px); opacity: 0.72; }
+      100% { transform: translateY(3px); opacity: 1; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+
+
+  <style>
+    .projectScan {
+      animation: projectScan 5.4s linear infinite;
+    }
+
+    .projectPulse {
+      animation: projectPulse 3.2s ease-in-out infinite alternate;
+    }
+
+    @keyframes projectScan {
+      0% {
+        transform: translateX(-340px);
+        opacity: 0;
+      }
+
+      35% {
+        opacity: 0.16;
+      }
+
+      100% {
+        transform: translateX(1400px);
+        opacity: 0;
+      }
+    }
+
+    @keyframes projectPulse {
+      0% {
+        opacity: 0.72;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+
+  <g>
+    
+  <!-- glass panel -->
+  <rect x="72" y="48" width="1056" height="318" rx="22"
+        fill="#050505" fill-opacity="0.80"
+        stroke="url(#panelBorder)" stroke-width="2.5"
+        filter="url(#softRedGlow)"/>
+
+  <rect x="96" y="74" width="1008" height="266" rx="16"
+        fill="#1a0400" fill-opacity="0.42"
+        stroke="#ff1e1e" stroke-width="1"
+        stroke-opacity="0.90"/>
+
+
+    
+  <!-- corner geometry -->
+  <path class="lineFlow" d="M112 112 H270" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 112 H1088" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M112 306 H270" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
+  <path class="lineFlow" d="M930 306 H1088" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
+
+
+    <text x="600" y="72"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="13"
+          font-weight="900"
+          letter-spacing="4"
+          fill="#ff7a00">
+      FEATURED PROJECT SYSTEMS
+    </text>
+
+    <rect class="projectScan"
+          x="-260" y="88"
+          width="260" height="390"
+          fill="#ff3131"
+          fill-opacity="0.06"/>
+
+    <g class="projectPulse">
+      
+    <g class="fadeIn1">
+      <rect x="110" y="112"
+            width="480" height="164"
+            rx="15"
+            fill="#050505"
+            fill-opacity="0.84"
+            stroke="#ff1e1e"
+            stroke-width="1.2"
+            stroke-opacity="0.76"
+            filter="url(#softRedGlow)"/>
+
+      <rect x="124" y="126"
+            width="452" height="136"
+            rx="10"
+            fill="#1a0400"
+            fill-opacity="0.38"
+            stroke="#ff3131"
+            stroke-width="0.8"
+            stroke-opacity="0.28"/>
+
+      <text x="138" y="150"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11"
+            font-weight="900"
+            letter-spacing="2"
+            fill="#ff7a00">
+        PROJECT 01
+      </text>
+
+      <text x="562" y="150"
+            text-anchor="end"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.2"
+            fill="#ff3131">
+        ACTIVE RESEARCH
+      </text>
+
+      <text x="138" y="180"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="18"
+            font-weight="900"
+            letter-spacing="1.5"
+            fill="#ffffff"
+            filter="url(#redGlow)">
+        TRACEFLOW
+      </text>
+
+      <foreignObject x="138" y="192"
+                     width="424" height="48">
+        <div xmlns="http://www.w3.org/1999/xhtml"
+             style="
+               color: #dddddd;
+               font-family: JetBrains Mono, Consolas, monospace;
+               font-size: 12px;
+               font-weight: 500;
+               line-height: 1.45;
+             ">
+          An extensible framework for reproducible deep-learning side-channel analysis, experiment automation, evaluation, ranking, and reporting.
+        </div>
+      </foreignObject>
+
+      <text x="138" y="256"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.1"
+            fill="#ff7a00">
+        DEEP LEARNING · SCA · MLOPS
+      </text>
+
+      <line x1="494"
+            y1="254"
+            x2="562"
+            y2="254"
+            stroke="#ff3131"
+            stroke-width="2"
+            stroke-linecap="round"
+            filter="url(#redGlow)"/>
+    </g>
+
+
+    <g class="fadeIn2">
+      <rect x="610" y="112"
+            width="480" height="164"
+            rx="15"
+            fill="#050505"
+            fill-opacity="0.84"
+            stroke="#ff1e1e"
+            stroke-width="1.2"
+            stroke-opacity="0.76"
+            filter="url(#softRedGlow)"/>
+
+      <rect x="624" y="126"
+            width="452" height="136"
+            rx="10"
+            fill="#1a0400"
+            fill-opacity="0.38"
+            stroke="#ff3131"
+            stroke-width="0.8"
+            stroke-opacity="0.28"/>
+
+      <text x="638" y="150"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11"
+            font-weight="900"
+            letter-spacing="2"
+            fill="#ff7a00">
+        PROJECT 02
+      </text>
+
+      <text x="1062" y="150"
+            text-anchor="end"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.2"
+            fill="#ff3131">
+        PUBLISHED RESEARCH
+      </text>
+
+      <text x="638" y="180"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="18"
+            font-weight="900"
+            letter-spacing="1.5"
+            fill="#ffffff"
+            filter="url(#redGlow)">
+        QSURFNET
+      </text>
+
+      <foreignObject x="638" y="192"
+                     width="424" height="48">
+        <div xmlns="http://www.w3.org/1999/xhtml"
+             style="
+               color: #dddddd;
+               font-family: JetBrains Mono, Consolas, monospace;
+               font-size: 12px;
+               font-weight: 500;
+               line-height: 1.45;
+             ">
+          A machine-learning research system developed for robust surface-based analysis, reproducible experimentation, and scientific evaluation.
+        </div>
+      </foreignObject>
+
+      <text x="638" y="256"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.1"
+            fill="#ff7a00">
+        MACHINE LEARNING · RESEARCH
+      </text>
+
+      <line x1="994"
+            y1="254"
+            x2="1062"
+            y2="254"
+            stroke="#ff3131"
+            stroke-width="2"
+            stroke-linecap="round"
+            filter="url(#redGlow)"/>
+    </g>
+
+
+    <g class="fadeIn3">
+      <rect x="110" y="302"
+            width="480" height="164"
+            rx="15"
+            fill="#050505"
+            fill-opacity="0.84"
+            stroke="#ff1e1e"
+            stroke-width="1.2"
+            stroke-opacity="0.76"
+            filter="url(#softRedGlow)"/>
+
+      <rect x="124" y="316"
+            width="452" height="136"
+            rx="10"
+            fill="#1a0400"
+            fill-opacity="0.38"
+            stroke="#ff3131"
+            stroke-width="0.8"
+            stroke-opacity="0.28"/>
+
+      <text x="138" y="340"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11"
+            font-weight="900"
+            letter-spacing="2"
+            fill="#ff7a00">
+        PROJECT 03
+      </text>
+
+      <text x="562" y="340"
+            text-anchor="end"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.2"
+            fill="#ff3131">
+        LIVE AUTOMATION
+      </text>
+
+      <text x="138" y="370"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="18"
+            font-weight="900"
+            letter-spacing="1.5"
+            fill="#ffffff"
+            filter="url(#redGlow)">
+        GITHUB PROFILE SYSTEM
+      </text>
+
+      <foreignObject x="138" y="382"
+                     width="424" height="48">
+        <div xmlns="http://www.w3.org/1999/xhtml"
+             style="
+               color: #dddddd;
+               font-family: JetBrains Mono, Consolas, monospace;
+               font-size: 12px;
+               font-weight: 500;
+               line-height: 1.45;
+             ">
+          A private generator pipeline that builds, validates, and publishes animated TRON-themed SVG assets and contribution visualizations.
+        </div>
+      </foreignObject>
+
+      <text x="138" y="446"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.1"
+            fill="#ff7a00">
+        PYTHON · SVG · GITHUB ACTIONS
+      </text>
+
+      <line x1="494"
+            y1="444"
+            x2="562"
+            y2="444"
+            stroke="#ff3131"
+            stroke-width="2"
+            stroke-linecap="round"
+            filter="url(#redGlow)"/>
+    </g>
+
+
+    <g class="fadeIn4">
+      <rect x="610" y="302"
+            width="480" height="164"
+            rx="15"
+            fill="#050505"
+            fill-opacity="0.84"
+            stroke="#ff1e1e"
+            stroke-width="1.2"
+            stroke-opacity="0.76"
+            filter="url(#softRedGlow)"/>
+
+      <rect x="624" y="316"
+            width="452" height="136"
+            rx="10"
+            fill="#1a0400"
+            fill-opacity="0.38"
+            stroke="#ff3131"
+            stroke-width="0.8"
+            stroke-opacity="0.28"/>
+
+      <text x="638" y="340"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11"
+            font-weight="900"
+            letter-spacing="2"
+            fill="#ff7a00">
+        PROJECT 04
+      </text>
+
+      <text x="1062" y="340"
+            text-anchor="end"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.2"
+            fill="#ff3131">
+        LIVE SYSTEM
+      </text>
+
+      <text x="638" y="370"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="18"
+            font-weight="900"
+            letter-spacing="1.5"
+            fill="#ffffff"
+            filter="url(#redGlow)">
+        DIGITAL CV
+      </text>
+
+      <foreignObject x="638" y="382"
+                     width="424" height="48">
+        <div xmlns="http://www.w3.org/1999/xhtml"
+             style="
+               color: #dddddd;
+               font-family: JetBrains Mono, Consolas, monospace;
+               font-size: 12px;
+               font-weight: 500;
+               line-height: 1.45;
+             ">
+          A responsive personal research portfolio designed as a structured interface between technical work, publications, and professional identity.
+        </div>
+      </foreignObject>
+
+      <text x="638" y="446"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="9.5"
+            font-weight="800"
+            letter-spacing="1.1"
+            fill="#ff7a00">
+        WEB SYSTEM · UI · AUTOMATION
+      </text>
+
+      <line x1="994"
+            y1="444"
+            x2="1062"
+            y2="444"
+            stroke="#ff3131"
+            stroke-width="2"
+            stroke-linecap="round"
+            filter="url(#redGlow)"/>
+    </g>
+
+    </g>
+
+    <text class="softFloat"
+          x="600" y="510"
+          text-anchor="middle"
+          font-family="JetBrains Mono, Consolas, monospace"
+          font-size="14"
+          font-weight="900"
+          letter-spacing="3"
+          fill="#ff7a00">
+      RESEARCH · INFRASTRUCTURE · AUTOMATION · PERMANENCE
+    </text>
+  </g>
+</svg>
