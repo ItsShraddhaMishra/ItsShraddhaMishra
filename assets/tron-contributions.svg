@@ -586,9 +586,9 @@
     <rect x="405.16" y="188.33"
           width="12.48" height="12.48"
           rx="2.4"
-          fill="#710b09"
-          fill-opacity="0.78"
-          stroke="#710b09"
+          fill="#4a0706"
+          fill-opacity="0.62"
+          stroke="#4a0706"
           stroke-opacity="0.84"
           stroke-width="0.9"
           filter="url(#gridCellGlow)">
@@ -730,7 +730,7 @@
           stroke-opacity="0.84"
           stroke-width="0.9"
           filter="url(#gridCellGlow)">
-      <title>2026-07-13: 9 contributions</title>
+      <title>2026-07-13: 11 contributions</title>
     </rect>
 
     <text x="578.86"
