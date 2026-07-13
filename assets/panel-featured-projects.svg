@@ -131,7 +131,7 @@
         font-weight="800"
         letter-spacing="3"
         fill="#b8b8b8">
-    QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION · WEB UIUX
+    QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION
   </text>
 
   
@@ -956,7 +956,7 @@
         fill="#ff7a00"
         stroke="#050505"
         stroke-width="0.7"
-        filter="url(#redGlow)">
+        filter="url(#softRedGlow)">
     RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
   </text>
 </svg>
