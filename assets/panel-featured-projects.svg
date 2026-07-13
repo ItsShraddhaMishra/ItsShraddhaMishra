@@ -956,7 +956,7 @@
         fill="#ff7a00"
         stroke="#050505"
         stroke-width="0.7"
-        filter="url(#softRedGlow)">
+        filter="url(#redGlow)">
     RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
   </text>
 </svg>
