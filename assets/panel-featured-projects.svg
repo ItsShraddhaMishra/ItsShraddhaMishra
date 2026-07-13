@@ -2,7 +2,7 @@
   
   <defs>
 
-    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="redGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -10,7 +10,7 @@
       </feMerge>
     </filter>
 
-    <filter id="softBlueGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <filter id="softRedGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -20,16 +20,16 @@
 
 
     <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="1840" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00e5ff"/>
-      <stop offset="0.45" stop-color="#00aaff"/>
-      <stop offset="1" stop-color="#66f7ff"/>
+      <stop offset="0" stop-color="#ff3131"/>
+      <stop offset="0.45" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
     </linearGradient>
 
     <linearGradient id="titleGrad" x1="250" y1="0" x2="950" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.35" stop-color="#00e5ff"/>
-      <stop offset="0.72" stop-color="#00aaff"/>
-      <stop offset="1" stop-color="#66f7ff"/>
+      <stop offset="0.35" stop-color="#ff3131"/>
+      <stop offset="0.72" stop-color="#ff1e1e"/>
+      <stop offset="1" stop-color="#ff7a00"/>
     </linearGradient>
 
   </defs>
@@ -112,7 +112,7 @@
   </style>
 
   <rect x="0" y="0" width="1200" height="1840"
-        fill="#020814"
+        fill="#050505"
         fill-opacity="0"/>
 
   <text class="fadeIn1 panelPulse" x="600" y="58" text-anchor="middle"
@@ -121,7 +121,7 @@
         font-weight="900"
         letter-spacing="5"
         fill="url(#titleGrad)"
-        filter="url(#blueGlow)">
+        filter="url(#redGlow)">
     R&amp;D CONTRIBUTIONS
   </text>
 
@@ -130,24 +130,24 @@
         font-size="13"
         font-weight="800"
         letter-spacing="3"
-        fill="#b8d8e8">
+        fill="#b8b8b8">
     QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION
   </text>
 
   
     <g class="fadeIn1">
       <rect x="120" y="112" width="960" height="390" rx="20"
-            fill="#061827"
+            fill="#1a0400"
             fill-opacity="0.72"
-            stroke="#00e5ff"
+            stroke="#ff3131"
             stroke-width="1.9"
             stroke-opacity="0.90"
-            filter="url(#softBlueGlow)"/>
+            filter="url(#softRedGlow)"/>
 
       <rect x="136" y="128" width="928" height="358" rx="14"
-            fill="#020814"
+            fill="#050505"
             fill-opacity="0.62"
-            stroke="#00aaff"
+            stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
@@ -156,8 +156,8 @@
             font-size="25"
             font-weight="900"
             letter-spacing="3.2"
-            fill="#00e5ff"
-            filter="url(#blueGlow)">
+            fill="#ff3131"
+            filter="url(#redGlow)">
         TraceFlow
       </text>
 
@@ -166,7 +166,7 @@
             font-size="13"
             font-weight="900"
             letter-spacing="1.2"
-            fill="#66f7ff">
+            fill="#ff7a00">
         Research Infrastructure · Deep Learning · Side-Channel Analysis
       </text>
 
@@ -174,28 +174,28 @@
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
             font-weight="600"
-            fill="#d8f7ff">
+            fill="#dddddd">
         Extensible framework for reproducible DLSCA experiments.
       </text>
 
       <path class="lineFlow"
             d="M158 206 H1042"
-            stroke="#66f7ff"
+            stroke="#ff7a00"
             stroke-width="2"
             stroke-opacity="0.75"
-            filter="url(#blueGlow)"/>
+            filter="url(#redGlow)"/>
 
       
       <g class="fadeIn2">
         <circle cx="162" cy="247" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="247" x2="202" y2="247"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="252"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -208,14 +208,14 @@
 
       <g class="fadeIn3">
         <circle cx="162" cy="278" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="278" x2="202" y2="278"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="283"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -228,14 +228,14 @@
 
       <g class="fadeIn4">
         <circle cx="162" cy="309" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="309" x2="202" y2="309"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="314"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -248,14 +248,14 @@
 
       <g class="fadeIn5">
         <circle cx="162" cy="340" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="340" x2="202" y2="340"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="345"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -268,14 +268,14 @@
 
       <g class="fadeIn6">
         <circle cx="162" cy="371" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="371" x2="202" y2="371"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="376"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -291,10 +291,10 @@
       <g class="chipFade">
         <rect x="158" y="444" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="204.0" y="463" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -308,10 +308,10 @@
       <g class="chipFade">
         <rect x="266" y="444" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="312.0" y="463" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -325,10 +325,10 @@
       <g class="chipFade">
         <rect x="374" y="444" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="420.0" y="463" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -345,17 +345,17 @@
   
     <g class="fadeIn2">
       <rect x="120" y="530" width="960" height="390" rx="20"
-            fill="#061827"
+            fill="#1a0400"
             fill-opacity="0.72"
-            stroke="#00e5ff"
+            stroke="#ff3131"
             stroke-width="1.9"
             stroke-opacity="0.90"
-            filter="url(#softBlueGlow)"/>
+            filter="url(#softRedGlow)"/>
 
       <rect x="136" y="546" width="928" height="358" rx="14"
-            fill="#020814"
+            fill="#050505"
             fill-opacity="0.62"
-            stroke="#00aaff"
+            stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
@@ -364,8 +364,8 @@
             font-size="25"
             font-weight="900"
             letter-spacing="3.2"
-            fill="#00e5ff"
-            filter="url(#blueGlow)">
+            fill="#ff3131"
+            filter="url(#redGlow)">
         QSurfNet
       </text>
 
@@ -374,7 +374,7 @@
             font-size="13"
             font-weight="900"
             letter-spacing="1.2"
-            fill="#66f7ff">
+            fill="#ff7a00">
         Master's Thesis · Quantum Machine Learning
       </text>
 
@@ -382,28 +382,28 @@
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
             font-weight="600"
-            fill="#d8f7ff">
+            fill="#dddddd">
         Research project from my Master's thesis at Tamkang University.
       </text>
 
       <path class="lineFlow"
             d="M158 624 H1042"
-            stroke="#66f7ff"
+            stroke="#ff7a00"
             stroke-width="2"
             stroke-opacity="0.75"
-            filter="url(#blueGlow)"/>
+            filter="url(#redGlow)"/>
 
       
       <g class="fadeIn2">
         <circle cx="162" cy="665" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="665" x2="202" y2="665"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="670"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -416,14 +416,14 @@
 
       <g class="fadeIn3">
         <circle cx="162" cy="696" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="696" x2="202" y2="696"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="701"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -436,14 +436,14 @@
 
       <g class="fadeIn4">
         <circle cx="162" cy="727" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="727" x2="202" y2="727"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="732"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -456,14 +456,14 @@
 
       <g class="fadeIn5">
         <circle cx="162" cy="758" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="758" x2="202" y2="758"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="763"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -479,10 +479,10 @@
       <g class="chipFade">
         <rect x="158" y="862" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="204.0" y="881" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -496,10 +496,10 @@
       <g class="chipFade">
         <rect x="266" y="862" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="312.0" y="881" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -510,23 +510,40 @@
         </text>
       </g>
 
+      <g class="chipFade">
+        <rect x="374" y="862" width="92" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#ff3131"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#redGlow)"/>
+
+        <text x="420.0" y="881" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          quple
+        </text>
+      </g>
+
     </g>
 
 
   
     <g class="fadeIn3">
       <rect x="120" y="948" width="960" height="390" rx="20"
-            fill="#061827"
+            fill="#1a0400"
             fill-opacity="0.72"
-            stroke="#00e5ff"
+            stroke="#ff3131"
             stroke-width="1.9"
             stroke-opacity="0.90"
-            filter="url(#softBlueGlow)"/>
+            filter="url(#softRedGlow)"/>
 
       <rect x="136" y="964" width="928" height="358" rx="14"
-            fill="#020814"
+            fill="#050505"
             fill-opacity="0.62"
-            stroke="#00aaff"
+            stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
@@ -535,8 +552,8 @@
             font-size="25"
             font-weight="900"
             letter-spacing="3.2"
-            fill="#00e5ff"
-            filter="url(#blueGlow)">
+            fill="#ff3131"
+            filter="url(#redGlow)">
         GitHub Profile System
       </text>
 
@@ -545,7 +562,7 @@
             font-size="13"
             font-weight="900"
             letter-spacing="1.2"
-            fill="#66f7ff">
+            fill="#ff7a00">
         Automated Profile · TRON SVG · GitHub Actions
       </text>
 
@@ -553,28 +570,28 @@
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
             font-weight="600"
-            fill="#d8f7ff">
+            fill="#dddddd">
         A programmable GitHub profile generated through a private automation system.
       </text>
 
       <path class="lineFlow"
             d="M158 1042 H1042"
-            stroke="#66f7ff"
+            stroke="#ff7a00"
             stroke-width="2"
             stroke-opacity="0.75"
-            filter="url(#blueGlow)"/>
+            filter="url(#redGlow)"/>
 
       
       <g class="fadeIn2">
         <circle cx="162" cy="1083" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1083" x2="202" y2="1083"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1088"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -587,34 +604,34 @@
 
       <g class="fadeIn3">
         <circle cx="162" cy="1114" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1114" x2="202" y2="1114"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1119"
               font-family="JetBrains Mono, Consolas, monospace"
               font-size="14.5"
               font-weight="600"
               fill="#ffffff">
-          Custom contribution grid with light-bike animation
+          Custom contribution grid with Tron Bike with Blazing trail animation
         </text>
       </g>
 
       <g class="fadeIn4">
         <circle cx="162" cy="1145" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1145" x2="202" y2="1145"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1150"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -627,14 +644,14 @@
 
       <g class="fadeIn5">
         <circle cx="162" cy="1176" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1176" x2="202" y2="1176"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1181"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -647,14 +664,14 @@
 
       <g class="fadeIn6">
         <circle cx="162" cy="1207" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1207" x2="202" y2="1207"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1212"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -670,10 +687,10 @@
       <g class="chipFade">
         <rect x="158" y="1280" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="204.0" y="1299" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -685,29 +702,29 @@
       </g>
 
       <g class="chipFade">
-        <rect x="266" y="1280" width="92" height="28" rx="7"
+        <rect x="266" y="1280" width="138" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
-        <text x="312.0" y="1299" text-anchor="middle"
+        <text x="335.0" y="1299" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
               font-size="12"
               font-weight="900"
               fill="#FF3131">
-          SVG
+          Vector Graphics
         </text>
       </g>
 
       <g class="chipFade">
         <rect x="374" y="1280" width="130" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="439.0" y="1299" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -718,23 +735,40 @@
         </text>
       </g>
 
+      <g class="chipFade">
+        <rect x="482" y="1280" width="98" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#ff3131"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#redGlow)"/>
+
+        <text x="531.0" y="1299" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          Automation
+        </text>
+      </g>
+
     </g>
 
 
   
     <g class="fadeIn4">
       <rect x="120" y="1366" width="960" height="390" rx="20"
-            fill="#061827"
+            fill="#1a0400"
             fill-opacity="0.72"
-            stroke="#00e5ff"
+            stroke="#ff3131"
             stroke-width="1.9"
             stroke-opacity="0.90"
-            filter="url(#softBlueGlow)"/>
+            filter="url(#softRedGlow)"/>
 
       <rect x="136" y="1382" width="928" height="358" rx="14"
-            fill="#020814"
+            fill="#050505"
             fill-opacity="0.62"
-            stroke="#00aaff"
+            stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
@@ -743,8 +777,8 @@
             font-size="25"
             font-weight="900"
             letter-spacing="3.2"
-            fill="#00e5ff"
-            filter="url(#blueGlow)">
+            fill="#ff3131"
+            filter="url(#redGlow)">
         Digital CV
       </text>
 
@@ -753,7 +787,7 @@
             font-size="13"
             font-weight="900"
             letter-spacing="1.2"
-            fill="#66f7ff">
+            fill="#ff7a00">
         Research Portfolio · Web Interface · GitHub Pages
       </text>
 
@@ -761,28 +795,28 @@
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
             font-weight="600"
-            fill="#d8f7ff">
+            fill="#dddddd">
         A responsive portfolio presenting my research, systems work, and professional identity.
       </text>
 
       <path class="lineFlow"
             d="M158 1460 H1042"
-            stroke="#66f7ff"
+            stroke="#ff7a00"
             stroke-width="2"
             stroke-opacity="0.75"
-            filter="url(#blueGlow)"/>
+            filter="url(#redGlow)"/>
 
       
       <g class="fadeIn2">
         <circle cx="162" cy="1501" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1501" x2="202" y2="1501"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1506"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -795,14 +829,14 @@
 
       <g class="fadeIn3">
         <circle cx="162" cy="1532" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1532" x2="202" y2="1532"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1537"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -815,14 +849,14 @@
 
       <g class="fadeIn4">
         <circle cx="162" cy="1563" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1563" x2="202" y2="1563"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1568"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -835,14 +869,14 @@
 
       <g class="fadeIn5">
         <circle cx="162" cy="1594" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1594" x2="202" y2="1594"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1599"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -855,14 +889,14 @@
 
       <g class="fadeIn6">
         <circle cx="162" cy="1625" r="4.2"
-                fill="#00e5ff"
-                filter="url(#blueGlow)"/>
+                fill="#ff3131"
+                filter="url(#redGlow)"/>
 
         <line x1="173" y1="1625" x2="202" y2="1625"
-              stroke="#66f7ff"
+              stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="216" y="1630"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -878,10 +912,10 @@
       <g class="chipFade">
         <rect x="158" y="1698" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="204.0" y="1717" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -895,10 +929,10 @@
       <g class="chipFade">
         <rect x="266" y="1698" width="92" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
         <text x="312.0" y="1717" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
@@ -910,19 +944,36 @@
       </g>
 
       <g class="chipFade">
-        <rect x="374" y="1698" width="114" height="28" rx="7"
+        <rect x="374" y="1698" width="130" height="28" rx="7"
               fill="#0D1117"
-              stroke="#00e5ff"
+              stroke="#ff3131"
               stroke-width="1.1"
               stroke-opacity="0.85"
-              filter="url(#blueGlow)"/>
+              filter="url(#redGlow)"/>
 
-        <text x="431.0" y="1717" text-anchor="middle"
+        <text x="439.0" y="1717" text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
               font-size="12"
               font-weight="900"
               fill="#FF3131">
-          GitHub Pages
+          GitHub Actions
+        </text>
+      </g>
+
+      <g class="chipFade">
+        <rect x="482" y="1698" width="98" height="28" rx="7"
+              fill="#0D1117"
+              stroke="#ff3131"
+              stroke-width="1.1"
+              stroke-opacity="0.85"
+              filter="url(#redGlow)"/>
+
+        <text x="531.0" y="1717" text-anchor="middle"
+              font-family="JetBrains Mono, Consolas, monospace"
+              font-size="12"
+              font-weight="900"
+              fill="#FF3131">
+          Automation
         </text>
       </g>
 
@@ -936,10 +987,10 @@
         font-size="14"
         font-weight="900"
         letter-spacing="3"
-        fill="#66f7ff"
-        stroke="#020814"
+        fill="#ff7a00"
+        stroke="#050505"
         stroke-width="0.7"
-        filter="url(#softBlueGlow)">
+        filter="url(#softRedGlow)">
     RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
   </text>
 </svg>
