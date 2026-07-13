@@ -102,12 +102,26 @@
   <style>
     .chipFade {
       opacity: 0;
-      animation: chipFade 0.8s ease-out forwards;
+      animation: chipFade 0.75s ease-out forwards;
+      transform-box: fill-box;
+      transform-origin: center;
     }
 
     @keyframes chipFade {
-      from { opacity: 0; transform: translateY(8px); }
-      to   { opacity: 1; transform: translateY(0); }
+      0% {
+        opacity: 0;
+        transform: translateY(9px) scale(0.94);
+      }
+
+      70% {
+        opacity: 1;
+        transform: translateY(-1px) scale(1.02);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
     }
   </style>
 
@@ -131,12 +145,15 @@
         font-weight="800"
         letter-spacing="3"
         fill="#b8b8b8">
-    QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION
+    QUANTUM MACHINE LEARNING · SIDE CHANNEL ANALYSIS · COMPUTER VISION · WEB UIUX
   </text>
 
   
     <g class="fadeIn1">
-      <rect x="120" y="112" width="960" height="390" rx="20"
+      <!-- card shadow and body -->
+      <rect x="120" y="112"
+            width="960" height="390"
+            rx="20"
             fill="#1a0400"
             fill-opacity="0.72"
             stroke="#ff3131"
@@ -144,14 +161,81 @@
             stroke-opacity="0.90"
             filter="url(#softRedGlow)"/>
 
-      <rect x="136" y="128" width="928" height="358" rx="14"
+      <!-- inner glass surface -->
+      <rect x="136" y="128"
+            width="928" height="358"
+            rx="14"
             fill="#050505"
             fill-opacity="0.62"
             stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
-      <text x="600.0" y="160" text-anchor="middle"
+      <!-- faint continuous border glow -->
+      <rect x="122" y="114"
+            width="956" height="386"
+            rx="19"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="1.2"
+            stroke-opacity="0.24"
+            filter="url(#softRedGlow)">
+        <animate
+            attributeName="stroke-opacity"
+            values="0.18;0.48;0.18"
+            dur="3.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- main TRON energy rail -->
+      <rect x="122" y="114"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-dasharray="145 855"
+            stroke-opacity="0.95"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="5.2s"
+            repeatCount="indefinite"/>
+
+        <animate
+            attributeName="stroke-opacity"
+            values="0.42;1;0.42"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- faster bright energy spark -->
+      <rect x="122" y="114"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#E8FCFF"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dasharray="24 976"
+            stroke-opacity="1"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- title -->
+      <text x="600.0" y="160"
+            text-anchor="middle"
             font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
             font-size="25"
             font-weight="900"
@@ -161,7 +245,9 @@
         TraceFlow
       </text>
 
-      <text x="600.0" y="190" text-anchor="middle"
+      <!-- subtitle -->
+      <text x="600.0" y="190"
+            text-anchor="middle"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="13"
             font-weight="900"
@@ -170,6 +256,7 @@
         Research Infrastructure · Deep Learning · Side-Channel Analysis
       </text>
 
+      <!-- description -->
       <text x="158" y="224"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
@@ -178,6 +265,7 @@
         Extensible framework for reproducible DLSCA experiments.
       </text>
 
+      <!-- title divider -->
       <path class="lineFlow"
             d="M158 206 H1042"
             stroke="#ff7a00"
@@ -185,13 +273,35 @@
             stroke-opacity="0.75"
             filter="url(#redGlow)"/>
 
+      <!-- project bullets -->
       
       <g class="fadeIn2">
         <circle cx="162" cy="247" r="4.2"
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="247" x2="202" y2="247"
+        <circle cx="162" cy="247" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="247"
+              x2="202" y2="247"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -211,7 +321,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="278" x2="202" y2="278"
+        <circle cx="162" cy="278" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="278"
+              x2="202" y2="278"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -231,7 +362,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="309" x2="202" y2="309"
+        <circle cx="162" cy="309" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="309"
+              x2="202" y2="309"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -251,7 +403,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="340" x2="202" y2="340"
+        <circle cx="162" cy="340" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="340"
+              x2="202" y2="340"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -271,7 +444,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="371" x2="202" y2="371"
+        <circle cx="162" cy="371" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="371"
+              x2="202" y2="371"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -287,54 +481,103 @@
       </g>
 
 
+      <!-- automatically arranged badges -->
       
-      <g class="chipFade">
-        <rect x="158" y="444" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.00s">
+        <rect x="442.0" y="446.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="204.0" y="463" text-anchor="middle"
+        <rect x="445.0" y="449.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="490.0"
+              y="466.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Python
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="266" y="444" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.10s">
+        <rect x="552.0" y="446.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="312.0" y="463" text-anchor="middle"
+        <rect x="555.0" y="449.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="600.0"
+              y="466.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           PyTorch
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="374" y="444" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.20s">
+        <rect x="662.0" y="446.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="420.0" y="463" text-anchor="middle"
+        <rect x="665.0" y="449.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="710.0"
+              y="466.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           MLOps
         </text>
       </g>
@@ -344,7 +587,10 @@
 
   
     <g class="fadeIn2">
-      <rect x="120" y="530" width="960" height="390" rx="20"
+      <!-- card shadow and body -->
+      <rect x="120" y="530"
+            width="960" height="390"
+            rx="20"
             fill="#1a0400"
             fill-opacity="0.72"
             stroke="#ff3131"
@@ -352,14 +598,81 @@
             stroke-opacity="0.90"
             filter="url(#softRedGlow)"/>
 
-      <rect x="136" y="546" width="928" height="358" rx="14"
+      <!-- inner glass surface -->
+      <rect x="136" y="546"
+            width="928" height="358"
+            rx="14"
             fill="#050505"
             fill-opacity="0.62"
             stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
-      <text x="600.0" y="578" text-anchor="middle"
+      <!-- faint continuous border glow -->
+      <rect x="122" y="532"
+            width="956" height="386"
+            rx="19"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="1.2"
+            stroke-opacity="0.24"
+            filter="url(#softRedGlow)">
+        <animate
+            attributeName="stroke-opacity"
+            values="0.18;0.48;0.18"
+            dur="3.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- main TRON energy rail -->
+      <rect x="122" y="532"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-dasharray="145 855"
+            stroke-opacity="0.95"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="5.2s"
+            repeatCount="indefinite"/>
+
+        <animate
+            attributeName="stroke-opacity"
+            values="0.42;1;0.42"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- faster bright energy spark -->
+      <rect x="122" y="532"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#E8FCFF"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dasharray="24 976"
+            stroke-opacity="1"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- title -->
+      <text x="600.0" y="578"
+            text-anchor="middle"
             font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
             font-size="25"
             font-weight="900"
@@ -369,7 +682,9 @@
         QSurfNet
       </text>
 
-      <text x="600.0" y="608" text-anchor="middle"
+      <!-- subtitle -->
+      <text x="600.0" y="608"
+            text-anchor="middle"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="13"
             font-weight="900"
@@ -378,6 +693,7 @@
         Master's Thesis · Quantum Machine Learning
       </text>
 
+      <!-- description -->
       <text x="158" y="642"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
@@ -386,6 +702,7 @@
         Research project from my Master's thesis at Tamkang University.
       </text>
 
+      <!-- title divider -->
       <path class="lineFlow"
             d="M158 624 H1042"
             stroke="#ff7a00"
@@ -393,13 +710,35 @@
             stroke-opacity="0.75"
             filter="url(#redGlow)"/>
 
+      <!-- project bullets -->
       
       <g class="fadeIn2">
         <circle cx="162" cy="665" r="4.2"
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="665" x2="202" y2="665"
+        <circle cx="162" cy="665" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="665"
+              x2="202" y2="665"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -419,7 +758,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="696" x2="202" y2="696"
+        <circle cx="162" cy="696" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="696"
+              x2="202" y2="696"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -439,7 +799,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="727" x2="202" y2="727"
+        <circle cx="162" cy="727" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="727"
+              x2="202" y2="727"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -459,7 +840,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="758" x2="202" y2="758"
+        <circle cx="162" cy="758" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="758"
+              x2="202" y2="758"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -475,54 +877,103 @@
       </g>
 
 
+      <!-- automatically arranged badges -->
       
-      <g class="chipFade">
-        <rect x="158" y="862" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.00s">
+        <rect x="440.2" y="864.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="204.0" y="881" text-anchor="middle"
+        <rect x="443.2" y="867.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="488.2"
+              y="884.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Python
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="266" y="862" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.10s">
+        <rect x="550.2" y="864.0"
+              width="99.6" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="312.0" y="881" text-anchor="middle"
+        <rect x="553.2" y="867.0"
+              width="93.6" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="600.0"
+              y="884.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Research
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="374" y="862" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.20s">
+        <rect x="663.8" y="864.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="420.0" y="881" text-anchor="middle"
+        <rect x="666.8" y="867.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="711.8"
+              y="884.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           quple
         </text>
       </g>
@@ -532,7 +983,10 @@
 
   
     <g class="fadeIn3">
-      <rect x="120" y="948" width="960" height="390" rx="20"
+      <!-- card shadow and body -->
+      <rect x="120" y="948"
+            width="960" height="390"
+            rx="20"
             fill="#1a0400"
             fill-opacity="0.72"
             stroke="#ff3131"
@@ -540,14 +994,81 @@
             stroke-opacity="0.90"
             filter="url(#softRedGlow)"/>
 
-      <rect x="136" y="964" width="928" height="358" rx="14"
+      <!-- inner glass surface -->
+      <rect x="136" y="964"
+            width="928" height="358"
+            rx="14"
             fill="#050505"
             fill-opacity="0.62"
             stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
-      <text x="600.0" y="996" text-anchor="middle"
+      <!-- faint continuous border glow -->
+      <rect x="122" y="950"
+            width="956" height="386"
+            rx="19"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="1.2"
+            stroke-opacity="0.24"
+            filter="url(#softRedGlow)">
+        <animate
+            attributeName="stroke-opacity"
+            values="0.18;0.48;0.18"
+            dur="3.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- main TRON energy rail -->
+      <rect x="122" y="950"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-dasharray="145 855"
+            stroke-opacity="0.95"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="5.2s"
+            repeatCount="indefinite"/>
+
+        <animate
+            attributeName="stroke-opacity"
+            values="0.42;1;0.42"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- faster bright energy spark -->
+      <rect x="122" y="950"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#E8FCFF"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dasharray="24 976"
+            stroke-opacity="1"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- title -->
+      <text x="600.0" y="996"
+            text-anchor="middle"
             font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
             font-size="25"
             font-weight="900"
@@ -557,7 +1078,9 @@
         GitHub Profile System
       </text>
 
-      <text x="600.0" y="1026" text-anchor="middle"
+      <!-- subtitle -->
+      <text x="600.0" y="1026"
+            text-anchor="middle"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="13"
             font-weight="900"
@@ -566,6 +1089,7 @@
         Automated Profile · Custom TRON Ares Theme · GitHub Actions
       </text>
 
+      <!-- description -->
       <text x="158" y="1060"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
@@ -574,6 +1098,7 @@
         A programmable GitHub profile generated through a private automation system.
       </text>
 
+      <!-- title divider -->
       <path class="lineFlow"
             d="M158 1042 H1042"
             stroke="#ff7a00"
@@ -581,13 +1106,35 @@
             stroke-opacity="0.75"
             filter="url(#redGlow)"/>
 
+      <!-- project bullets -->
       
       <g class="fadeIn2">
         <circle cx="162" cy="1083" r="4.2"
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1083" x2="202" y2="1083"
+        <circle cx="162" cy="1083" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1083"
+              x2="202" y2="1083"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -607,7 +1154,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1114" x2="202" y2="1114"
+        <circle cx="162" cy="1114" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1114"
+              x2="202" y2="1114"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -627,7 +1195,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1145" x2="202" y2="1145"
+        <circle cx="162" cy="1145" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1145"
+              x2="202" y2="1145"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -647,7 +1236,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1176" x2="202" y2="1176"
+        <circle cx="162" cy="1176" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1176"
+              x2="202" y2="1176"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -667,7 +1277,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1207" x2="202" y2="1207"
+        <circle cx="162" cy="1207" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1207"
+              x2="202" y2="1207"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -683,54 +1314,103 @@
       </g>
 
 
+      <!-- automatically arranged badges -->
       
-      <g class="chipFade">
-        <rect x="158" y="1280" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.00s">
+        <rect x="385.1" y="1282.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="204.0" y="1299" text-anchor="middle"
+        <rect x="388.1" y="1285.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="433.1"
+              y="1302.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Python
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="266" y="1280" width="138" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.10s">
+        <rect x="495.1" y="1282.0"
+              width="157.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="335.0" y="1299" text-anchor="middle"
+        <rect x="498.1" y="1285.0"
+              width="151.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="573.6"
+              y="1302.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="11.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Vector Graphics
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="374" y="1280" width="130" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.20s">
+        <rect x="666.1" y="1282.0"
+              width="148.8" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="439.0" y="1299" text-anchor="middle"
+        <rect x="669.1" y="1285.0"
+              width="142.8" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="740.5"
+              y="1302.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="11.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           GitHub Actions
         </text>
       </g>
@@ -740,7 +1420,10 @@
 
   
     <g class="fadeIn4">
-      <rect x="120" y="1366" width="960" height="390" rx="20"
+      <!-- card shadow and body -->
+      <rect x="120" y="1366"
+            width="960" height="390"
+            rx="20"
             fill="#1a0400"
             fill-opacity="0.72"
             stroke="#ff3131"
@@ -748,14 +1431,81 @@
             stroke-opacity="0.90"
             filter="url(#softRedGlow)"/>
 
-      <rect x="136" y="1382" width="928" height="358" rx="14"
+      <!-- inner glass surface -->
+      <rect x="136" y="1382"
+            width="928" height="358"
+            rx="14"
             fill="#050505"
             fill-opacity="0.62"
             stroke="#ff1e1e"
             stroke-width="1"
             stroke-opacity="0.45"/>
 
-      <text x="600.0" y="1414" text-anchor="middle"
+      <!-- faint continuous border glow -->
+      <rect x="122" y="1368"
+            width="956" height="386"
+            rx="19"
+            fill="none"
+            stroke="#ff7a00"
+            stroke-width="1.2"
+            stroke-opacity="0.24"
+            filter="url(#softRedGlow)">
+        <animate
+            attributeName="stroke-opacity"
+            values="0.18;0.48;0.18"
+            dur="3.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- main TRON energy rail -->
+      <rect x="122" y="1368"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#ff3131"
+            stroke-width="3"
+            stroke-linecap="round"
+            stroke-dasharray="145 855"
+            stroke-opacity="0.95"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="5.2s"
+            repeatCount="indefinite"/>
+
+        <animate
+            attributeName="stroke-opacity"
+            values="0.42;1;0.42"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- faster bright energy spark -->
+      <rect x="122" y="1368"
+            width="956" height="386"
+            rx="19"
+            pathLength="1000"
+            fill="none"
+            stroke="#E8FCFF"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-dasharray="24 976"
+            stroke-opacity="1"
+            filter="url(#redGlow)">
+        <animate
+            attributeName="stroke-dashoffset"
+            from="0"
+            to="-1000"
+            dur="2.6s"
+            repeatCount="indefinite"/>
+      </rect>
+
+      <!-- title -->
+      <text x="600.0" y="1414"
+            text-anchor="middle"
             font-family="Orbitron, Audiowide, Rajdhani, Arial Black, sans-serif"
             font-size="25"
             font-weight="900"
@@ -765,7 +1515,9 @@
         Digital CV
       </text>
 
-      <text x="600.0" y="1444" text-anchor="middle"
+      <!-- subtitle -->
+      <text x="600.0" y="1444"
+            text-anchor="middle"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="13"
             font-weight="900"
@@ -774,6 +1526,7 @@
         Research Portfolio · Web Interface · GitHub Pages
       </text>
 
+      <!-- description -->
       <text x="158" y="1478"
             font-family="JetBrains Mono, Consolas, monospace"
             font-size="14.5"
@@ -782,6 +1535,7 @@
         A responsive portfolio presenting my research, systems work, and professional identity.
       </text>
 
+      <!-- title divider -->
       <path class="lineFlow"
             d="M158 1460 H1042"
             stroke="#ff7a00"
@@ -789,13 +1543,35 @@
             stroke-opacity="0.75"
             filter="url(#redGlow)"/>
 
+      <!-- project bullets -->
       
       <g class="fadeIn2">
         <circle cx="162" cy="1501" r="4.2"
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1501" x2="202" y2="1501"
+        <circle cx="162" cy="1501" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.00s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1501"
+              x2="202" y2="1501"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -815,7 +1591,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1532" x2="202" y2="1532"
+        <circle cx="162" cy="1532" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.18s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1532"
+              x2="202" y2="1532"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -835,7 +1632,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1563" x2="202" y2="1563"
+        <circle cx="162" cy="1563" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.36s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1563"
+              x2="202" y2="1563"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -855,7 +1673,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1594" x2="202" y2="1594"
+        <circle cx="162" cy="1594" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.54s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1594"
+              x2="202" y2="1594"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -875,7 +1714,28 @@
                 fill="#ff3131"
                 filter="url(#redGlow)"/>
 
-        <line x1="173" y1="1625" x2="202" y2="1625"
+        <circle cx="162" cy="1625" r="8"
+                fill="none"
+                stroke="#ff7a00"
+                stroke-width="0.8"
+                stroke-opacity="0.34">
+          <animate
+              attributeName="r"
+              values="5;8;5"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+
+          <animate
+              attributeName="stroke-opacity"
+              values="0.15;0.58;0.15"
+              dur="2.4s"
+              begin="0.72s"
+              repeatCount="indefinite"/>
+        </circle>
+
+        <line x1="173" y1="1625"
+              x2="202" y2="1625"
               stroke="#ff7a00"
               stroke-width="1.7"
               stroke-linecap="round"
@@ -891,54 +1751,103 @@
       </g>
 
 
+      <!-- automatically arranged badges -->
       
-      <g class="chipFade">
-        <rect x="158" y="1698" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.00s">
+        <rect x="415.6" y="1700.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="204.0" y="1717" text-anchor="middle"
+        <rect x="418.6" y="1703.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="463.6"
+              y="1720.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Vite
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="266" y="1698" width="92" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.10s">
+        <rect x="525.6" y="1700.0"
+              width="96.0" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="312.0" y="1717" text-anchor="middle"
+        <rect x="528.6" y="1703.0"
+              width="90.0" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="573.6"
+              y="1720.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="12.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           Web UI
         </text>
       </g>
 
-      <g class="chipFade">
-        <rect x="374" y="1698" width="130" height="28" rx="7"
+      <g class="chipFade"
+         style="animation-delay: 0.20s">
+        <rect x="635.6" y="1700.0"
+              width="148.8" height="30"
+              rx="7"
               fill="#0D1117"
+              fill-opacity="0.96"
               stroke="#ff3131"
-              stroke-width="1.1"
-              stroke-opacity="0.85"
+              stroke-width="1.2"
+              stroke-opacity="0.90"
               filter="url(#redGlow)"/>
 
-        <text x="439.0" y="1717" text-anchor="middle"
+        <rect x="638.6" y="1703.0"
+              width="142.8" height="24"
+              rx="5"
+              fill="none"
+              stroke="#ff7a00"
+              stroke-width="0.7"
+              stroke-opacity="0.42"/>
+
+        <text x="710.0"
+              y="1720.0"
+              text-anchor="middle"
               font-family="JetBrains Mono, Consolas, monospace"
-              font-size="12"
+              font-size="11.0"
               font-weight="900"
-              fill="#FF3131">
+              letter-spacing="0.5"
+              fill="#DDF6FF"
+              filter="url(#softRedGlow)">
           GitHub Actions
         </text>
       </g>
@@ -956,7 +1865,7 @@
         fill="#ff7a00"
         stroke="#050505"
         stroke-width="0.7"
-        filter="url(#softRedGlow)">
+        filter="url(##ffb347)">
     RESEARCH CODE · EXPERIMENT DESIGN · PAPER-READY SYSTEMS
   </text>
 </svg>
