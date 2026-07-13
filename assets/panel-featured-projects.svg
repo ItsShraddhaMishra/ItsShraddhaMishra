@@ -1,7 +1,7 @@
 <svg
     width="1200"
-    height="900"
-    viewBox="0 0 1200 900"
+    height="980"
+    viewBox="0 0 1200 980"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     role="img"
@@ -9,7 +9,7 @@
 
   
   <defs>
-    <linearGradient id="featuredProjectsPanel_bg" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+    <linearGradient id="featuredProjectsPanel_bg" x1="0" y1="0" x2="1200" y2="980" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#020202"/>
       <stop offset="0.45" stop-color="#110000"/>
       <stop offset="0.78" stop-color="#2d0000"/>
@@ -69,17 +69,17 @@
     }
 
     .featuredProjectsPanel_spinCW {
-      transform-origin: 936px 378px;
+      transform-origin: 936px 411px;
       animation: featuredProjectsPanel_spinCW 16s linear infinite;
     }
 
     .featuredProjectsPanel_spinCCW {
-      transform-origin: 936px 378px;
+      transform-origin: 936px 411px;
       animation: featuredProjectsPanel_spinCCW 22s linear infinite;
     }
 
     .featuredProjectsPanel_spinLeft {
-      transform-origin: 216px 630px;
+      transform-origin: 216px 686px;
       animation: featuredProjectsPanel_spinLeft 18s linear infinite;
     }
 
@@ -96,7 +96,7 @@
       0%   { transform: translateY(-60px); opacity: 0; }
       12%  { opacity: 0.9; }
       50%  { opacity: 0.5; }
-      100% { transform: translateY(980px); opacity: 0; }
+      100% { transform: translateY(1060px); opacity: 0; }
     }
 
     @keyframes featuredProjectsPanel_pulse {
@@ -134,52 +134,52 @@
     }
   </style>
 
-  <rect width="1200" height="900" fill="url(#featuredProjectsPanel_bg)"/>
-  <rect width="1200" height="900" fill="url(#featuredProjectsPanel_grid)" opacity="0.72"/>
+  <rect width="1200" height="980" fill="url(#featuredProjectsPanel_bg)"/>
+  <rect width="1200" height="980" fill="url(#featuredProjectsPanel_grid)" opacity="0.72"/>
 
   <rect class="featuredProjectsPanel_scan" x="0" y="0" width="1200" height="22" fill="url(#featuredProjectsPanel_scanLine)" opacity="0.75"/>
 
   <!-- ambient glow fields -->
-  <circle class="featuredProjectsPanel_pulseSlow" cx="936" cy="378" r="324" fill="url(#featuredProjectsPanel_wheelGlow)"/>
-  <circle class="featuredProjectsPanel_pulseSlow" cx="216" cy="630" r="126" fill="url(#featuredProjectsPanel_wheelGlow2)"/>
+  <circle class="featuredProjectsPanel_pulseSlow" cx="936" cy="411" r="352" fill="url(#featuredProjectsPanel_wheelGlow)"/>
+  <circle class="featuredProjectsPanel_pulseSlow" cx="216" cy="686" r="137" fill="url(#featuredProjectsPanel_wheelGlow2)"/>
 
   <!-- main wheel -->
   <g class="featuredProjectsPanel_spinCW" opacity="0.18">
-    <circle cx="936" cy="378" r="162" fill="none" stroke="#ff3131" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
-    <circle cx="936" cy="378" r="243" fill="none" stroke="#ff7a00" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
-    <circle cx="936" cy="378" r="324" fill="none" stroke="#ff3131" stroke-width="1.5" opacity="0.7" filter="url(#featuredProjectsPanel_softGlow)"/>
+    <circle cx="936" cy="411" r="176" fill="none" stroke="#ff3131" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="936" cy="411" r="264" fill="none" stroke="#ff7a00" stroke-width="2" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="936" cy="411" r="352" fill="none" stroke="#ff3131" stroke-width="1.5" opacity="0.7" filter="url(#featuredProjectsPanel_softGlow)"/>
 
-    <line x1="612" y1="378" x2="1260" y2="378" stroke="#ff3131" stroke-width="1.5" opacity="0.6"/>
-    <line x1="936" y1="54" x2="936" y2="702" stroke="#ff7a00" stroke-width="1.5" opacity="0.6"/>
-    <line x1="693" y1="135" x2="1179" y2="621" stroke="#ff3131" stroke-width="1.2" opacity="0.45"/>
-    <line x1="693" y1="621" x2="1179" y2="135" stroke="#ff7a00" stroke-width="1.2" opacity="0.45"/>
+    <line x1="584" y1="411" x2="1288" y2="411" stroke="#ff3131" stroke-width="1.5" opacity="0.6"/>
+    <line x1="936" y1="59" x2="936" y2="763" stroke="#ff7a00" stroke-width="1.5" opacity="0.6"/>
+    <line x1="672" y1="147" x2="1200" y2="675" stroke="#ff3131" stroke-width="1.2" opacity="0.45"/>
+    <line x1="672" y1="675" x2="1200" y2="147" stroke="#ff7a00" stroke-width="1.2" opacity="0.45"/>
   </g>
 
   <!-- counter-rotating wheel segments -->
   <g class="featuredProjectsPanel_spinCCW" opacity="0.18">
-    <path d="M 693 378 A 243 243 0 0 1 936 135" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
-    <path d="M 936 135 A 243 243 0 0 1 1179 378" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
-    <path d="M 1179 378 A 243 243 0 0 1 936 621" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
-    <path d="M 936 621 A 243 243 0 0 1 693 378" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 672 411 A 264 264 0 0 1 936 147" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 936 147 A 264 264 0 0 1 1200 411" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 1200 411 A 264 264 0 0 1 936 675" fill="none" stroke="#ff3131" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
+    <path d="M 936 675 A 264 264 0 0 1 672 411" fill="none" stroke="#ff7a00" stroke-width="3" filter="url(#featuredProjectsPanel_glow)"/>
   </g>
 
   <!-- secondary left wheel -->
   <g class="featuredProjectsPanel_spinLeft" opacity="0.18">
-    <circle cx="216" cy="630" r="126" fill="none" stroke="#ff7a00" stroke-width="1.8" filter="url(#featuredProjectsPanel_glow)"/>
-    <circle cx="216" cy="630" r="78" fill="none" stroke="#ff3131" stroke-width="1.3" filter="url(#featuredProjectsPanel_glow)"/>
-    <line x1="90" y1="630" x2="342" y2="630" stroke="#ff7a00" stroke-width="1"/>
-    <line x1="216" y1="504" x2="216" y2="756" stroke="#ff3131" stroke-width="1"/>
+    <circle cx="216" cy="686" r="137" fill="none" stroke="#ff7a00" stroke-width="1.8" filter="url(#featuredProjectsPanel_glow)"/>
+    <circle cx="216" cy="686" r="84" fill="none" stroke="#ff3131" stroke-width="1.3" filter="url(#featuredProjectsPanel_glow)"/>
+    <line x1="79" y1="686" x2="353" y2="686" stroke="#ff7a00" stroke-width="1"/>
+    <line x1="216" y1="549" x2="216" y2="823" stroke="#ff3131" stroke-width="1"/>
   </g>
 
   <!-- horizon / laser terrain -->
-  <path class="featuredProjectsPanel_pulse" d="M0 720 C 180 630 264 792 432 702 C 660 585 804 774 983 684 C 1104 630 1164 675 1200 612 V 900 H 0 Z"
+  <path class="featuredProjectsPanel_pulse" d="M0 784 C 180 686 264 862 432 764 C 660 637 804 842 983 744 C 1104 686 1164 735 1200 666 V 980 H 0 Z"
         fill="#ff3131" opacity="0.10"/>
 
-  <path class="featuredProjectsPanel_dash" d="M0 756 C 216 648 312 828 480 729 C 696 603 864 801 1056 711 C 1140 666 1176 648 1200 630"
+  <path class="featuredProjectsPanel_dash" d="M0 823 C 216 705 312 901 480 793 C 696 656 864 872 1056 774 C 1140 725 1176 705 1200 686"
         fill="none" stroke="#ff3131" stroke-width="2.4" opacity="0.95" filter="url(#featuredProjectsPanel_glow)"/>
 
-  <line class="featuredProjectsPanel_float" x1="96" y1="162" x2="1104" y2="162" stroke="#ff3131" stroke-width="1.8" opacity="0.65" filter="url(#featuredProjectsPanel_glow)"/>
-  <line class="featuredProjectsPanel_float" x1="192" y1="648" x2="1008" y2="648" stroke="#ff7a00" stroke-width="1.6" opacity="0.55"/>
+  <line class="featuredProjectsPanel_float" x1="96" y1="176" x2="1104" y2="176" stroke="#ff3131" stroke-width="1.8" opacity="0.65" filter="url(#featuredProjectsPanel_glow)"/>
+  <line class="featuredProjectsPanel_float" x1="192" y1="705" x2="1008" y2="705" stroke="#ff7a00" stroke-width="1.6" opacity="0.55"/>
 
 
   
@@ -202,7 +202,7 @@
     </filter>
 
 
-    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="900" gradientUnits="userSpaceOnUse">
+    <linearGradient id="panelBorder" x1="0" y1="0" x2="1200" y2="980" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ff3131"/>
       <stop offset="0.45" stop-color="#ff1e1e"/>
       <stop offset="1" stop-color="#ff7a00"/>
@@ -285,421 +285,563 @@
   <style>
     .projectScan {
       animation: projectScan 5.4s linear infinite;
+      transform-box: fill-box;
+      transform-origin: center;
     }
 
     .projectPulse {
       animation: projectPulse 3.2s ease-in-out infinite alternate;
     }
 
+    .footerFloat {
+      animation: footerFloat 5.8s ease-in-out infinite alternate;
+    }
+
     @keyframes projectScan {
       0% {
-        transform: translateX(-340px);
+        transform: translateX(-360px);
         opacity: 0;
       }
 
-      35% {
-        opacity: 0.16;
+      25% {
+        opacity: 0.12;
+      }
+
+      70% {
+        opacity: 0.08;
       }
 
       100% {
-        transform: translateX(1400px);
+        transform: translateX(1500px);
         opacity: 0;
       }
     }
 
     @keyframes projectPulse {
       0% {
-        opacity: 0.72;
+        opacity: 0.90;
       }
 
       100% {
         opacity: 1;
       }
     }
+
+    @keyframes footerFloat {
+      0% {
+        transform: translateY(-3px);
+        opacity: 0.72;
+      }
+
+      100% {
+        transform: translateY(3px);
+        opacity: 1;
+      }
+    }
   </style>
 
-  <g>
-    
-  <!-- glass panel -->
-  <rect x="72" y="48" width="1056" height="318" rx="22"
-        fill="#050505" fill-opacity="0.80"
-        stroke="url(#panelBorder)" stroke-width="2.5"
+  <!-- ================================================================
+       LARGE FEATURED PROJECTS CONTAINER
+       ================================================================ -->
+
+  <rect x="54" y="42"
+        width="1092" height="830"
+        rx="24"
+        fill="#050505"
+        fill-opacity="0.88"
+        stroke="url(#panelBorder)"
+        stroke-width="2.8"
         filter="url(#softRedGlow)"/>
 
-  <rect x="96" y="74" width="1008" height="266" rx="16"
-        fill="#1a0400" fill-opacity="0.42"
-        stroke="#ff1e1e" stroke-width="1"
-        stroke-opacity="0.90"/>
+  <rect x="74" y="62"
+        width="1052" height="790"
+        rx="17"
+        fill="#1a0400"
+        fill-opacity="0.42"
+        stroke="#ff1e1e"
+        stroke-width="1.2"
+        stroke-opacity="0.72"/>
 
+  <!-- custom corner geometry: no make_corner_geometry() dependency -->
+  <path d="M 82 120
+           V 72
+           H 166"
+        fill="none"
+        stroke="#ff3131"
+        stroke-width="2.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#redGlow)"/>
 
+  <path d="M 1034 72
+           H 1118
+           V 120"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="2.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#redGlow)"/>
+
+  <path d="M 82 794
+           V 842
+           H 166"
+        fill="none"
+        stroke="#ff7a00"
+        stroke-width="2.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#redGlow)"/>
+
+  <path d="M 1034 842
+           H 1118
+           V 794"
+        fill="none"
+        stroke="#ff3131"
+        stroke-width="2.6"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#redGlow)"/>
+
+  <!-- panel title -->
+  <rect x="278" y="67"
+        width="644" height="52"
+        rx="12"
+        fill="#1a0400"
+        fill-opacity="0.88"
+        stroke="#ff7a00"
+        stroke-width="1.5"
+        stroke-opacity="0.92"
+        filter="url(#softRedGlow)"/>
+
+  <text x="600" y="101"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="19"
+        font-weight="900"
+        letter-spacing="4.4"
+        fill="#ffffff"
+        filter="url(#redGlow)">
+    FEATURED PROJECT SYSTEMS
+  </text>
+
+  <!-- moving scan bar -->
+  <rect class="projectScan"
+        x="-300" y="126"
+        width="280" height="710"
+        fill="#ff7a00"
+        fill-opacity="0.055"/>
+
+  <!-- vertically stacked project cards -->
+  <g class="projectPulse">
     
-  <!-- corner geometry -->
-  <path class="lineFlow" d="M112 112 H270" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
-  <path class="lineFlow" d="M930 112 H1088" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
-  <path class="lineFlow" d="M112 306 H270" stroke="#ff7a00" stroke-width="2.5" filter="url(#redGlow)"/>
-  <path class="lineFlow" d="M930 306 H1088" stroke="#ff3131" stroke-width="2.5" filter="url(#redGlow)"/>
-
-
-    <text x="600" y="72"
-          text-anchor="middle"
-          font-family="JetBrains Mono, Consolas, monospace"
-          font-size="13"
-          font-weight="900"
-          letter-spacing="4"
-          fill="#ff7a00">
-      FEATURED PROJECT SYSTEMS
-    </text>
-
-    <rect class="projectScan"
-          x="-260" y="88"
-          width="260" height="390"
-          fill="#ff3131"
-          fill-opacity="0.06"/>
-
-    <g class="projectPulse">
-      
     <g class="fadeIn1">
-      <rect x="140" y="112"
-            width="920" height="140"
-            rx="15"
+      <!-- outer card -->
+      <rect x="130.00" y="136.00"
+            width="940" height="164"
+            rx="16"
             fill="#050505"
-            fill-opacity="0.84"
+            fill-opacity="0.92"
             stroke="#ff1e1e"
-            stroke-width="1.2"
-            stroke-opacity="0.76"
+            stroke-width="1.6"
+            stroke-opacity="0.92"
             filter="url(#softRedGlow)"/>
 
-      <rect x="154" y="126"
-            width="892" height="112"
-            rx="10"
+      <!-- inner card -->
+      <rect x="144.00" y="150.00"
+            width="912"
+            height="136"
+            rx="11"
             fill="#1a0400"
-            fill-opacity="0.38"
+            fill-opacity="0.56"
             stroke="#ff3131"
-            stroke-width="0.8"
-            stroke-opacity="0.28"/>
+            stroke-width="1"
+            stroke-opacity="0.48"/>
 
-      <text x="168" y="150"
+      <!-- project index -->
+      <text x="160.00" y="170.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="11"
+            font-size="13.5"
             font-weight="900"
-            letter-spacing="2"
-            fill="#ff7a00">
+            letter-spacing="2.1"
+            fill="#ffb36b"
+            filter="url(#redGlow)">
         PROJECT 01
       </text>
 
-      <text x="1032" y="150"
+      <!-- project status -->
+      <text x="1040.00"
+            y="170.00"
             text-anchor="end"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.2"
-            fill="#ff3131">
+            font-size="12.5"
+            font-weight="900"
+            letter-spacing="1.4"
+            fill="#ffcf9d"
+            filter="url(#redGlow)">
         ACTIVE RESEARCH
       </text>
 
-      <text x="168" y="180"
+      <!-- project title -->
+      <text x="160.00" y="206.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="18"
+            font-size="23"
             font-weight="900"
-            letter-spacing="1.5"
+            letter-spacing="1.7"
             fill="#ffffff"
             filter="url(#redGlow)">
         TRACEFLOW
       </text>
 
-      <foreignObject x="168" y="192"
-                     width="864" height="48">
-        <div xmlns="http://www.w3.org/1999/xhtml"
-             style="
-               color: #dddddd;
-               font-family: JetBrains Mono, Consolas, monospace;
-               font-size: 12px;
-               font-weight: 500;
-               line-height: 1.45;
-             ">
-          An extensible framework for reproducible deep-learning side-channel analysis, experiment automation, evaluation, ranking, and reporting.
-        </div>
-      </foreignObject>
-
-      <text x="168" y="232"
+      <!-- project description -->
+      <text x="160.00" y="238.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.1"
-            fill="#ff7a00">
+            font-size="14.5"
+            font-weight="600"
+            letter-spacing="0.15"
+            fill="#f5f5f5">
+        
+        <tspan x="160.00" dy="0.00">
+          An extensible framework for reproducible deep-learning side-channel analysis, experiment
+        </tspan>
+
+        <tspan x="160.00" dy="22.00">
+          automation, evaluation, ranking, and reporting.
+        </tspan>
+
+      </text>
+
+      <!-- project tags -->
+      <text x="160.00"
+            y="282.00"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11.5"
+            font-weight="900"
+            letter-spacing="1.25"
+            fill="#ffbc78">
         DEEP LEARNING · SCA · MLOPS
       </text>
 
-      <line x1="964"
-            y1="230"
-            x2="1032"
-            y2="230"
-            stroke="#ff3131"
-            stroke-width="2"
+      <!-- status rail -->
+      <line x1="954.00"
+            y1="279.00"
+            x2="1040.00"
+            y2="279.00"
+            stroke="#ff7a00"
+            stroke-width="2.8"
             stroke-linecap="round"
             filter="url(#redGlow)"/>
     </g>
 
 
     <g class="fadeIn2">
-      <rect x="140" y="276"
-            width="920" height="140"
-            rx="15"
+      <!-- outer card -->
+      <rect x="130.00" y="316.00"
+            width="940" height="164"
+            rx="16"
             fill="#050505"
-            fill-opacity="0.84"
+            fill-opacity="0.92"
             stroke="#ff1e1e"
-            stroke-width="1.2"
-            stroke-opacity="0.76"
+            stroke-width="1.6"
+            stroke-opacity="0.92"
             filter="url(#softRedGlow)"/>
 
-      <rect x="154" y="290"
-            width="892" height="112"
-            rx="10"
+      <!-- inner card -->
+      <rect x="144.00" y="330.00"
+            width="912"
+            height="136"
+            rx="11"
             fill="#1a0400"
-            fill-opacity="0.38"
+            fill-opacity="0.56"
             stroke="#ff3131"
-            stroke-width="0.8"
-            stroke-opacity="0.28"/>
+            stroke-width="1"
+            stroke-opacity="0.48"/>
 
-      <text x="168" y="314"
+      <!-- project index -->
+      <text x="160.00" y="350.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="11"
+            font-size="13.5"
             font-weight="900"
-            letter-spacing="2"
-            fill="#ff7a00">
+            letter-spacing="2.1"
+            fill="#ffb36b"
+            filter="url(#redGlow)">
         PROJECT 02
       </text>
 
-      <text x="1032" y="314"
+      <!-- project status -->
+      <text x="1040.00"
+            y="350.00"
             text-anchor="end"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.2"
-            fill="#ff3131">
+            font-size="12.5"
+            font-weight="900"
+            letter-spacing="1.4"
+            fill="#ffcf9d"
+            filter="url(#redGlow)">
         PUBLISHED RESEARCH
       </text>
 
-      <text x="168" y="344"
+      <!-- project title -->
+      <text x="160.00" y="386.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="18"
+            font-size="23"
             font-weight="900"
-            letter-spacing="1.5"
+            letter-spacing="1.7"
             fill="#ffffff"
             filter="url(#redGlow)">
         QSURFNET
       </text>
 
-      <foreignObject x="168" y="356"
-                     width="864" height="48">
-        <div xmlns="http://www.w3.org/1999/xhtml"
-             style="
-               color: #dddddd;
-               font-family: JetBrains Mono, Consolas, monospace;
-               font-size: 12px;
-               font-weight: 500;
-               line-height: 1.45;
-             ">
-          A machine-learning research system developed for robust surface-based analysis, reproducible experimentation, and scientific evaluation.
-        </div>
-      </foreignObject>
-
-      <text x="168" y="396"
+      <!-- project description -->
+      <text x="160.00" y="418.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.1"
-            fill="#ff7a00">
+            font-size="14.5"
+            font-weight="600"
+            letter-spacing="0.15"
+            fill="#f5f5f5">
+        
+        <tspan x="160.00" dy="0.00">
+          A machine-learning research system developed for robust surface-based analysis, reproducible
+        </tspan>
+
+        <tspan x="160.00" dy="22.00">
+          experimentation, and scientific evaluation.
+        </tspan>
+
+      </text>
+
+      <!-- project tags -->
+      <text x="160.00"
+            y="462.00"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11.5"
+            font-weight="900"
+            letter-spacing="1.25"
+            fill="#ffbc78">
         MACHINE LEARNING · RESEARCH
       </text>
 
-      <line x1="964"
-            y1="394"
-            x2="1032"
-            y2="394"
-            stroke="#ff3131"
-            stroke-width="2"
+      <!-- status rail -->
+      <line x1="954.00"
+            y1="459.00"
+            x2="1040.00"
+            y2="459.00"
+            stroke="#ff7a00"
+            stroke-width="2.8"
             stroke-linecap="round"
             filter="url(#redGlow)"/>
     </g>
 
 
     <g class="fadeIn3">
-      <rect x="140" y="440"
-            width="920" height="140"
-            rx="15"
+      <!-- outer card -->
+      <rect x="130.00" y="496.00"
+            width="940" height="164"
+            rx="16"
             fill="#050505"
-            fill-opacity="0.84"
+            fill-opacity="0.92"
             stroke="#ff1e1e"
-            stroke-width="1.2"
-            stroke-opacity="0.76"
+            stroke-width="1.6"
+            stroke-opacity="0.92"
             filter="url(#softRedGlow)"/>
 
-      <rect x="154" y="454"
-            width="892" height="112"
-            rx="10"
+      <!-- inner card -->
+      <rect x="144.00" y="510.00"
+            width="912"
+            height="136"
+            rx="11"
             fill="#1a0400"
-            fill-opacity="0.38"
+            fill-opacity="0.56"
             stroke="#ff3131"
-            stroke-width="0.8"
-            stroke-opacity="0.28"/>
+            stroke-width="1"
+            stroke-opacity="0.48"/>
 
-      <text x="168" y="478"
+      <!-- project index -->
+      <text x="160.00" y="530.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="11"
+            font-size="13.5"
             font-weight="900"
-            letter-spacing="2"
-            fill="#ff7a00">
+            letter-spacing="2.1"
+            fill="#ffb36b"
+            filter="url(#redGlow)">
         PROJECT 03
       </text>
 
-      <text x="1032" y="478"
+      <!-- project status -->
+      <text x="1040.00"
+            y="530.00"
             text-anchor="end"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.2"
-            fill="#ff3131">
+            font-size="12.5"
+            font-weight="900"
+            letter-spacing="1.4"
+            fill="#ffcf9d"
+            filter="url(#redGlow)">
         LIVE AUTOMATION
       </text>
 
-      <text x="168" y="508"
+      <!-- project title -->
+      <text x="160.00" y="566.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="18"
+            font-size="23"
             font-weight="900"
-            letter-spacing="1.5"
+            letter-spacing="1.7"
             fill="#ffffff"
             filter="url(#redGlow)">
         GITHUB PROFILE SYSTEM
       </text>
 
-      <foreignObject x="168" y="520"
-                     width="864" height="48">
-        <div xmlns="http://www.w3.org/1999/xhtml"
-             style="
-               color: #dddddd;
-               font-family: JetBrains Mono, Consolas, monospace;
-               font-size: 12px;
-               font-weight: 500;
-               line-height: 1.45;
-             ">
-          A private generator pipeline that builds, validates, and publishes animated TRON-themed SVG assets and contribution visualizations.
-        </div>
-      </foreignObject>
-
-      <text x="168" y="560"
+      <!-- project description -->
+      <text x="160.00" y="598.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.1"
-            fill="#ff7a00">
+            font-size="14.5"
+            font-weight="600"
+            letter-spacing="0.15"
+            fill="#f5f5f5">
+        
+        <tspan x="160.00" dy="0.00">
+          A private generator pipeline that builds, validates, and publishes animated TRON-themed SVG
+        </tspan>
+
+        <tspan x="160.00" dy="22.00">
+          assets and contribution visualizations.
+        </tspan>
+
+      </text>
+
+      <!-- project tags -->
+      <text x="160.00"
+            y="642.00"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11.5"
+            font-weight="900"
+            letter-spacing="1.25"
+            fill="#ffbc78">
         PYTHON · SVG · GITHUB ACTIONS
       </text>
 
-      <line x1="964"
-            y1="558"
-            x2="1032"
-            y2="558"
-            stroke="#ff3131"
-            stroke-width="2"
+      <!-- status rail -->
+      <line x1="954.00"
+            y1="639.00"
+            x2="1040.00"
+            y2="639.00"
+            stroke="#ff7a00"
+            stroke-width="2.8"
             stroke-linecap="round"
             filter="url(#redGlow)"/>
     </g>
 
 
     <g class="fadeIn4">
-      <rect x="140" y="604"
-            width="920" height="140"
-            rx="15"
+      <!-- outer card -->
+      <rect x="130.00" y="676.00"
+            width="940" height="164"
+            rx="16"
             fill="#050505"
-            fill-opacity="0.84"
+            fill-opacity="0.92"
             stroke="#ff1e1e"
-            stroke-width="1.2"
-            stroke-opacity="0.76"
+            stroke-width="1.6"
+            stroke-opacity="0.92"
             filter="url(#softRedGlow)"/>
 
-      <rect x="154" y="618"
-            width="892" height="112"
-            rx="10"
+      <!-- inner card -->
+      <rect x="144.00" y="690.00"
+            width="912"
+            height="136"
+            rx="11"
             fill="#1a0400"
-            fill-opacity="0.38"
+            fill-opacity="0.56"
             stroke="#ff3131"
-            stroke-width="0.8"
-            stroke-opacity="0.28"/>
+            stroke-width="1"
+            stroke-opacity="0.48"/>
 
-      <text x="168" y="642"
+      <!-- project index -->
+      <text x="160.00" y="710.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="11"
+            font-size="13.5"
             font-weight="900"
-            letter-spacing="2"
-            fill="#ff7a00">
+            letter-spacing="2.1"
+            fill="#ffb36b"
+            filter="url(#redGlow)">
         PROJECT 04
       </text>
 
-      <text x="1032" y="642"
+      <!-- project status -->
+      <text x="1040.00"
+            y="710.00"
             text-anchor="end"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.2"
-            fill="#ff3131">
+            font-size="12.5"
+            font-weight="900"
+            letter-spacing="1.4"
+            fill="#ffcf9d"
+            filter="url(#redGlow)">
         LIVE SYSTEM
       </text>
 
-      <text x="168" y="672"
+      <!-- project title -->
+      <text x="160.00" y="746.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="18"
+            font-size="23"
             font-weight="900"
-            letter-spacing="1.5"
+            letter-spacing="1.7"
             fill="#ffffff"
             filter="url(#redGlow)">
         DIGITAL CV
       </text>
 
-      <foreignObject x="168" y="684"
-                     width="864" height="48">
-        <div xmlns="http://www.w3.org/1999/xhtml"
-             style="
-               color: #dddddd;
-               font-family: JetBrains Mono, Consolas, monospace;
-               font-size: 12px;
-               font-weight: 500;
-               line-height: 1.45;
-             ">
-          A responsive personal research portfolio designed as a structured interface between technical work, publications, and professional identity.
-        </div>
-      </foreignObject>
-
-      <text x="168" y="724"
+      <!-- project description -->
+      <text x="160.00" y="778.00"
             font-family="JetBrains Mono, Consolas, monospace"
-            font-size="9.5"
-            font-weight="800"
-            letter-spacing="1.1"
-            fill="#ff7a00">
+            font-size="14.5"
+            font-weight="600"
+            letter-spacing="0.15"
+            fill="#f5f5f5">
+        
+        <tspan x="160.00" dy="0.00">
+          A responsive personal research portfolio designed as a structured interface between technical
+        </tspan>
+
+        <tspan x="160.00" dy="22.00">
+          work, publications, and professional identity.
+        </tspan>
+
+      </text>
+
+      <!-- project tags -->
+      <text x="160.00"
+            y="822.00"
+            font-family="JetBrains Mono, Consolas, monospace"
+            font-size="11.5"
+            font-weight="900"
+            letter-spacing="1.25"
+            fill="#ffbc78">
         WEB SYSTEM · UI · AUTOMATION
       </text>
 
-      <line x1="964"
-            y1="722"
-            x2="1032"
-            y2="722"
-            stroke="#ff3131"
-            stroke-width="2"
+      <!-- status rail -->
+      <line x1="954.00"
+            y1="819.00"
+            x2="1040.00"
+            y2="819.00"
+            stroke="#ff7a00"
+            stroke-width="2.8"
             stroke-linecap="round"
             filter="url(#redGlow)"/>
     </g>
 
-    </g>
-
-    <text class="softFloat"
-          x="600" y="510"
-          text-anchor="middle"
-          font-family="JetBrains Mono, Consolas, monospace"
-          font-size="14"
-          font-weight="900"
-          letter-spacing="3"
-          fill="#ff7a00">
-      RESEARCH · INFRASTRUCTURE · AUTOMATION · PERMANENCE
-    </text>
   </g>
+
+  <!-- footer is outside and below the containing panel -->
+  <text class="footerFloat"
+        x="600" y="932"
+        text-anchor="middle"
+        font-family="JetBrains Mono, Consolas, monospace"
+        font-size="18"
+        font-weight="900"
+        letter-spacing="3.3"
+        fill="#ffb36b"
+        filter="url(#softRedGlow)">
+    RESEARCH · INFRASTRUCTURE · AUTOMATION · PERMANENCE
+  </text>
 </svg>
