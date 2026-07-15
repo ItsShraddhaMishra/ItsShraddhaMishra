@@ -2532,6 +2532,51 @@
            fill="freeze"/>
 
     </use>
+
+    <use href="#introRoute"
+         visibility="hidden"
+         fill="none"
+         stroke="#FFFFFF"
+         stroke-width="4.10"
+         stroke-linecap="butt"
+         stroke-linejoin="round"
+         stroke-dasharray="8.289 991.711"
+         stroke-dashoffset="14.210"
+         opacity="1.000"
+         shape-rendering="geometricPrecision"
+         filter="url(#trailHighTemperature)">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="0.216s"
+           fill="freeze"/>
+
+
+      <animate attributeName="stroke-dashoffset"
+               values="14.210;-460.565;-985.790"
+               keyTimes="0.000000000;0.190981432;1.000000000"
+               dur="37.700s"
+               begin="0.000s"
+               calcMode="linear"
+               repeatCount="1"
+               fill="freeze"/>
+
+
+
+      <animate attributeName="opacity"
+               from="1"
+               to="0"
+               dur="0.070s"
+               begin="blueIntroMotion.end-0.070s"
+               fill="freeze"/>
+
+
+      <set attributeName="visibility"
+           to="hidden"
+           begin="blueIntroMotion.end"
+           fill="freeze"/>
+
+    </use>
 </g>
     <g id="blueLoopTrail">
     <use href="#loopRoute"
@@ -3324,6 +3369,46 @@
       <animate attributeName="opacity"
                from="0"
                to="0.560"
+               dur="0.090s"
+               begin="blueIntroMotion.end"
+               fill="freeze"/>
+
+
+
+    </use>
+
+    <use href="#loopRoute"
+         visibility="hidden"
+         fill="none"
+         stroke="#FFFFFF"
+         stroke-width="4.10"
+         stroke-linecap="butt"
+         stroke-linejoin="round"
+         stroke-dasharray="15.783 984.217"
+         stroke-dashoffset="27.056"
+         opacity="0.000"
+         shape-rendering="geometricPrecision"
+         filter="url(#trailHighTemperature)">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="blueIntroMotion.end"
+           fill="freeze"/>
+
+
+      <animate attributeName="stroke-dashoffset"
+               from="27.056"
+               to="-972.944"
+               dur="30.500s"
+               begin="blueIntroMotion.end"
+               calcMode="linear"
+               repeatCount="indefinite"
+               fill="freeze"/>
+
+
+      <animate attributeName="opacity"
+               from="0"
+               to="1"
                dur="0.090s"
                begin="blueIntroMotion.end"
                fill="freeze"/>
@@ -4277,6 +4362,51 @@
            fill="freeze"/>
 
     </use>
+
+    <use href="#introRoute"
+         visibility="hidden"
+         fill="none"
+         stroke="#FFFFFF"
+         stroke-width="3.94"
+         stroke-linecap="butt"
+         stroke-linejoin="round"
+         stroke-dasharray="8.289 991.711"
+         stroke-dashoffset="14.210"
+         opacity="1.000"
+         shape-rendering="geometricPrecision"
+         filter="url(#trailHighTemperature)">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="8.216s"
+           fill="freeze"/>
+
+
+      <animate attributeName="stroke-dashoffset"
+               values="14.210;-460.565;-985.790"
+               keyTimes="0.000000000;0.190981432;1.000000000"
+               dur="37.700s"
+               begin="8.000s"
+               calcMode="linear"
+               repeatCount="1"
+               fill="freeze"/>
+
+
+
+      <animate attributeName="opacity"
+               from="1"
+               to="0"
+               dur="0.070s"
+               begin="redIntroMotion.end-0.070s"
+               fill="freeze"/>
+
+
+      <set attributeName="visibility"
+           to="hidden"
+           begin="redIntroMotion.end"
+           fill="freeze"/>
+
+    </use>
 </g>
     <g id="redLoopTrail">
     <use href="#loopRoute"
@@ -5069,6 +5199,46 @@
       <animate attributeName="opacity"
                from="0"
                to="0.560"
+               dur="0.090s"
+               begin="redIntroMotion.end"
+               fill="freeze"/>
+
+
+
+    </use>
+
+    <use href="#loopRoute"
+         visibility="hidden"
+         fill="none"
+         stroke="#FFFFFF"
+         stroke-width="3.94"
+         stroke-linecap="butt"
+         stroke-linejoin="round"
+         stroke-dasharray="15.783 984.217"
+         stroke-dashoffset="27.056"
+         opacity="0.000"
+         shape-rendering="geometricPrecision"
+         filter="url(#trailHighTemperature)">
+
+      <set attributeName="visibility"
+           to="visible"
+           begin="redIntroMotion.end"
+           fill="freeze"/>
+
+
+      <animate attributeName="stroke-dashoffset"
+               from="27.056"
+               to="-972.944"
+               dur="30.500s"
+               begin="redIntroMotion.end"
+               calcMode="linear"
+               repeatCount="indefinite"
+               fill="freeze"/>
+
+
+      <animate attributeName="opacity"
+               from="0"
+               to="1"
                dur="0.090s"
                begin="redIntroMotion.end"
                fill="freeze"/>
