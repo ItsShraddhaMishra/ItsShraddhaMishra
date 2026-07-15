@@ -128,75 +128,163 @@
       </feMerge>
     </filter>
 
-    <filter id="trailHighTemperature"
+    <!-- ================================================================
+         BLUE HIGH-TEMPERATURE EMITTER
+         White core -> cyan radiation -> broad blue halo
+         ================================================================ -->
+    <filter id="trailHighTemperatureBlue"
             filterUnits="userSpaceOnUse"
-            x="-120"
-            y="-120"
-            width="1440"
-            height="800"
+            primitiveUnits="userSpaceOnUse"
+            x="-160"
+            y="-160"
+            width="1520"
+            height="880"
             color-interpolation-filters="sRGB">
 
-      <!-- Large, soft atmospheric halo -->
+      <!-- Broad atmospheric halo -->
       <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="7.0"
-                      result="haloBlur"/>
+                      stdDeviation="10.0"
+                      result="blueHaloMask"/>
 
-      <feFlood flood-color="#FF8A24"
-               flood-opacity="0.34"
-               result="haloColor"/>
+      <feFlood flood-color="#54EFFF"
+               flood-opacity="0.72"
+               result="blueHaloColor"/>
 
-      <feComposite in="haloColor"
-                   in2="haloBlur"
+      <feComposite in="blueHaloColor"
+                   in2="blueHaloMask"
                    operator="in"
-                   result="outerHalo"/>
+                   result="blueOuterHalo"/>
 
-      <!-- Medium orange heat aura -->
+      <!-- Medium cyan energy aura -->
       <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="4.2"
-                      result="outerBlur"/>
+                      stdDeviation="4.5"
+                      result="blueAuraMask"/>
 
-      <feFlood flood-color="#FF6A18"
-               flood-opacity="0.68"
-               result="outerColor"/>
+      <feFlood flood-color="#19DFFF"
+               flood-opacity="0.92"
+               result="blueAuraColor"/>
 
-      <feComposite in="outerColor"
-                   in2="outerBlur"
+      <feComposite in="blueAuraColor"
+                   in2="blueAuraMask"
                    operator="in"
-                   result="outerHeat"/>
+                   result="blueAura"/>
 
-      <!-- Tight golden-yellow radiation -->
+      <!-- Tight near-white plasma -->
       <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="2.0"
-                      result="middleBlur"/>
+                      stdDeviation="1.7"
+                      result="blueHeatMask"/>
 
-      <feFlood flood-color="#FFD84A"
-               flood-opacity="0.90"
-               result="middleColor"/>
-
-      <feComposite in="middleColor"
-                   in2="middleBlur"
-                   operator="in"
-                   result="middleHeat"/>
-
-      <!-- White-hot central ribbon -->
-      <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="0.65"
-                      result="coreBlur"/>
-
-      <feFlood flood-color="#FFFDF2"
+      <feFlood flood-color="#CFFFFF"
                flood-opacity="1"
-               result="coreColor"/>
+               result="blueHeatColor"/>
 
-      <feComposite in="coreColor"
-                   in2="coreBlur"
+      <feComposite in="blueHeatColor"
+                   in2="blueHeatMask"
                    operator="in"
-                   result="hotCore"/>
+                   result="blueHeat"/>
+
+      <!-- Sharp white emitter core -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="0.45"
+                      result="blueCoreMask"/>
+
+      <feFlood flood-color="#FFFFFF"
+               flood-opacity="1"
+               result="blueCoreColor"/>
+
+      <feComposite in="blueCoreColor"
+                   in2="blueCoreMask"
+                   operator="in"
+                   result="blueCore"/>
 
       <feMerge>
-        <feMergeNode in="outerHalo"/>
-        <feMergeNode in="outerHeat"/>
-        <feMergeNode in="middleHeat"/>
-        <feMergeNode in="hotCore"/>
+        <!-- Merge the broad halo twice to make it clearly visible -->
+        <feMergeNode in="blueOuterHalo"/>
+        <feMergeNode in="blueOuterHalo"/>
+        <feMergeNode in="blueAura"/>
+        <feMergeNode in="blueHeat"/>
+        <feMergeNode in="blueCore"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <!-- ================================================================
+         RED HIGH-TEMPERATURE EMITTER
+         White core -> gold radiation -> broad orange halo
+         ================================================================ -->
+    <filter id="trailHighTemperatureRed"
+            filterUnits="userSpaceOnUse"
+            primitiveUnits="userSpaceOnUse"
+            x="-160"
+            y="-160"
+            width="1520"
+            height="880"
+            color-interpolation-filters="sRGB">
+
+      <!-- Broad atmospheric halo -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="10.0"
+                      result="redHaloMask"/>
+
+      <feFlood flood-color="#FF7A24"
+               flood-opacity="0.72"
+               result="redHaloColor"/>
+
+      <feComposite in="redHaloColor"
+                   in2="redHaloMask"
+                   operator="in"
+                   result="redOuterHalo"/>
+
+      <!-- Medium orange energy aura -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="4.5"
+                      result="redAuraMask"/>
+
+      <feFlood flood-color="#FF4D18"
+               flood-opacity="0.94"
+               result="redAuraColor"/>
+
+      <feComposite in="redAuraColor"
+                   in2="redAuraMask"
+                   operator="in"
+                   result="redAura"/>
+
+      <!-- Tight golden heat -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="1.7"
+                      result="redHeatMask"/>
+
+      <feFlood flood-color="#FFD84A"
+               flood-opacity="1"
+               result="redHeatColor"/>
+
+      <feComposite in="redHeatColor"
+                   in2="redHeatMask"
+                   operator="in"
+                   result="redHeat"/>
+
+      <!-- Sharp white emitter core -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="0.45"
+                      result="redCoreMask"/>
+
+      <feFlood flood-color="#FFFDF4"
+               flood-opacity="1"
+               result="redCoreColor"/>
+
+      <feComposite in="redCoreColor"
+                   in2="redCoreMask"
+                   operator="in"
+                   result="redCore"/>
+
+      <feMerge>
+        <!-- Merge the broad halo twice to make it clearly visible -->
+        <feMergeNode in="redOuterHalo"/>
+        <feMergeNode in="redOuterHalo"/>
+        <feMergeNode in="redAura"/>
+        <feMergeNode in="redHeat"/>
+        <feMergeNode in="redCore"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
@@ -2553,14 +2641,14 @@
          visibility="hidden"
          fill="none"
          stroke="#FFFFFF"
-         stroke-width="4.10"
-         stroke-linecap="butt"
+         stroke-width="5.25"
+         stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="8.289 991.711"
          stroke-dashoffset="14.210"
          opacity="1.000"
          shape-rendering="geometricPrecision"
-         filter="url(#trailHighTemperature)">
+         filter="url(#trailHighTemperatureBlue)">
 
       <set attributeName="visibility"
            to="visible"
@@ -3397,14 +3485,14 @@
          visibility="hidden"
          fill="none"
          stroke="#FFFFFF"
-         stroke-width="4.10"
-         stroke-linecap="butt"
+         stroke-width="5.25"
+         stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.783 984.217"
          stroke-dashoffset="27.056"
          opacity="0.000"
          shape-rendering="geometricPrecision"
-         filter="url(#trailHighTemperature)">
+         filter="url(#trailHighTemperatureBlue)">
 
       <set attributeName="visibility"
            to="visible"
@@ -4383,14 +4471,14 @@
          visibility="hidden"
          fill="none"
          stroke="#FFFFFF"
-         stroke-width="3.94"
-         stroke-linecap="butt"
+         stroke-width="5.04"
+         stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="8.289 991.711"
          stroke-dashoffset="14.210"
          opacity="1.000"
          shape-rendering="geometricPrecision"
-         filter="url(#trailHighTemperature)">
+         filter="url(#trailHighTemperatureRed)">
 
       <set attributeName="visibility"
            to="visible"
@@ -5227,14 +5315,14 @@
          visibility="hidden"
          fill="none"
          stroke="#FFFFFF"
-         stroke-width="3.94"
-         stroke-linecap="butt"
+         stroke-width="5.04"
+         stroke-linecap="round"
          stroke-linejoin="round"
          stroke-dasharray="15.783 984.217"
          stroke-dashoffset="27.056"
          opacity="0.000"
          shape-rendering="geometricPrecision"
-         filter="url(#trailHighTemperature)">
+         filter="url(#trailHighTemperatureRed)">
 
       <set attributeName="visibility"
            to="visible"
