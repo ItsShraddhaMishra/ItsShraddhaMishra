@@ -130,19 +130,33 @@
 
     <filter id="trailHighTemperature"
             filterUnits="userSpaceOnUse"
-            x="-80"
-            y="-80"
-            width="1360"
-            height="720"
+            x="-120"
+            y="-120"
+            width="1440"
+            height="800"
             color-interpolation-filters="sRGB">
 
-      <!-- Wide orange heat envelope -->
+      <!-- Large, soft atmospheric halo -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="9.0"
+                      result="haloBlur"/>
+
+      <feFlood flood-color="#FF8A24"
+               flood-opacity="0.34"
+               result="haloColor"/>
+
+      <feComposite in="haloColor"
+                   in2="haloBlur"
+                   operator="in"
+                   result="outerHalo"/>
+
+      <!-- Medium orange heat aura -->
       <feGaussianBlur in="SourceAlpha"
                       stdDeviation="4.2"
                       result="outerBlur"/>
 
-      <feFlood flood-color="#FF6A1A"
-               flood-opacity="0.72"
+      <feFlood flood-color="#FF6A18"
+               flood-opacity="0.68"
                result="outerColor"/>
 
       <feComposite in="outerColor"
@@ -150,13 +164,13 @@
                    operator="in"
                    result="outerHeat"/>
 
-      <!-- Tighter golden-yellow heat -->
+      <!-- Tight golden-yellow radiation -->
       <feGaussianBlur in="SourceAlpha"
                       stdDeviation="2.0"
                       result="middleBlur"/>
 
       <feFlood flood-color="#FFD84A"
-               flood-opacity="0.92"
+               flood-opacity="0.90"
                result="middleColor"/>
 
       <feComposite in="middleColor"
@@ -164,12 +178,12 @@
                    operator="in"
                    result="middleHeat"/>
 
-      <!-- Compact near-white core -->
+      <!-- White-hot central ribbon -->
       <feGaussianBlur in="SourceAlpha"
                       stdDeviation="0.65"
                       result="coreBlur"/>
 
-      <feFlood flood-color="#FFFBE8"
+      <feFlood flood-color="#FFFDF2"
                flood-opacity="1"
                result="coreColor"/>
 
@@ -179,12 +193,14 @@
                    result="hotCore"/>
 
       <feMerge>
+        <feMergeNode in="outerHalo"/>
         <feMergeNode in="outerHeat"/>
         <feMergeNode in="middleHeat"/>
         <feMergeNode in="hotCore"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <pattern id="backgroundCircuit" width="50" height="50" patternUnits="userSpaceOnUse">
       <path d="M4 8 H32 V20 H60"
             fill="none"
