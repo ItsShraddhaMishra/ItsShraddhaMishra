@@ -128,6 +128,63 @@
       </feMerge>
     </filter>
 
+    <filter id="trailHighTemperature"
+            filterUnits="userSpaceOnUse"
+            x="-80"
+            y="-80"
+            width="1360"
+            height="720"
+            color-interpolation-filters="sRGB">
+
+      <!-- Wide orange heat envelope -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="4.2"
+                      result="outerBlur"/>
+
+      <feFlood flood-color="#FF6A1A"
+               flood-opacity="0.72"
+               result="outerColor"/>
+
+      <feComposite in="outerColor"
+                   in2="outerBlur"
+                   operator="in"
+                   result="outerHeat"/>
+
+      <!-- Tighter golden-yellow heat -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="2.0"
+                      result="middleBlur"/>
+
+      <feFlood flood-color="#FFD84A"
+               flood-opacity="0.92"
+               result="middleColor"/>
+
+      <feComposite in="middleColor"
+                   in2="middleBlur"
+                   operator="in"
+                   result="middleHeat"/>
+
+      <!-- Compact near-white core -->
+      <feGaussianBlur in="SourceAlpha"
+                      stdDeviation="0.65"
+                      result="coreBlur"/>
+
+      <feFlood flood-color="#FFFBE8"
+               flood-opacity="1"
+               result="coreColor"/>
+
+      <feComposite in="coreColor"
+                   in2="coreBlur"
+                   operator="in"
+                   result="hotCore"/>
+
+      <feMerge>
+        <feMergeNode in="outerHeat"/>
+        <feMergeNode in="middleHeat"/>
+        <feMergeNode in="hotCore"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     <pattern id="backgroundCircuit" width="50" height="50" patternUnits="userSpaceOnUse">
       <path d="M4 8 H32 V20 H60"
             fill="none"
