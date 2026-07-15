@@ -138,7 +138,7 @@
 
       <!-- Large, soft atmospheric halo -->
       <feGaussianBlur in="SourceAlpha"
-                      stdDeviation="9.0"
+                      stdDeviation="7.0"
                       result="haloBlur"/>
 
       <feFlood flood-color="#FF8A24"
