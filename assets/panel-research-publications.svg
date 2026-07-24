@@ -132,7 +132,7 @@
         font-size="13"
         font-weight="800"
         fill="#b8d8e8">
-    total citations: 29 · h-index: 2 · i10-index: 1
+    total citations: 30 · h-index: 2 · i10-index: 1
   </text>
 
   <text x="90" y="205"
@@ -140,7 +140,7 @@
         font-size="11"
         font-weight="700"
         fill="#b8d8e8">
-    updated: 2026-07-13T04:00:55+00:00
+    updated: 2026-07-24T05:30:07+00:00
   </text>
 
   
@@ -239,19 +239,19 @@
 
 
   <g class="fadeIn5">
-    <rect x="847.5" y="342.9" width="232.5" height="77.1" rx="5" text-anchor="middle"
+    <rect x="847.5" y="334.3" width="232.5" height="85.7" rx="5" text-anchor="middle"
           fill="#00e5ff"
           fill-opacity="0.65"
           stroke="#66f7ff"
           stroke-width="1"
           filter="url(#softBlueGlow)"/>
 
-    <text x="963.8" y="334.9" text-anchor="middle"
+    <text x="963.8" y="326.3" text-anchor="middle"
           font-family="JetBrains Mono, Consolas, monospace"
           font-size="11"
           font-weight="800"
           fill="#ffffff">
-      9
+      10
     </text>
 
     <text x="963.8" y="442" text-anchor="middle"
