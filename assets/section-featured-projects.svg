@@ -307,71 +307,89 @@
 <defs>
 
     <radialGradient id="relayHalo-blue" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.55"/>
-      <stop offset="0.45" stop-color="#00e5ff" stop-opacity="0.18"/>
+      <stop offset="0" stop-color="#00e5ff" stop-opacity="0.50"/>
+      <stop offset="0.45" stop-color="#00e5ff" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="relayBeam-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
 
     <radialGradient id="relayHalo-red" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#ff3131" stop-opacity="0.55"/>
-      <stop offset="0.45" stop-color="#ff3131" stop-opacity="0.18"/>
+      <stop offset="0" stop-color="#ff3131" stop-opacity="0.50"/>
+      <stop offset="0.45" stop-color="#ff3131" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="relayBeam-red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff3131" stop-opacity="0"/>
+    </linearGradient>
 </defs>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="18.0" stroke-opacity="0.06" stroke-dasharray="230.0 1576.6" stroke-dashoffset="230.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.202894;1" values="230;230;-1096.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="12.0" stroke-opacity="0.1" stroke-dasharray="184.0 1530.6" stroke-dashoffset="184.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.19999;1" values="184;184;-1142.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="6.0" stroke-opacity="0.3" stroke-dasharray="230.0 1576.6" stroke-dashoffset="230.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.202894;1" values="230;230;-1096.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="6.0" stroke-opacity="0.3" stroke-dasharray="195.5 1542.1" stroke-dashoffset="195.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.200716;1" values="195.5;195.5;-1131.06;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="6.0" stroke-opacity="0.35" stroke-dasharray="161.0 1507.6" stroke-dashoffset="161.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.198538;1" values="161;161;-1165.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="5.5" stroke-opacity="0.4" stroke-dasharray="126.5 1473.1" stroke-dashoffset="126.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.19636;1" values="126.5;126.5;-1200.06;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="5.0" stroke-opacity="0.5" stroke-dasharray="92.0 1438.6" stroke-dashoffset="92.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.194182;1" values="92;92;-1234.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#00e5ff" stroke-width="5.0" stroke-opacity="0.6" stroke-dasharray="57.5 1404.1" stroke-dashoffset="57.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.192004;1" values="57.5;57.5;-1269.06;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#eaffff" stroke-width="2.4" stroke-opacity="0.35" stroke-dasharray="161.0 1507.6" stroke-dashoffset="161.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.198538;1" values="161;161;-1165.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#eaffff" stroke-width="2.4" stroke-opacity="0.5" stroke-dasharray="115.0 1461.6" stroke-dashoffset="115.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.195634;1" values="115;115;-1211.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#eaffff" stroke-width="2.4" stroke-opacity="0.8" stroke-dasharray="69.0 1415.6" stroke-dashoffset="69.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.19273;1" values="69;69;-1257.56;-1326.56;-1326.56"/></path>
-<path d="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" pathLength="1326.6" stroke="#eaffff" stroke-width="2.6" stroke-opacity="1.0" stroke-dasharray="27.6 1374.2" stroke-dashoffset="27.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104626;0.188374;0.190116;1" values="27.6;27.6;-1298.96;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="18.0" stroke-opacity="0.06" stroke-dasharray="205.0 1551.6" stroke-dashoffset="205.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.226315;1" values="205;205;-1121.56;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="12.0" stroke-opacity="0.1" stroke-dasharray="164.0 1510.6" stroke-dashoffset="164.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.223727;1" values="164;164;-1162.56;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="6.0" stroke-opacity="0.3" stroke-dasharray="205.0 1551.6" stroke-dashoffset="205.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.226315;1" values="205;205;-1121.56;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="6.0" stroke-opacity="0.3" stroke-dasharray="174.2 1520.8" stroke-dashoffset="174.2"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.224374;1" values="174.25;174.25;-1152.31;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="6.0" stroke-opacity="0.35" stroke-dasharray="143.5 1490.1" stroke-dashoffset="143.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.222433;1" values="143.5;143.5;-1183.06;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="5.5" stroke-opacity="0.4" stroke-dasharray="112.8 1459.3" stroke-dashoffset="112.8"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.220492;1" values="112.75;112.75;-1213.81;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="5.0" stroke-opacity="0.5" stroke-dasharray="82.0 1428.6" stroke-dashoffset="82.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.21855;1" values="82;82;-1244.56;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ff3131" stroke-width="5.0" stroke-opacity="0.6" stroke-dasharray="51.2 1397.8" stroke-dashoffset="51.2"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.216609;1" values="51.25;51.25;-1275.31;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ffb347" stroke-width="2.4" stroke-opacity="0.35" stroke-dasharray="143.5 1490.1" stroke-dashoffset="143.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.222433;1" values="143.5;143.5;-1183.06;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ffb347" stroke-width="2.4" stroke-opacity="0.5" stroke-dasharray="102.5 1449.1" stroke-dashoffset="102.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.219844;1" values="102.5;102.5;-1224.06;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ffb347" stroke-width="2.4" stroke-opacity="0.8" stroke-dasharray="61.5 1408.1" stroke-dashoffset="61.5"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.217256;1" values="61.5;61.5;-1265.06;-1326.56;-1326.56"/></path>
-<path d="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" pathLength="1326.6" stroke="#ffb347" stroke-width="2.6" stroke-opacity="1.0" stroke-dasharray="24.6 1371.2" stroke-dashoffset="24.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129626;0.213374;0.214927;1" values="24.6;24.6;-1301.96;-1326.56;-1326.56"/></path>
-<g><animateMotion dur="44.0s" repeatCount="indefinite" calcMode="linear" rotate="auto" path="M1146.0 -90.0 L1146.0 55.0 A11.0 11.0 0 0 1 1135.0 66.0 L77.0 66.0 A11.0 11.0 0 0 0 66.0 77.0 L66.0 166.0" keyTimes="0;0.104626;0.188374;1" keyPoints="0;0;1;1"/>
-      <circle cx="0" cy="0" r="26" fill="url(#relayHalo-blue)"/>
-      <!-- rear wheel, body, front wheel -->
-      <rect x="-19" y="-3.2" width="11" height="6.4" rx="3.2"
-            fill="#04070b" stroke="#00e5ff" stroke-width="1.5"/>
-      <path d="M-11 -4.6 L2 -5.4 L10 -3.2 L10 3.2 L2 5.4 L-11 4.6 Z"
-            fill="#04070b" stroke="#00e5ff" stroke-width="1.4"
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#00e5ff" stroke-width="16.0" stroke-opacity="0.05" stroke-dasharray="340.0 1678.8" stroke-dashoffset="340.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.209107;1" values="340;340;-978.83;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#00e5ff" stroke-width="9.0" stroke-opacity="0.1" stroke-dasharray="319.6 1658.4" stroke-dashoffset="319.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.207819;1" values="319.6;319.6;-999.23;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#005766" stroke-width="4.4" stroke-opacity="0.55" transform="translate(0 3.0)" stroke-dasharray="329.8 1668.6" stroke-dashoffset="329.8"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.208463;1" values="329.8;329.8;-989.03;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#00e5ff" stroke-width="4.4" stroke-opacity="0.3" stroke-dasharray="340.0 1678.8" stroke-dashoffset="340.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.209107;1" values="340;340;-978.83;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#00e5ff" stroke-width="4.4" stroke-opacity="0.45" stroke-dasharray="316.2 1655.0" stroke-dashoffset="316.2"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.207604;1" values="316.2;316.2;-1002.63;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#00e5ff" stroke-width="4.4" stroke-opacity="0.75" stroke-dasharray="285.6 1624.4" stroke-dashoffset="285.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.205672;1" values="285.6;285.6;-1033.23;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#eaffff" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="326.4 1665.2" stroke-dashoffset="326.4"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.208248;1" values="326.4;326.4;-992.43;-1318.83;-1318.83"/></path>
+<path d="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" pathLength="1318.8" stroke="#eaffff" stroke-width="1.5" stroke-opacity="0.9" stroke-dasharray="292.4 1631.2" stroke-dashoffset="292.4"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.104382;0.187642;0.206102;1" values="292.4;292.4;-1026.43;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ff3131" stroke-width="16.0" stroke-opacity="0.05" stroke-dasharray="310.0 1648.8" stroke-dashoffset="310.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.232213;1" values="310;310;-1008.83;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ff3131" stroke-width="9.0" stroke-opacity="0.1" stroke-dasharray="291.4 1630.2" stroke-dashoffset="291.4"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.231038;1" values="291.4;291.4;-1027.43;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#6e0f0f" stroke-width="4.4" stroke-opacity="0.55" transform="translate(0 3.0)" stroke-dasharray="300.7 1639.5" stroke-dashoffset="300.7"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.231625;1" values="300.7;300.7;-1018.13;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ff3131" stroke-width="4.4" stroke-opacity="0.3" stroke-dasharray="310.0 1648.8" stroke-dashoffset="310.0"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.232213;1" values="310;310;-1008.83;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ff3131" stroke-width="4.4" stroke-opacity="0.45" stroke-dasharray="288.3 1627.1" stroke-dashoffset="288.3"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.230843;1" values="288.3;288.3;-1030.53;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ff3131" stroke-width="4.4" stroke-opacity="0.75" stroke-dasharray="260.4 1599.2" stroke-dashoffset="260.4"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.229081;1" values="260.4;260.4;-1058.43;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ffd9a0" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="297.6 1636.4" stroke-dashoffset="297.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.23143;1" values="297.6;297.6;-1021.23;-1318.83;-1318.83"/></path>
+<path d="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" pathLength="1318.8" stroke="#ffd9a0" stroke-width="1.5" stroke-opacity="0.9" stroke-dasharray="266.6 1605.4" stroke-dashoffset="266.6"><animate attributeName="stroke-dashoffset" dur="44.0s" repeatCount="indefinite" calcMode="linear" keyTimes="0;0.129382;0.212642;0.229473;1" values="266.6;266.6;-1052.23;-1318.83;-1318.83"/></path>
+<g><animateMotion dur="44.0s" repeatCount="indefinite" calcMode="linear" rotate="auto" path="M1146.0 -90.0 L1146.0 46.0 A20.0 20.0 0 0 1 1126.0 66.0 L86.0 66.0 A20.0 20.0 0 0 0 66.0 86.0 L66.0 166.0" keyTimes="0;0.104382;0.187642;1" keyPoints="0;0;1;1"/><g><animateTransform attributeName="transform" type="rotate" dur="44.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.107968;0.113662;0.12177;0.175608;0.181302;0.18941;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="0;0;11;0;0;-11;0;0"/>
+      <ellipse cx="0" cy="0" rx="34" ry="22" fill="url(#relayHalo-blue)"/>
+      <path d="M22 -2.2 L66 -11 L66 11 L22 2.2 Z" fill="url(#relayBeam-blue)"/>
+      <!-- rear wheel -->
+      <rect x="-25" y="-5" width="17" height="10" rx="5"
+            fill="#020508" stroke="#00e5ff" stroke-width="1.7"/>
+      <rect x="-21" y="-1" width="9" height="2" rx="1" fill="#eaffff"/>
+      <!-- front wheel -->
+      <rect x="9" y="-4.6" width="16" height="9.2" rx="4.6"
+            fill="#020508" stroke="#00e5ff" stroke-width="1.7"/>
+      <rect x="13" y="-0.9" width="8" height="1.8" rx="0.9" fill="#eaffff"/>
+      <!-- body: narrow at the tail, broad at the shoulders, tapering to the nose -->
+      <path d="M-13 -3.4 C-8 -6.6 2 -7.2 8 -5.2 L14 -2.6 L14 2.6 L8 5.2
+               C2 7.2 -8 6.6 -13 3.4 Z"
+            fill="#03080d" stroke="#00e5ff" stroke-width="1.4"
             stroke-linejoin="round"/>
-      <rect x="8" y="-3" width="11" height="6" rx="3"
-            fill="#04070b" stroke="#00e5ff" stroke-width="1.5"/>
-      <!-- rider and light strips -->
-      <ellipse cx="-1" cy="0" rx="4.6" ry="2.6" fill="#00e5ff" fill-opacity="0.75"/>
-      <rect x="-17" y="-0.9" width="7" height="1.8" rx="0.9" fill="#00e5ff"/>
-      <rect x="10" y="-0.9" width="7" height="1.8" rx="0.9" fill="#eaffff"/>
-      <circle cx="19" cy="0" r="1.8" fill="#ffffff"/></g>
-<g><animateMotion dur="44.0s" repeatCount="indefinite" calcMode="linear" rotate="auto" path="M1134.0 -90.0 L1134.0 43.0 A11.0 11.0 0 0 1 1123.0 54.0 L65.0 54.0 A11.0 11.0 0 0 0 54.0 65.0 L54.0 166.0" keyTimes="0;0.129626;0.213374;1" keyPoints="0;0;1;1"/>
-      <circle cx="0" cy="0" r="26" fill="url(#relayHalo-red)"/>
-      <!-- rear wheel, body, front wheel -->
-      <rect x="-19" y="-3.2" width="11" height="6.4" rx="3.2"
-            fill="#04070b" stroke="#ff3131" stroke-width="1.5"/>
-      <path d="M-11 -4.6 L2 -5.4 L10 -3.2 L10 3.2 L2 5.4 L-11 4.6 Z"
-            fill="#04070b" stroke="#ff3131" stroke-width="1.4"
+      <!-- light strips along the flanks -->
+      <path d="M-10 -4.4 C-5 -6 2 -6.2 7 -4.6 M-10 4.4 C-5 6 2 6.2 7 4.6"
+            fill="none" stroke="#eaffff" stroke-width="1" stroke-linecap="round"/>
+      <!-- rider: back, shoulders, helmet -->
+      <path d="M-9 0 L-1 -2.8 L4 -2.2 L4 2.2 L-1 2.8 Z"
+            fill="#00e5ff" fill-opacity="0.55"/>
+      <circle cx="5" cy="0" r="2.7" fill="#03080d" stroke="#eaffff" stroke-width="1.1"/>
+      <circle cx="24.5" cy="0" r="1.9" fill="#ffffff"/></g></g>
+<g><animateMotion dur="44.0s" repeatCount="indefinite" calcMode="linear" rotate="auto" path="M1134.0 -90.0 L1134.0 34.0 A20.0 20.0 0 0 1 1114.0 54.0 L74.0 54.0 A20.0 20.0 0 0 0 54.0 74.0 L54.0 166.0" keyTimes="0;0.129382;0.212642;1" keyPoints="0;0;1;1"/><g><animateTransform attributeName="transform" type="rotate" dur="44.0s" repeatCount="indefinite" calcMode="spline" keyTimes="0;0.132211;0.137905;0.146012;0.19985;0.205545;0.213652;1" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="0;0;11;0;0;-11;0;0"/>
+      <ellipse cx="0" cy="0" rx="34" ry="22" fill="url(#relayHalo-red)"/>
+      <path d="M22 -2.2 L66 -11 L66 11 L22 2.2 Z" fill="url(#relayBeam-red)"/>
+      <!-- rear wheel -->
+      <rect x="-25" y="-5" width="17" height="10" rx="5"
+            fill="#020508" stroke="#ff3131" stroke-width="1.7"/>
+      <rect x="-21" y="-1" width="9" height="2" rx="1" fill="#ffd9a0"/>
+      <!-- front wheel -->
+      <rect x="9" y="-4.6" width="16" height="9.2" rx="4.6"
+            fill="#020508" stroke="#ff3131" stroke-width="1.7"/>
+      <rect x="13" y="-0.9" width="8" height="1.8" rx="0.9" fill="#ffd9a0"/>
+      <!-- body: narrow at the tail, broad at the shoulders, tapering to the nose -->
+      <path d="M-13 -3.4 C-8 -6.6 2 -7.2 8 -5.2 L14 -2.6 L14 2.6 L8 5.2
+               C2 7.2 -8 6.6 -13 3.4 Z"
+            fill="#03080d" stroke="#ff3131" stroke-width="1.4"
             stroke-linejoin="round"/>
-      <rect x="8" y="-3" width="11" height="6" rx="3"
-            fill="#04070b" stroke="#ff3131" stroke-width="1.5"/>
-      <!-- rider and light strips -->
-      <ellipse cx="-1" cy="0" rx="4.6" ry="2.6" fill="#ff3131" fill-opacity="0.75"/>
-      <rect x="-17" y="-0.9" width="7" height="1.8" rx="0.9" fill="#ff3131"/>
-      <rect x="10" y="-0.9" width="7" height="1.8" rx="0.9" fill="#ffb347"/>
-      <circle cx="19" cy="0" r="1.8" fill="#ffffff"/></g>
+      <!-- light strips along the flanks -->
+      <path d="M-10 -4.4 C-5 -6 2 -6.2 7 -4.6 M-10 4.4 C-5 6 2 6.2 7 4.6"
+            fill="none" stroke="#ffd9a0" stroke-width="1" stroke-linecap="round"/>
+      <!-- rider: back, shoulders, helmet -->
+      <path d="M-9 0 L-1 -2.8 L4 -2.2 L4 2.2 L-1 2.8 Z"
+            fill="#ff3131" fill-opacity="0.55"/>
+      <circle cx="5" cy="0" r="2.7" fill="#03080d" stroke="#ffd9a0" stroke-width="1.1"/>
+      <circle cx="24.5" cy="0" r="1.9" fill="#ffffff"/></g></g>
 </g>
 <!-- tron-relay:end -->
 </svg>
