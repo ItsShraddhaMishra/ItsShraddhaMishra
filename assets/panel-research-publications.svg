@@ -258,8 +258,8 @@
       GOOGLE SCHOLAR
     </text>
     <g class="tron-ares-paths" fill="#ffffff" filter="url(#blueGlow)">
-  <path d="M304.24 215.0V210.0H270.4V204.0H304.71999999999997Q310.71999999999997 204.0 310.71999999999997 210.0V213.0Q310.71999999999997 216.56 308.6 218.0Q310.71999999999997 219.44 310.71999999999997 223.0V226.0Q310.71999999999997 232.0 304.71999999999997 232.0H270.4V226.0H304.24V221.0H279.2V215.0Z"/>
-  <path d="M318.28 211.24 341.0 203.8V232.0H334.52V211.84L318.28 217.16Z"/>
+  <path d="M266.38000000000005 221.0V226.0H301.82000000000005V232.0H259.90000000000003V221.0Q259.90000000000003 215.0 265.90000000000003 215.0H295.34000000000003V210.0H259.90000000000003V204.0H295.82000000000005Q301.82000000000005 204.0 301.82000000000005 210.0V215.0Q301.82000000000005 221.0 295.82000000000005 221.0Z"/>
+  <path d="M345.62 221.0H316.18Q310.18 221.0 310.18 215.0V210.0Q310.18 204.0 316.18 204.0H346.1Q352.1 204.0 352.1 210.0V226.0Q352.1 232.0 346.1 232.0H310.18V226.0H345.62ZM345.62 215.0V210.0H316.66V215.0Z"/>
 </g>
   </g>
 
@@ -481,14 +481,14 @@
     <!-- light wall -->
     <rect x="944.5" y="456.0" width="141.5" height="0"
           fill="url(#legacyWall)">
-      <animate attributeName="height" from="0" to="185.4"
+      <animate attributeName="height" from="0" to="151.7"
                begin="1.01s" dur="1.1s" fill="freeze"
                calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
-      <animate attributeName="y" from="456.0" to="270.6"
+      <animate attributeName="y" from="456.0" to="304.3"
                begin="1.01s" dur="1.1s" fill="freeze"
                calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
     </rect>
-    <rect x="944.5" y="270.6" width="141.5" height="185.4"
+    <rect x="944.5" y="304.3" width="141.5" height="151.7"
           fill="none" stroke="#00e5ff" stroke-width="1"
           stroke-opacity="0">
       <animate attributeName="stroke-opacity" from="0" to="0.55"
@@ -498,7 +498,7 @@
     <!-- bright top edge of the wall -->
     <rect x="944.5" y="454.5" width="141.5" height="3" rx="1.5"
           fill="#eaffff" filter="url(#blueGlow)">
-      <animate attributeName="y" from="454.5" to="269.1"
+      <animate attributeName="y" from="454.5" to="302.8"
                begin="1.01s" dur="1.1s" fill="freeze"
                calcMode="spline" keyTimes="0;1" keySplines="0.2 0.8 0.2 1"/>
       <animate attributeName="opacity" values="1;0.55;1"
@@ -506,11 +506,11 @@
                repeatCount="indefinite"/>
     </rect>
 
-    <text x="1015.2" y="256.6" text-anchor="middle"
+    <text x="1015.2" y="290.3" text-anchor="middle"
           font-family="JetBrains Mono, Consolas, monospace" font-size="17" font-weight="900"
           fill="#eaffff" opacity="0"
           filter="url(#blueGlow)">
-      11
+      9
       <animate attributeName="opacity" from="0" to="1"
                begin="1.91s" dur="0.5s" fill="freeze"/>
     </text>
@@ -527,7 +527,7 @@
   <text x="1086" y="522" text-anchor="end"
         font-family="JetBrains Mono, Consolas, monospace" font-size="11.5" font-weight="700"
         letter-spacing="1.6" fill="#b8d8e8">
-    3 PUBLICATIONS INDEXED · SYNCED 2026-10-05 16:01 UTC
+    3 PUBLICATIONS INDEXED · SYNCED 2026-07-13 04:00 UTC
   </text>
   <circle cx="476" cy="518" r="4" fill="#00e5ff"
           filter="url(#blueGlow)">
