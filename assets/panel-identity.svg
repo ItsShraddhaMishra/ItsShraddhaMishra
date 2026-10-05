@@ -56,6 +56,11 @@
       animation: identityPanel_pulse 2.8s ease-in-out infinite alternate;
     }
 
+    /* The terrain fill only breathes; it used to flash to full opacity. */
+    .identityPanel_terrain {
+      animation: identityPanel_terrain 5.6s ease-in-out infinite alternate;
+    }
+
     .identityPanel_pulseSlow {
       animation: identityPanel_pulseSlow 5.2s ease-in-out infinite alternate;
     }
@@ -94,6 +99,11 @@
     @keyframes identityPanel_pulse {
       0%   { opacity: 0.45; }
       100% { opacity: 1; }
+    }
+
+    @keyframes identityPanel_terrain {
+      0%   { opacity: 0.07; }
+      100% { opacity: 0.20; }
     }
 
     @keyframes identityPanel_pulseSlow {
@@ -164,7 +174,7 @@
   </g>
 
   <!-- horizon / laser terrain -->
-  <path class="identityPanel_pulse" d="M0 416 C 180 364 264 457 432 405 C 660 338 804 447 983 395 C 1104 364 1164 390 1200 353 V 520 H 0 Z"
+  <path class="identityPanel_terrain" d="M0 416 C 180 364 264 457 432 405 C 660 338 804 447 983 395 C 1104 364 1164 390 1200 353 V 520 H 0 Z"
         fill="#d86cff" opacity="0.10"/>
 
   <path class="identityPanel_dash" d="M0 436 C 216 374 312 478 480 421 C 696 348 864 462 1056 410 C 1140 384 1176 374 1200 364"

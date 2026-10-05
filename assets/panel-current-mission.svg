@@ -56,6 +56,11 @@
       animation: currentMissionPanel_pulse 2.8s ease-in-out infinite alternate;
     }
 
+    /* The terrain fill only breathes; it used to flash to full opacity. */
+    .currentMissionPanel_terrain {
+      animation: currentMissionPanel_terrain 5.6s ease-in-out infinite alternate;
+    }
+
     .currentMissionPanel_pulseSlow {
       animation: currentMissionPanel_pulseSlow 5.2s ease-in-out infinite alternate;
     }
@@ -94,6 +99,11 @@
     @keyframes currentMissionPanel_pulse {
       0%   { opacity: 0.45; }
       100% { opacity: 1; }
+    }
+
+    @keyframes currentMissionPanel_terrain {
+      0%   { opacity: 0.07; }
+      100% { opacity: 0.20; }
     }
 
     @keyframes currentMissionPanel_pulseSlow {
@@ -164,7 +174,7 @@
   </g>
 
   <!-- horizon / laser terrain -->
-  <path class="currentMissionPanel_pulse" d="M0 400 C 180 350 264 440 432 390 C 660 325 804 430 983 380 C 1104 350 1164 375 1200 340 V 500 H 0 Z"
+  <path class="currentMissionPanel_terrain" d="M0 400 C 180 350 264 440 432 390 C 660 325 804 430 983 380 C 1104 350 1164 375 1200 340 V 500 H 0 Z"
         fill="#ff3131" opacity="0.10"/>
 
   <path class="currentMissionPanel_dash" d="M0 420 C 216 360 312 460 480 405 C 696 335 864 445 1056 395 C 1140 370 1176 360 1200 350"
@@ -267,9 +277,14 @@
       100% { transform: translateY(3px); opacity: 1; }
     }
 
+    /* Power-on: rise into place, then flicker like a grid line energising. */
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to   { opacity: 1; transform: translateY(0); }
+      0%   { opacity: 0; transform: translateY(10px); }
+      52%  { opacity: 1; transform: translateY(0); }
+      60%  { opacity: 0.45; }
+      68%  { opacity: 1; }
+      78%  { opacity: 0.75; }
+      100% { opacity: 1; transform: translateY(0); }
     }
   </style>
 

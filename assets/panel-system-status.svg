@@ -56,6 +56,11 @@
       animation: systemStatusPanel_pulse 2.8s ease-in-out infinite alternate;
     }
 
+    /* The terrain fill only breathes; it used to flash to full opacity. */
+    .systemStatusPanel_terrain {
+      animation: systemStatusPanel_terrain 5.6s ease-in-out infinite alternate;
+    }
+
     .systemStatusPanel_pulseSlow {
       animation: systemStatusPanel_pulseSlow 5.2s ease-in-out infinite alternate;
     }
@@ -94,6 +99,11 @@
     @keyframes systemStatusPanel_pulse {
       0%   { opacity: 0.45; }
       100% { opacity: 1; }
+    }
+
+    @keyframes systemStatusPanel_terrain {
+      0%   { opacity: 0.07; }
+      100% { opacity: 0.20; }
     }
 
     @keyframes systemStatusPanel_pulseSlow {
@@ -164,7 +174,7 @@
   </g>
 
   <!-- horizon / laser terrain -->
-  <path class="systemStatusPanel_pulse" d="M0 424 C 180 371 264 466 432 413 C 660 344 804 455 983 402 C 1104 371 1164 397 1200 360 V 530 H 0 Z"
+  <path class="systemStatusPanel_terrain" d="M0 424 C 180 371 264 466 432 413 C 660 344 804 455 983 402 C 1104 371 1164 397 1200 360 V 530 H 0 Z"
         fill="#ff3131" opacity="0.10"/>
 
   <path class="systemStatusPanel_dash" d="M0 445 C 216 381 312 487 480 429 C 696 355 864 471 1056 418 C 1140 392 1176 381 1200 371"
@@ -267,9 +277,14 @@
       100% { transform: translateY(3px); opacity: 1; }
     }
 
+    /* Power-on: rise into place, then flicker like a grid line energising. */
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to   { opacity: 1; transform: translateY(0); }
+      0%   { opacity: 0; transform: translateY(10px); }
+      52%  { opacity: 1; transform: translateY(0); }
+      60%  { opacity: 0.45; }
+      68%  { opacity: 1; }
+      78%  { opacity: 0.75; }
+      100% { opacity: 1; transform: translateY(0); }
     }
   </style>
 
