@@ -65,11 +65,11 @@
 
 | Paper | Year | Citations |
 |---|---:|---:|
-| [QSurfNet: a hybrid quantum convolutional neural network for surface defect recognition: S. Mishra, C.-Y. Tsai](https://link.springer.com/article/10.1007/s11128-023-03930-5) | 2023 | 25 |
-| [Design of superior parameterized quantum circuits for quantum image classification](https://ieeexplore.ieee.org/abstract/document/9762420/) | 2022 | 6 |
-| [QSurfNet: 用於表面缺陷識別的混合量子卷積神經網絡.](https://www.airitilibrary.com/Article/Detail/U0002-0308202215525000) | 2022 | 0 |
+| [QSurfNet: a hybrid quantum convolutional neural network for surface defect recognition: S. Mishra, C.-Y. Tsai](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O5pkUdUAAAAJ&citation_for_view=O5pkUdUAAAAJ:9yKSN-GCB0IC) | 2023 | 25 |
+| [Design of superior parameterized quantum circuits for quantum image classification](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O5pkUdUAAAAJ&citation_for_view=O5pkUdUAAAAJ:d1gkVwhDpl0C) | 2022 | 6 |
+| [QSurfNet: 用於表面缺陷識別的混合量子卷積神經網絡.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O5pkUdUAAAAJ&citation_for_view=O5pkUdUAAAAJ:qjMakFHDy7sC) | 2022 | 0 |
 
-_Updated automatically from Google Scholar: 2026-11-04T06:19:38+00:00._
+_Updated automatically from Google Scholar: 2026-11-06T06:42:23+00:00._
 
 <!-- PUBLICATIONS:END -->
 <br>
