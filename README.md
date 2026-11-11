@@ -69,7 +69,7 @@
 | [Design of superior parameterized quantum circuits for quantum image classification](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O5pkUdUAAAAJ&citation_for_view=O5pkUdUAAAAJ:d1gkVwhDpl0C) | 2022 | 6 |
 | [QSurfNet: 用於表面缺陷識別的混合量子卷積神經網絡.](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O5pkUdUAAAAJ&citation_for_view=O5pkUdUAAAAJ:qjMakFHDy7sC) | 2022 | 0 |
 
-_Updated automatically from Google Scholar: 2026-11-07T17:52:30+00:00._
+_Updated automatically from Google Scholar: 2026-11-11T19:52:50+00:00._
 
 <!-- PUBLICATIONS:END -->
 <br>
